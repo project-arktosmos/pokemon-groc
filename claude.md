@@ -9,10 +9,15 @@ This repository is configured to use the project-arktosmos SSH key for all git o
 
 ## Configuration
 
-The repo-local git config has been set to use the arktosmos key:
+The repo-local git config has been set to use the arktosmos key and identity:
 
 ```bash
+# SSH key for push/pull authentication
 git config core.sshCommand "ssh -i ~/.ssh/id_ed25519_arktosmos"
+
+# Git author identity for commits
+git config user.name "project-arktosmos"
+git config user.email "projectarktosmos@gmail.com"
 ```
 
 ## Committing and Pushing
