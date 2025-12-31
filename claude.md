@@ -61,3 +61,30 @@ If authentication fails, clear the SSH agent cache and retry:
 ssh-add -D
 ssh -i ~/.ssh/id_ed25519_arktosmos -T git@github.com
 ```
+
+## Creating a Release
+
+CI builds only trigger when a new release is created. To create a release and trigger a build:
+
+### Option 1: Create a tag and push it
+
+```bash
+# Create an annotated tag
+git tag -a v1.0.0 -m "Release v1.0.0"
+
+# Push the tag to trigger the release workflow
+git push origin v1.0.0
+```
+
+The workflow will automatically build the ROM and create a GitHub release with the built files.
+
+### Option 2: Create a release via GitHub CLI
+
+```bash
+# Create a release directly (also creates the tag)
+gh release create v1.0.0 --title "Pokemon Groc v1.0.0" --notes "Release notes here"
+```
+
+### Option 3: Manual workflow dispatch
+
+You can also trigger the workflow manually from the GitHub Actions tab with a custom version.
