@@ -1,0 +1,75 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version tag (e.g., v1.0.0)'
+        required: true
+        default: 'v1.0.0'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Checkout rgbds
+        uses: actions/checkout@v4
+        with:
+          path: rgbds
+          ref: v1.0.0
+          repository: gbdev/rgbds
+
+      - name: Install rgbds
+        working-directory: rgbds
+        run: |
+          sudo apt-get install -yq libpng-dev
+          sudo make install
+
+      - name: Remove rgbds
+        run: rm -rf rgbds
+
+      - name: Build ROM
+        run: make -j$(nproc)
+
+      - name: Get version
+        id: version
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "version=${{ github.event.inputs.version }}" >> $GITHUB_OUTPUT
+          else
+            echo "version=${GITHUB_REF#refs/tags/}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.version.outputs.version }}
+          name: Pokemon Groc ${{ steps.version.outputs.version }}
+          body: |
+            ## Pokemon Groc - Catalan Translation
+
+            Complete Catalan translation of Pokemon Yellow.
+
+            ### Download
+            - `pokemon-groc.gb` - Standard ROM
+            - `pokemon-groc_debug.gb` - Debug ROM with symbols
+
+            ### Checksums (MD5)
+            ```
+            $(md5sum pokemon-groc.gb pokemon-groc_debug.gb)
+            ```
+          files: |
+            pokemon-groc.gb
+            pokemon-groc_debug.gb
+            pokemon-groc.sym
+            pokemon-groc_debug.sym
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
