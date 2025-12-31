@@ -1,64 +1,65 @@
 _LavenderTownLittleGirlDoYouBelieveInGhostsText::
-	text "Do you believe in"
-	line "GHOSTs?"
+	text "Creus en els"
+	line "FANTASMES?"
 	done
 
 _LavenderTownLittleGirlSoThereAreBelieversText::
-	text "Really? So there"
-	line "are believers..."
+	text "De veritat? Encara"
+	line "hi ha creients..."
 	done
 
 _LavenderTownLittleGirlHaHaGuessNotText::
-	text "Hahaha, I guess"
-	line "not."
+	text "Hahaha, suposo"
+	line "que no."
 
-	para "That white hand"
-	line "on your shoulder,"
-	cont "it's not real."
+	para "Aquella mà blanca"
+	line "a la teva espatlla"
+	cont "no és real."
 	done
 
 _LavenderTownCooltrainerMText::
-	text "This town is known"
-	line "as the grave site"
-	cont "of #MON."
+	text "Aquest poble és"
+	line "conegut com el"
+	cont "cementiri #MON."
 
-	para "Memorial services"
-	line "are held in"
-	cont "#MON TOWER."
+	para "Els serveis"
+	line "memorials es fan"
+	cont "a la TORRE #MON."
 	done
 
 _LavenderTownSuperNerdText::
-	text "GHOSTs appeared"
-	line "in #MON TOWER."
+	text "Han aparegut"
+	line "FANTASMES a la"
+	cont "TORRE #MON."
 
-	para "I think they're"
-	line "the spirits of"
-	cont "#MON that the"
-	cont "ROCKETs killed."
+	para "Crec que són els"
+	line "esperits dels"
+	cont "#MON que els"
+	cont "ROCKETs van matar."
 	done
 
 _LavenderTownSignText::
-	text "LAVENDER TOWN"
-	line "The Noble Purple"
-	cont "Town"
+	text "POBLE LAVANDA"
+	line "El Noble Poble"
+	cont "Porpra"
 	done
 
 _LavenderTownSilphScopeSignText::
-	text "New SILPH SCOPE!"
+	text "Nou SILPH SCOPE!"
 
-	para "Make the Invisible"
-	line "Plain to See!"
+	para "Fes l'Invisible"
+	line "Visible!"
 
-	para "SILPH CO."
+	para "SILPH S.A."
 	done
 
 _LavenderTownPokemonHouseSignText::
-	text "LAVENDER VOLUNTEER"
-	line "#MON HOUSE"
+	text "CASA DE VOLUNTARIS"
+	line "#MON DE LAVANDA"
 	done
 
 _LavenderTownPokemonTowerSignText::
-	text "May the Souls of"
-	line "#MON Rest Easy"
-	cont "#MON TOWER"
+	text "Que les Ànimes dels"
+	line "#MON Descansin"
+	cont "TORRE #MON"
 	done

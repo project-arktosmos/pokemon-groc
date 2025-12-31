@@ -222,11 +222,11 @@ NamePointers2:
 	dw wDayCareMonName
 
 Type1Text:
-	db   "TYPE1/"
+	db   "TIPUS1/"
 	next ""
 	; fallthrough
 Type2Text:
-	db   "TYPE2/"
+	db   "TIPUS2/"
 	next ""
 	; fallthrough
 IDNoText:
@@ -234,14 +234,14 @@ IDNoText:
 	next ""
 	; fallthrough
 OTText:
-	db   "OT/"
+	db   "EO/"
 	next "@"
 
 StatusText:
-	db "STATUS/@"
+	db "ESTAT/@"
 
 OKText:
-	db "OK@"
+	db "BÉ@"
 
 ; Draws a line starting from hl high b and wide c
 DrawLineBox:
@@ -305,10 +305,10 @@ PrintStat:
 	ret
 
 StatsText:
-	db   "ATTACK"
-	next "DEFENSE"
-	next "SPEED"
-	next "SPECIAL@"
+	db   "ATAC"
+	next "DEFENSA"
+	next "VELOC."
+	next "ESPECIAL@"
 
 StatusScreen2:
 	ldh a, [hTileAnimations]
@@ -478,8 +478,8 @@ CalcExpToLevelUp:
 	ret
 
 StatusScreenExpText:
-	db   "EXP POINTS"
-	next "LEVEL UP@"
+	db   "PUNTS EXP"
+	next "PUJAR NIV@"
 
 StatusScreen_ClearName:
 	ld bc, 10

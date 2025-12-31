@@ -1,31 +1,31 @@
 _CeladonMart1FReceptionistText::
-	text "Hello! Welcome to"
-	line "CELADON DEPT."
-	cont "STORE."
+	text "Hola! Benvingut"
+	line "als GRANS"
+	cont "MAGATZEMS CELESTE."
 
-	para "The board on the"
-	line "right describes"
-	cont "the store layout."
+	para "El tauler de la"
+	line "dreta descriu la"
+	cont "distribució."
 	done
 
 _CeladonMart1FDirectorySignText::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "1a: TAULELL DE"
+	line "    SERVEIS"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "2a: MERCAT"
+	line "    D'ENTRENADORS"
 
-	para "3F: TV GAME SHOP"
+	para "3a: BOTIGA TV JOCS"
 
-	para "4F: WISEMAN GIFTS"
+	para "4a: REGALS SAVIS"
 
-	para "5F: DRUG STORE"
+	para "5a: FARMÀCIA"
 
-	para "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	para "TERRAT:"
+	line "MÀQUINES BEGUDES"
 	done
 
 _CeladonMart1FCurrentFloorSignText::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "1a: TAULELL DE"
+	line "    SERVEIS"
 	done

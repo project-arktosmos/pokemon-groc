@@ -1,68 +1,69 @@
 _PalletTownOakHeyWaitDontGoOutText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@"
+	text "OAK: Ei! Espera!"
+	line "On vas?@"
 	text_end
 
 _PalletTownOakThatWasCloseText::
-	text "OAK: That was"
-	line "close!"
+	text "OAK: Per un pèl!"
 
-	para "Wild #MON live"
-	line "in tall grass!"
+	para "A l'herba alta"
+	line "hi viuen #MON"
+	cont "salvatges!"
 	done
 
 _PalletTownOakWhewText::
-	text "OAK: Whew..."
+	text "OAK: Uf..."
 	done
 
 _PalletTownOakComeWithMe::
-	text "OAK: A #MON can"
-	line "appear anytime in"
-	cont "tall grass."
+	text "OAK: Un #MON pot"
+	line "aparèixer en"
+	cont "qualsevol moment"
+	cont "a l'herba alta."
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "Necessites el teu"
+	line "propi #MON per"
+	cont "protegir-te."
+	cont "Ja ho sé!"
 
-	para "Here, come with"
-	line "me!"
+	para "Vine, acompan-"
+	line "ya'm!"
 	done
 
 _PalletTownGirlText::
-	text "I'm raising"
-	line "#MON too!"
+	text "Jo també estic"
+	line "criant #MON!"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "Quan es facin"
+	line "forts, em podran"
+	cont "protegir!"
 	done
 
 _PalletTownFisherText::
-	text "Technology is"
-	line "incredible!"
+	text "La tecnologia és"
+	line "increïble!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "Ara pots guardar"
+	line "i recuperar objec-"
+	cont "tes i #MON com"
+	cont "a dades amb el PC!"
 	done
 
 _PalletTownOaksLabSignText::
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "LABORATORI DE"
+	line "RECERCA OAK"
 	done
 
 _PalletTownSignText::
-	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+	text "POBLE PALETA"
+	line "Matisos del teu"
+	cont "viatge t'esperen!"
 	done
 
 _PalletTownPlayersHouseSignText::
-	text "<PLAYER>'s house "
+	text "Casa d'en <PLAYER>"
 	done
 
 _PalletTownRivalsHouseSignText::
-	text "<RIVAL>'s house "
+	text "Casa d'en <RIVAL>"
 	done

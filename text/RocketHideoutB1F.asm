@@ -1,74 +1,73 @@
 _RocketHideoutB1FRocket5EndBattleText::
-	text "Why...?@"
+	text "Per què...?@"
 	text_end
 
 _RocketHideoutB1FRocket1BattleText::
-	text "Who are you? How"
-	line "did you get here?"
+	text "Qui ets? Com has"
+	line "arribat aquí?"
 	done
 
 _RocketHideoutB1FRocket1EndBattleText::
-	text "Oww!"
-	line "Beaten!"
+	text "Au!"
+	line "Vençut!"
 	prompt
 
 _RocketHideoutB1FRocket1AfterBattleText::
-	text "Are you dissing"
-	line "TEAM ROCKET?"
+	text "Estàs menyspreant"
+	line "el TEAM ROCKET?"
 	done
 
 _RocketHideoutB1FRocket2BattleText::
-	text "You broke into"
-	line "our operation?"
+	text "Has irromput a la"
+	line "nostra operació?"
 	done
 
 _RocketHideoutB1FRocket2EndBattleText::
-	text "Burnt!"
+	text "Cremat!"
 	prompt
 
 _RocketHideoutB1FRocket2AfterBattleText::
-	text "You're not going"
-	line "to get away with"
-	cont "this, brat!"
+	text "No te'n sortiràs"
+	line "amb aquesta,"
+	cont "marrec!"
 	done
 
 _RocketHideoutB1FRocket3BattleText::
-	text "Intruder alert!"
+	text "Alerta d'intrús!"
 	done
 
 _RocketHideoutB1FRocket3EndBattleText::
-	text "I"
-	line "can't do it!"
+	text "No"
+	line "puc fer-ho!"
 	prompt
 
 _RocketHideoutB1FRocket3AfterBattleText::
 	text "SILPH SCOPE?"
-	line "I don't know"
-	cont "where it is!"
+	line "No sé on és!"
 	done
 
 _RocketHideoutB1FRocket4BattleText::
-	text "Why did you come"
-	line "here?"
+	text "Per què has vingut"
+	line "aquí?"
 	done
 
 _RocketHideoutB1FRocket4EndBattleText::
-	text "This"
-	line "won't do!"
+	text "Això"
+	line "no anirà bé!"
 	prompt
 
 _RocketHideoutB1FRocket4AfterBattleText::
-	text "OK, I'll talk!"
-	line "Take the elevator"
-	cont "to see my BOSS!"
+	text "D'acord, parlaré!"
+	line "Agafa l'ascensor"
+	cont "per veure el CAP!"
 	done
 
 _RocketHideoutB1FRocket5BattleText::
-	text "Are you lost, you"
-	line "little rat?"
+	text "T'has perdut,"
+	line "ratolí?"
 	done
 
 _RocketHideoutB1FRocket5AfterBattleText::
-	text "Uh-oh, that fight"
-	line "opened the door!"
+	text "Ui, el combat ha"
+	line "obert la porta!"
 	done

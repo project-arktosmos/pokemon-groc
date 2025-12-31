@@ -1,12 +1,13 @@
 _GameCornerPrizeRoomBaldingGuyText::
-	text "I sure do fancy"
-	line "that PORYGON!"
+	text "M'agrada molt"
+	line "aquell PORYGON!"
 
-	para "But, it's hard to"
-	line "win at slots!"
+	para "Però és difícil"
+	line "guanyar a les"
+	cont "màquines!"
 	done
 
 _GameCornerPrizeRoomGamblerText::
-	text "I had a major"
-	line "haul today!"
+	text "Avui he tingut"
+	line "una gran ratxa!"
 	done

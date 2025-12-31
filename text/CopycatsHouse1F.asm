@@ -1,18 +1,19 @@
 _CopycatsHouse1FMiddleAgedWomanText::
-	text "My daughter is so"
-	line "self-centered."
-	cont "She only has a"
-	cont "few friends."
+	text "La meva filla és"
+	line "molt egocèntrica."
+	cont "Només té uns"
+	cont "pocs amics."
 	done
 
 _CopycatsHouse1FMiddleAgedManText::
-	text "My daughter likes"
-	line "to mimic people."
+	text "A la meva filla"
+	line "li agrada imitar"
+	cont "la gent."
 
-	para "Her mimicry has"
-	line "earned her the"
-	cont "nickname COPYCAT"
-	cont "around here!"
+	para "La seva imitació"
+	line "li ha guanyat el"
+	cont "sobrenom COPYCAT"
+	cont "per aquí!"
 	done
 
 _CopycatsHouse1FChanseyText::

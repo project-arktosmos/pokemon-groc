@@ -1,29 +1,32 @@
 _SummerBeachHouseSurfinDudeText1::
-	text "Whoa!"
+	text "Uau!"
 
-	para "Your PIKACHU knows"
-	line "how to SURF! So,"
-	cont "I'm not alone..."
+	para "El teu PIKACHU sap"
+	line "SURFAR! Així que"
+	cont "no estic sol..."
 
-	para "Great! You earned"
-	line "the right to SURF"
-	cont "with the DUDE!"
+	para "Genial! T'has"
+	line "guanyat el dret"
+	cont "de SURFAR amb el"
+	cont "TIO!"
 
-	para "Give it a go?"
+	para "Hi vas?"
 	done
 
 _SummerBeachHouseSurfinDudeText2::
-	text "Come SURF anytime,"
-	line "my friend!"
+	text "Vine a SURFAR"
+	line "quan vulguis, tio!"
 	done
 
 _SummerBeachHouseSurfinDudeText3::
-	text "Wanna go SURF?"
+	text "Vols anar a"
+	line "SURFAR?"
 	done
 
 _SummerBeachHouseSurfinDudeText4::
-	text "Dogs and burgers"
-	line "on special today!"
+	text "Avui oferta en"
+	line "gossos i"
+	cont "hamburgueses!"
 	done
 
 _SummerBeachHousePikachuText::
@@ -31,77 +34,80 @@ _SummerBeachHousePikachuText::
 	done
 
 _SummerBeachHousePoster1Text1::
-	text "SURFIN' DUDE's"
-	line "scribbles..."
+	text "Gargots del TIO"
+	line "SURFER..."
 
-	para "When I shoot the"
-	line "tube, the tunes"
-	cont "hit the groove!"
+	para "Quan cavalco el"
+	line "tub, les melodies"
+	cont "entren al ritme!"
 	done
 
 _SummerBeachHousePoster1Text2::
-	text "30 years of waves!"
-	line "SURFIN' DUDE"
+	text "30 anys d'onades!"
+	line "TIO SURFER"
 	done
 
 _SummerBeachHousePoster2Text1::
-	text "SURFING TIP 1!"
+	text "CONSELL DE SURF 1!"
 
-	para "After flips, line"
-	line "the board up with"
-	cont "a wave for a cool"
-	cont "effect!"
+	para "Després de girar,"
+	line "alinea la taula"
+	cont "amb l'onada per"
+	cont "un efecte guai!"
 	done
 
 _SummerBeachHousePoster2Text2::
-	text "SUMMER BEACH HOUSE"
-	line "#MON welcome!"
+	text "CASA DE LA PLATJA"
+	line "D'ESTIU"
+	cont "Els #MON són"
+	cont "benvinguts!"
 	done
 
 _SummerBeachHousePoster3Text1::
-	text "SURFING TIP 2!"
+	text "CONSELL DE SURF 2!"
 
-	para "Pulling flips in"
-	line "a jump is totally"
-	cont "rad!"
+	para "Fer voltes en un"
+	line "salt és totalment"
+	cont "radical!"
 	done
 
 _SummerBeachHousePoster3Text2::
-	text "The sea unites"
-	line "all in surfdom!"
+	text "El mar uneix"
+	line "a tots els"
+	cont "surfers!"
 	done
 
 _SummerBeachHousePrinterText1::
-	text "It's some sort of"
-	line "a machine...@"
+	text "És algun tipus de"
+	line "màquina...@"
 	text_end
 
 _SummerBeachHousePrinterText2::
-	text "SUMMER BEACH HOUSE"
-	line "PRINTER, it says.@"
+	text "IMPRESSORA CASA DE"
+	line "LA PLATJA, diu.@"
 	text_end
 
 _SummerBeachHousePrinterText3::
-	text "The Hi-Score is"
-	line "shown."
+	text "Es mostra la"
+	line "Màxima Puntuació."
 
-	para "PRINT it out?"
+	para "Vols IMPRIMIR-la?"
 	done
 
 _SummerBeachHousePrinterText4::
-	text "SUMMER BEACH HOUSE"
-	line "PRINTER, it says."
+	text "IMPRESSORA CASA DE"
+	line "LA PLATJA, diu."
 
-	para "The Hi-Score is"
-	line "shown."
+	para "Es mostra la"
+	line "Màxima Puntuació."
 
-	para "PRINT it out?"
+	para "Vols IMPRIMIR-la?"
 	done
 
 _SummerBeachHousePrinterText5::
-	text "PRINT completed.@"
+	text "IMPRESSIÓ feta.@"
 	text_end
 
 _SummerBeachHousePrinterText6::
-	text "PRINT error!@"
+	text "Error d'IMPRESSIÓ!@"
 	text_end

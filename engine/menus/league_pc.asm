@@ -112,7 +112,7 @@ LeaguePCShowMon:
 	farjp Func_7033f
 
 HallOfFameNoText:
-	db "HALL OF FAME No   @"
+	db "SALÓ DE LA FAMA № @"
 
 AccessedHoFPCText:
 	text_far _AccessedHoFPCText

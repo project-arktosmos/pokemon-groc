@@ -1,22 +1,23 @@
 _CeladonMart2FMiddleAgedManText::
-	text "SUPER REPEL keeps"
-	line "weak #MON at"
-	cont "bay..."
+	text "El SUPERREPEL"
+	line "manté els #MON"
+	cont "febles a ratlla..."
 
-	para "Hmm, it's a more"
-	line "powerful REPEL!"
+	para "Hmm, és un REPEL"
+	line "més potent!"
 	done
 
 _CeladonMart2FGirlText::
-	text "For long outings,"
-	line "you should buy"
-	cont "REVIVE."
+	text "Per a sortides"
+	line "llargues, hauries"
+	cont "de comprar REVIFÀ."
 	done
 
 _CeladonMart2FCurrentFloorSignText::
-	text "Top Grade Items"
-	line "for Trainers!"
+	text "Productes de"
+	line "Primera per"
+	cont "a Entrenadors!"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "2a: MERCAT"
+	line "    D'ENTRENADORS"
 	done

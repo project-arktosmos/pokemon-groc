@@ -111,9 +111,9 @@ OptionsMenu_TextSpeed:
 	dw .Mid
 	dw .Slow
 
-.Fast: db "FAST@"
-.Mid:  db "MID @"
-.Slow: db "SLOW@"
+.Fast: db "RÀPID@"
+.Mid:  db "MIG @"
+.Slow: db "LENT@"
 
 ; Loads the value of the current selection in c
 ; Loads the text delay value of the options
@@ -171,8 +171,8 @@ OptionsMenu_BattleAnimations:
 	dw .On
 	dw .Off
 
-.On:  db "ON @"
-.Off: db "OFF@"
+.On:  db "SÍ @"
+.Off: db "NO @"
 
 OptionsMenu_BattleStyle:
 	ldh a, [hJoy5]
@@ -207,8 +207,8 @@ OptionsMenu_BattleStyle:
 	dw .Shift
 	dw .Set
 
-.Shift: db "SHIFT@"
-.Set:   db "SET  @"
+.Shift: db "CANVI@"
+.Set:   db "FIXA @"
 
 OptionsMenu_SpeakerSettings:
 	ld a, [wOptions]
@@ -264,9 +264,9 @@ OptionsMenu_SpeakerSettings:
 	dw .Earphone3
 
 .Mono:      db "MONO     @"
-.Earphone1: db "EARPHONE1@"
-.Earphone2: db "EARPHONE2@"
-.Earphone3: db "EARPHONE3@"
+.Earphone1: db "AURICULAR1@"
+.Earphone2: db "AURICULAR2@"
+.Earphone3: db "AURICULAR3@"
 
 	const_def
 	const OPT_PRINTER_LIGHTEST ; 0
@@ -328,11 +328,11 @@ OptionsMenu_GBPrinterBrightness:
 	dw .Darker
 	dw .Darkest
 
-.Lightest: db "LIGHTEST@"
-.Lighter:  db "LIGHTER @"
+.Lightest: db "MÉS CLAR@"
+.Lighter:  db "CLAR    @"
 .Normal:   db "NORMAL  @"
-.Darker:   db "DARKER  @"
-.Darkest:  db "DARKEST @"
+.Darker:   db "FOSC    @"
+.Darkest:  db "MÉS FOSC@"
 
 ; Loads the value of the current selection in c
 ; Loads the brightness value of the options
@@ -473,11 +473,11 @@ InitOptionsMenu:
 	ret
 
 AllOptionsText:
-	db   "TEXT SPEED :"
-	next "ANIMATION  :"
-	next "BATTLESTYLE:"
-	next "SOUND:"
-	next "PRINT:@"
+	db   "VEL. TEXT  :"
+	next "ANIMACIÓ   :"
+	next "ESTIL LLUITA:"
+	next "SO:"
+	next "IMPR.:@"
 
 OptionMenuCancelText:
-	db "CANCEL@"
+	db "CANCEL·LAR@"

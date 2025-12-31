@@ -1,235 +1,232 @@
 _CeruleanCityRivalPreBattleText::
-	text "<RIVAL>: Yo!"
+	text "<RIVAL>: Ep!"
 	line "<PLAYER>!"
 
-	para "You're still"
-	line "struggling along"
-	cont "back here?"
+	para "Encara dropes"
+	line "per aquí?"
 
-	para "I'm doing great!"
-	line "I caught a bunch"
-	cont "of strong and"
-	cont "smart #MON!"
+	para "A mi em va genial!"
+	line "He atrapat #MON"
+	cont "forts i intel·li-"
+	cont "gents!"
 
-	para "Here, let me see"
-	line "what you caught,"
+	para "A veure què has"
+	line "atrapat tu,"
 	cont "<PLAYER>!"
 	done
 
 _CeruleanCityRivalDefeatedText::
-	text "Hey!"
-	line "Take it easy!"
-	cont "You won already!"
+	text "Ei!"
+	line "Calma!"
+	cont "Ja has guanyat!"
 	prompt
 
 _CeruleanCityRivalVictoryText::
 	text "Heh!"
-	line "You're no match"
-	cont "for my genius!"
+	line "No ets rival per"
+	cont "al meu geni!"
 	prompt
 
 _CeruleanCityRivalIWentToBillsText::
-	text "<RIVAL>: Hey,"
-	line "guess what?"
+	text "<RIVAL>: Ei,"
+	line "saps què?"
 
-	para "I went to BILL's"
-	line "and got him to"
-	cont "show me his rare"
-	cont "#MON!"
+	para "He anat a casa"
+	line "d'en BILL i m'ha"
+	cont "ensenyat els seus"
+	cont "#MON rars!"
 
-	para "That added a lot"
-	line "of pages to my"
-	cont "#DEX!"
+	para "Això ha afegit"
+	line "moltes pàgines a"
+	cont "la meva #DEX!"
 
-	para "After all, BILL's"
-	line "world famous as a"
-	cont "#MANIAC!"
+	para "Al cap i a la fi,"
+	line "en BILL és famós"
+	cont "com a #MANÍAC!"
 
-	para "He invented the"
-	line "#MON Storage"
-	cont "System on PC!"
+	para "Va inventar el"
+	line "sistema d'emma-"
+	cont "gatzematge de PC!"
 
-	para "Since you're using"
-	line "his system, go"
-	cont "thank him!"
+	para "Com que uses el"
+	line "seu sistema, ves"
+	cont "a donar-li merci!"
 
-	para "Well, I better"
-	line "get rolling!"
-	cont "Smell ya later!"
+	para "Bé, me'n vaig!"
+	line "Fins aviat!"
 	done
 
 _CeruleanCityRocketText::
-	text "Hey! Stay out!"
-	line "It's not your"
-	cont "yard! Huh? Me?"
+	text "Ei! Fora!"
+	line "No és el teu"
+	cont "jardí! Eh? Jo?"
 
-	para "I'm an innocent"
-	line "bystander! Don't"
-	cont "you believe me?"
+	para "Sóc un innocent!"
+	line "No em creus?"
 	done
 
 _CeruleanCityRocketReceivedTM28Text::
-	text "<PLAYER> recovered"
-	line "TM28!@"
+	text "<PLAYER> ha"
+	line "recuperat el MT28!@"
 	text_end
 
 _CeruleanCityRocketIBetterGetMovingText::
 	text_start
 
-	para "I better get"
-	line "moving! Bye!@"
+	para "Millor que me'n"
+	line "vagi! Adéu!@"
 	text_end
 
 _CeruleanCityRocketTM28NoRoomText::
-	text "Make room for"
-	line "this!"
+	text "Fes-hi lloc!"
 
-	para "I can't run until"
-	line "I give it to you!"
+	para "No puc fugir fins"
+	line "que te'l doni!"
 	done
 
 _CeruleanCityRocketIGiveUpText::
-	text "Stop!"
-	line "I give up! I'll"
-	cont "leave quietly!"
+	text "Para!"
+	line "Em rendeixo! Marxo"
+	cont "en silenci!"
 	prompt
 
 _CeruleanCityRocketIllReturnTheTMText::
-	text "OK! I'll return"
-	line "the TM I stole!"
+	text "D'acord! Tornaré"
+	line "el MT que vaig"
+	cont "robar!"
 	prompt
 
 _CeruleanCityCooltrainerMText::
-	text "You're a trainer"
-	line "too? Collecting,"
-	cont "fighting, it's a"
-	cont "tough life."
+	text "Tu també ets"
+	line "entrenador?"
+	cont "Col·leccionar,"
+	cont "lluitar... Quin"
+	cont "embolic!"
 	done
 
 _CeruleanCitySuperNerd1Text::
-	text "That bush in"
-	line "front of the shop"
-	cont "is in the way."
+	text "Aquell arbust"
+	line "davant la botiga"
+	cont "és un destorb."
 
-	para "There might be a"
-	line "way around."
+	para "Potser hi ha una"
+	line "altra via."
 	done
 
 _CeruleanCitySuperNerd2Text::
-	text "You're making an"
-	line "encyclopedia on"
-	cont "#MON? That"
-	cont "sounds amusing."
+	text "Fas una enciclo-"
+	line "pèdia de #MON?"
+	cont "Sembla divertit."
 	done
 
 _CeruleanCityGuardText::
-	text "These poor people"
-	line "here were robbed."
+	text "Aquesta pobre gent"
+	line "ha estat robada."
 
-	para "We're positive"
-	line "that TEAM ROCKET"
-	cont "is behind this"
-	cont "terrible deed."
+	para "Estem segurs que"
+	line "el TEAM ROCKET"
+	cont "està darrere"
+	cont "d'aquest crim."
 
-	para "Even our POLICE"
-	line "FORCE has trouble"
-	cont "with the ROCKETs!"
+	para "Fins i tot la"
+	line "POLICIA té pro-"
+	cont "blemes amb ells!"
 	done
 
 _CeruleanCityCooltrainerF1ElectrodeUseSonicboomText::
-	text "OK! ELECTRODE!"
-	line "Use SONICBOOM!"
-	cont "Please ELECTRODE,"
-	cont "pay attention!"
+	text "Va! ELECTRODE!"
+	line "Usa EXPLOSONAR!"
+	cont "ELECTRODE, si us"
+	cont "plau, atenció!"
 	done
 
 _CeruleanCityCooltrainerF1ElectrodePunchText::
-	text "ELECTRODE, TACKLE!"
-	line "No! You blew it"
-	cont "again!"
+	text "ELECTRODE, PLACATGE!"
+	line "No! Ho has tornat"
+	cont "a fer malament!"
 	done
 
 _CeruleanCityCooltrainerF1ElectrodeWithdrawText::
-	text "ELECTRODE, SWIFT!"
-	line "No! That's wrong!"
+	text "ELECTRODE, METEORS!"
+	line "No! Això no!"
 
-	para "Training #MON"
-	line "is difficult!"
+	para "Entrenar #MON"
+	line "és difícil!"
 
-	para "Your #MON's"
-	line "obedience depends"
-	cont "on your abilities"
-	cont "as a trainer!"
+	para "L'obediència del"
+	line "teu #MON depèn"
+	cont "de les teves"
+	cont "habilitats!"
 	done
 
 _CeruleanCityElectrodeTookASnoozeText::
-	text "ELECTRODE took a"
-	line "snooze..."
+	text "ELECTRODE s'ha"
+	line "adormit..."
 	done
 
 _CeruleanCityElectrodeIsLoafingAroundText::
-	text "ELECTRODE is"
-	line "loafing around..."
+	text "ELECTRODE està"
+	line "fent el mandrós..."
 	done
 
 _CeruleanCityElectrodeTurnedAwayText::
-	text "ELECTRODE turned"
-	line "away..."
+	text "ELECTRODE ha"
+	line "girat el cap..."
 	done
 
 _CeruleanCityElectrodeIgnoredOrdersText::
-	text "ELECTRODE"
-	line "ignored orders..."
+	text "ELECTRODE ha"
+	line "ignorat ordres..."
 	done
 
 _CeruleanCityCooltrainerF2Text::
-	text "I want a bright"
-	line "red BICYCLE!"
+	text "Vull una BICI"
+	line "vermella brillant!"
 
-	para "I'll keep it at"
-	line "home, so it won't"
-	cont "get dirty!"
+	para "La guardaré a"
+	line "casa perquè no"
+	cont "s'embruti!"
 	done
 
 _CeruleanCitySuperNerd3Text::
-	text "This is CERULEAN"
-	line "CAVE! Horribly"
-	cont "strong #MON"
-	cont "live in there!"
+	text "Aquesta és la"
+	line "COVA CERÚLIA!"
+	cont "#MON molt forts"
+	cont "viuen aquí!"
 
-	para "The #MON LEAGUE"
-	line "champion is the"
-	cont "only person who"
-	cont "is allowed in!"
+	para "Només el campió"
+	line "de la LLIGA #MON"
+	cont "té permís per"
+	cont "entrar-hi!"
 	done
 
 _CeruleanCitySignText::
-	text "CERULEAN CITY"
-	line "A Mysterious,"
-	cont "Blue Aura"
-	cont "Surrounds It"
+	text "CIUTAT CERÚLIA"
+	line "Una Misteriosa"
+	cont "Aura Blava"
+	cont "l'Envolta"
 	done
 
 _CeruleanCityTrainerTipsText::
-	text "TRAINER TIPS"
+	text "CONSELLS"
 
-	para "Pressing B Button"
-	line "during evolution"
-	cont "cancels the whole"
-	cont "process."
+	para "Prémer el Botó B"
+	line "durant l'evolució"
+	cont "cancel·la tot el"
+	cont "procés."
 	done
 
 _CeruleanCityBikeShopSign::
-	text "Grass and caves"
-	line "handled easily!"
-	cont "BIKE SHOP"
+	text "Herba i coves,"
+	line "sense problemes!"
+	cont "BOTIGA DE BICIS"
 	done
 
 _CeruleanCityGymSign::
-	text "CERULEAN CITY"
-	line "#MON GYM"
-	cont "LEADER: MISTY"
+	text "GIMNÀS #MON DE"
+	line "CIUTAT CERÚLIA"
+	cont "LÍDER: MISTY"
 
-	para "The Tomboyish"
-	line "Mermaid!"
+	para "La Sirena"
+	line "Decidida!"
 	done

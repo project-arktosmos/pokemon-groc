@@ -39,20 +39,22 @@
 	charmap "<BOLD_I>",  $68 ; unused
 	charmap "<BOLD_V>",  $69
 	charmap "<BOLD_S>",  $6a
-	charmap "<BOLD_L>",  $6b ; unused
+	charmap "·",         $6b ; middle dot for Catalan l·l (ela geminada)
 	charmap "<BOLD_M>",  $6c ; unused
 	charmap "<COLON>",   $6d ; colon with tinier dots than ":"
-	charmap "ぃ",         $6e ; hiragana small i, unused
-	charmap "ぅ",         $6f ; hiragana small u, unused
+	; Uppercase Catalan accented (replacing unused hiragana)
+	charmap "À",         $6e
+	charmap "È",         $6f
 	charmap "‘",         $70 ; opening single quote
 	charmap "’",         $71 ; closing single quote
 	charmap "“",         $72 ; opening quote
 	charmap "”",         $73 ; closing quote
-	charmap "·",         $74 ; middle dot, unused
+	; $74 is used by № for Pokédex number display
 	charmap "…",         $75 ; ellipsis
-	charmap "ぁ",         $76 ; hiragana small a, unused
-	charmap "ぇ",         $77 ; hiragana small e, unused
-	charmap "ぉ",         $78 ; hiragana small o, unused
+	; More uppercase Catalan (replacing unused hiragana)
+	charmap "Ò",         $76
+	charmap "Í",         $77
+	charmap "Ú",         $78
 
 	charmap "┌",         $79
 	charmap "─",         $7a
@@ -151,27 +153,39 @@
 	charmap "z",         $b9
 
 	charmap "é",         $ba
-	charmap "'d",        $bb
-	charmap "'l",        $bc
-	charmap "'s",        $bd
-	charmap "'t",        $be
-	charmap "'v",        $bf
+	; Catalan accented characters (replacing English contractions)
+	charmap "à",         $bb
+	charmap "è",         $bc
+	charmap "ò",         $bd
+	charmap "í",         $be
+	charmap "ú",         $bf
+	; Uppercase accented - map to same glyph as lowercase
+	charmap "É",         $ba ; uppercase É uses same glyph as lowercase é
+	charmap "Ó",         $eb ; uppercase Ó uses same glyph as lowercase ó
+	charmap "Í",         $be ; uppercase Í uses same glyph as lowercase í
+	charmap "Ú",         $bf ; uppercase Ú uses same glyph as lowercase ú
+	charmap "À",         $bb ; uppercase À uses same glyph as lowercase à
+	charmap "È",         $bc ; uppercase È uses same glyph as lowercase è
+	charmap "Ò",         $bd ; uppercase Ò uses same glyph as lowercase ò
 
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
 	charmap "<MN>",      $e2
 	charmap "-",         $e3
 
-	charmap "'r",        $e4
-	charmap "'m",        $e5
+	; More Catalan accented characters
+	charmap "ï",         $e4
+	charmap "Ï",         $e4 ; uppercase ï - uses same glyph
+	charmap "ü",         $e5
 
 	charmap "?",         $e6
 	charmap "!",         $e7
 	charmap ".",         $e8
 
-	charmap "ァ",         $e9 ; katakana small a, unused
-	charmap "ゥ",         $ea ; katakana small u, unused
-	charmap "ェ",         $eb ; katakana small e, unused
+	; Catalan ç (replacing unused katakana)
+	charmap "ç",         $e9
+	charmap "Ç",         $ea ; uppercase ç
+	charmap "ó",         $eb ; ó with acute accent (distinct from ò)
 
 	charmap "▷",         $ec
 	charmap "▶",         $ed

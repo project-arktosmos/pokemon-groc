@@ -1,21 +1,21 @@
 _Route9Youngster2BattleText::
-	text "Go, my super bug"
-	line "#MON!"
+	text "Som-hi, el meu"
+	line "super #MON bicho!"
 	done
 
 _Route9Youngster2EndBattleText::
-	text "My"
-	line "bugs..."
+	text "Els meus"
+	line "bichos..."
 	prompt
 
 _Route9Youngster2AfterBattleText::
-	text "If you don't like"
-	line "bug #MON, you"
-	cont "bug me!"
+	text "Si no t'agraden"
+	line "els #MON bicho,"
+	cont "em molestes!"
 	done
 
 _Route9SignText::
-	text "ROUTE 9"
-	line "CERULEAN CITY-"
-	cont "ROCK TUNNEL"
+	text "RUTA 9"
+	line "CIUTAT CERÚLIA-"
+	cont "TÚNEL ROCA"
 	done

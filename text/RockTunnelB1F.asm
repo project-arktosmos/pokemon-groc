@@ -1,129 +1,132 @@
 _RockTunnelB1FCooltrainerF1BattleText::
-	text "Hikers leave twigs"
-	line "as trail markers."
+	text "Els senderistes"
+	line "deixen branquetes"
+	cont "com a marcadors."
 	done
 
 _RockTunnelB1FCooltrainerF1EndBattleText::
 	text "Ohhh!"
-	line "I did my best!"
+	line "Ho he donat tot!"
 	prompt
 
 _RockTunnelB1FCooltrainerF1AfterBattleText::
-	text "I want to go "
-	line "home!"
+	text "Vull anar a "
+	line "casa!"
 	done
 
 _RockTunnelB1FHiker1BattleText::
-	text "Hahaha! Can you"
-	line "beat my power?"
+	text "Hahaha! Pots"
+	line "superar el meu"
+	cont "poder?"
 	done
 
 _RockTunnelB1FHiker1EndBattleText::
-	text "Oops!"
-	line "Out-muscled!"
+	text "Ups!"
+	line "M'has guanyat!"
 	prompt
 
 _RockTunnelB1FHiker1AfterBattleText::
-	text "I go for power"
-	line "because I hate"
-	cont "thinking!"
+	text "Vaig per la força"
+	line "perquè odio"
+	cont "pensar!"
 	done
 
 _RockTunnelB1FSuperNerd1BattleText::
-	text "You have a"
+	text "Tens una"
 	line "#DEX?"
-	cont "I want one too!"
+	cont "Jo també en vull!"
 	done
 
 _RockTunnelB1FSuperNerd1EndBattleText::
-	text "Shoot!"
-	line "I'm so jealous!"
+	text "Caram!"
+	line "Quina enveja!"
 	prompt
 
 _RockTunnelB1FSuperNerd1AfterBattleText::
-	text "When you finish"
-	line "your #DEX, can"
-	cont "I have it?"
+	text "Quan acabis la"
+	line "teva #DEX, me"
+	cont "la pots donar?"
 	done
 
 _RockTunnelB1FSuperNerd2BattleText::
-	text "Do you know about"
-	line "costume players?"
+	text "Saps què és el"
+	line "cosplay?"
 	done
 
 _RockTunnelB1FSuperNerd2EndBattleText::
-	text "Well,"
-	line "that's that."
+	text "Bé,"
+	line "és el que hi ha."
 	prompt
 
 _RockTunnelB1FSuperNerd2AfterBattleText::
-	text "Costume players"
-	line "dress up as"
-	cont "#MON for fun."
+	text "Els cosplayers"
+	line "es disfressen de"
+	cont "#MON per riure."
 	done
 
 _RockTunnelB1FHiker2BattleText::
-	text "My #MON"
-	line "techniques will"
-	cont "leave you crying!"
+	text "Les meves tècniques"
+	line "#MON et faran"
+	cont "plorar!"
 	done
 
 _RockTunnelB1FHiker2EndBattleText::
-	text "I give!"
-	line "You're a better"
-	cont "technician!"
+	text "Em rendeixo!"
+	line "Ets millor"
+	cont "tècnic!"
 	prompt
 
 _RockTunnelB1FHiker2AfterBattleText::
-	text "In mountains,"
-	line "you'll often find"
-	cont "rock-type #MON."
+	text "A les muntanyes"
+	line "sovint trobaràs"
+	cont "#MON tipus roca."
 	done
 
 _RockTunnelB1FCooltrainerF2BattleText::
-	text "I don't often"
-	line "come here, but I"
-	cont "will fight you."
+	text "No vinc sovint,"
+	line "però lluitaré"
+	cont "contra tu."
 	done
 
 _RockTunnelB1FCooltrainerF2EndBattleText::
 	text "Oh!"
-	line "I lost!"
+	line "He perdut!"
 	prompt
 
 _RockTunnelB1FCooltrainerF2AfterBattleText::
-	text "I like tiny"
-	line "#MON, big ones"
-	cont "are too scary!"
+	text "M'agraden els"
+	line "#MON petits, els"
+	cont "grans em fan por!"
 	done
 
 _RockTunnelB1FHiker3BattleText::
-	text "Hit me with your"
-	line "best shot!"
+	text "Ataca'm amb tot"
+	line "el que tinguis!"
 	done
 
 _RockTunnelB1FHiker3EndBattleText::
-	text "Fired"
-	line "away!"
+	text "M'has"
+	line "disparat!"
 	prompt
 
 _RockTunnelB1FHiker3AfterBattleText::
-	text "I'll raise my"
-	line "#MON to beat"
-	cont "yours, kid!"
+	text "Criaré els meus"
+	line "#MON per vèncer"
+	cont "els teus, nen!"
 	done
 
 _RockTunnelB1FSuperNerd3BattleText::
-	text "I draw #MON"
-	line "when I'm home."
+	text "Dibuixo #MON"
+	line "quan sóc a casa."
 	done
 
 _RockTunnelB1FSuperNerd3EndBattleText::
-	text "Whew!"
-	line "I'm exhausted!"
+	text "Uf!"
+	line "Estic exhaust!"
 	prompt
 
 _RockTunnelB1FSuperNerd3AfterBattleText::
-	text "I'm an artist,"
-	line "not a fighter."
+	text "Sóc artista,"
+	line "no lluitador."
 	done
+

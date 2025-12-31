@@ -1,16 +1,17 @@
 _ViridianForestSouthGateGirlText::
-	text "Are you going to"
-	line "VIRIDIAN FOREST?"
-	cont "Be careful, it's"
-	cont "a natural maze!"
+	text "Vas al BOSC"
+	line "POKEMON? Vigila,"
+	cont "és un laberint"
+	cont "natural!"
 	done
 
 _ViridianForestSouthGateLittleGirlText::
-	text "You have to roam"
-	line "far to get new"
-	cont "kinds of #MON."
+	text "Has de viatjar"
+	line "lluny per trobar"
+	cont "nous tipus de"
+	cont "#MON."
 
-	para "Look for other"
-	line "types outside of"
-	cont "VIRIDIAN FOREST."
+	para "Busca altres"
+	line "tipus fora del"
+	cont "BOSC POKEMON."
 	done

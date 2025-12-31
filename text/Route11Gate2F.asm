@@ -1,40 +1,40 @@
 _Route11Gate2FOaksAideItemfinderDescriptionText::
-	text "There are items on"
-	line "the ground that"
-	cont "can't be seen."
+	text "Hi ha objectes a"
+	line "terra que no es"
+	cont "poden veure."
 
-	para "ITEMFINDER will"
-	line "detect an item"
-	cont "close to you."
+	para "El BUSCAOBJEC"
+	line "detectarà objectes"
+	cont "a prop teu."
 
-	para "It can't pinpoint"
-	line "it, so you have"
-	cont "to look yourself!"
+	para "No pot localitzar-"
+	line "los, així que has"
+	cont "de buscar tu!"
 	done
 
 _Route11Gate2FLeftBinocularsSnorlaxText::
-	text "Looked into the"
-	line "binoculars."
+	text "Has mirat pels"
+	line "prismàtics."
 
-	para "A big #MON is"
-	line "asleep on a road!"
+	para "Un #MON gran"
+	line "dorm al camí!"
 	done
 
 _Route11Gate2FLeftBinocularsNoSnorlaxText::
-	text "Looked into the"
-	line "binoculars."
+	text "Has mirat pels"
+	line "prismàtics."
 
-	para "It's a beautiful"
-	line "view!"
+	para "Quina vista tan"
+	line "bonica!"
 	done
 
 _Route11Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Has mirat pels"
+	line "prismàtics."
 
-	para "The only way to"
-	line "get from CERULEAN"
-	cont "CITY to LAVENDER"
-	cont "is by way of the"
-	cont "ROCK TUNNEL."
+	para "L'única manera"
+	line "d'anar de CIUTAT"
+	cont "CERÚLIA a POBLE"
+	cont "LAVANDA és pel"
+	cont "TÚNEL ROCA."
 	done

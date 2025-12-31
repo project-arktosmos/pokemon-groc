@@ -1,41 +1,42 @@
 _EnemyAppearedText::
 	text_ram wEnemyMonNick
 	text_start
-	line "appeared!"
+	line "ha aparegut!"
 	prompt
 
 _TrainerWantsToFightText::
 	text_ram wTrainerName
-	text " wants"
-	line "to fight!"
+	text " vol"
+	line "lluitar!"
 	prompt
 
 _UnveiledGhostText::
-	text "SILPH SCOPE"
-	line "unveiled the"
-	cont "GHOST's identity!"
+	text "El SILPH SCOPE"
+	line "ha revelat la"
+	cont "identitat del"
+	cont "FANTASMA"
 	prompt
 
 _GhostCantBeIDdText::
-	text "Darn! The GHOST"
-	line "can't be ID'd!"
+	text "El FANTASMA"
+	line "no s'identifica!"
 	prompt
 
 _GoText::
-	text "Go! @"
+	text "Vés! @"
 	text_end
 
 _DoItText::
-	text "Do it! @"
+	text "Fes-ho! @"
 	text_end
 
 _GetmText::
-	text "Get'm! @"
+	text "Endavant! @"
 	text_end
 
 _EnemysWeakText::
-	text "The enemy's weak!"
-	line "Get'm! @"
+	text "L'enemic és feble!"
+	line "Endavant! @"
 	text_end
 
 _PlayerMon1Text::
@@ -49,577 +50,576 @@ _PlayerMon2Text::
 	text_end
 
 _EnoughText::
-	text "enough!@"
+	text "prou!@"
 	text_end
 
 _OKExclamationText::
-	text "OK!@"
+	text "D'acord!@"
 	text_end
 
 _GoodText::
-	text "good!@"
+	text "bé!@"
 	text_end
 
 _ComeBackText::
 	text_start
-	line "Come back!"
+	line "Torna!"
 	done
 
 ; money related
 _PickUpPayDayMoneyText::
-	text "<PLAYER> picked up"
+	text "<PLAYER> ha recollit"
 	line "¥@"
 	text_bcd wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text "!"
 	prompt
 
 _ClearSaveDataText::
-	text "Clear all saved"
-	line "data?"
+	text "Esborrar totes les"
+	line "dades?"
 	done
 
 _WhichFloorText::
-	text "Which floor do"
-	line "you want? "
+	text "Quin pis vols?"
+	line ""
 	done
 
 _SleepingPikachuText1::
-	text "There isn't any"
-	line "response..."
+	text "No hi ha cap"
+	line "resposta..."
 	prompt
 
 _PartyMenuNormalText::
-	text "Choose a #MON."
+	text "Tria un #MON."
 	done
 
 _PartyMenuItemUseText::
-	text "Use item on which"
-	line "#MON?"
+	text "Usar objecte en"
+	line "quin #MON?"
 	done
 
 _PartyMenuBattleText::
-	text "Bring out which"
+	text "Treure quin"
 	line "#MON?"
 	done
 
 _PartyMenuUseTMText::
-	text "Teach to which"
+	text "Ensenyar a quin"
 	line "#MON?"
 	done
 
 _PartyMenuSwapMonText::
-	text "Move #MON"
-	line "where?"
+	text "Moure #MON"
+	line "on?"
 	done
 
 _PotionText::
 	text_ram wNameBuffer
 	text_start
-	line "recovered by @"
+	line "ha recuperat @"
 	text_decimal wHPBarHPDifference, 2, 3
 	text "!"
 	done
 
 _AntidoteText::
 	text_ram wNameBuffer
-	text " was"
-	line "cured of poison!"
+	text " s'ha"
+	line "curat del verí!"
 	done
 
 _ParlyzHealText::
 	text_ram wNameBuffer
-	text "'s"
-	line "rid of paralysis!"
+	text " s'ha"
+	line "curat de paràlisi!"
 	done
 
 _BurnHealText::
 	text_ram wNameBuffer
-	text "'s"
-	line "burn was healed!"
+	text " s'ha"
+	line "curat la cremada!"
 	done
 
 _IceHealText::
 	text_ram wNameBuffer
-	text " was"
-	line "defrosted!"
+	text " s'ha"
+	line "descongel·lat!"
 	done
 
 _AwakeningText::
 	text_ram wNameBuffer
 	text_start
-	line "woke up!"
+	line "s'ha despertat!"
 	done
 
 _FullHealText::
 	text_ram wNameBuffer
-	text "'s"
-	line "health returned!"
+	text " ha"
+	line "recuperat salut!"
 	done
 
 _ReviveText::
 	text_ram wNameBuffer
 	text_start
-	line "is revitalized!"
+	line "s'ha revitalitzat!"
 	done
 
 _RareCandyText::
 	text_ram wNameBuffer
-	text " grew"
-	line "to level @"
+	text " ha"
+	line "pujat a nivell @"
 	text_decimal wCurEnemyLevel, 1, 3
 	text "!@"
 	text_end
 
 _TurnedOnPC1Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> ha engegat"
+	line "el PC."
 	prompt
 
 _AccessedBillsPCText::
-	text "Accessed BILL's"
-	line "PC."
+	text "Accedit al PC"
+	line "d'en BILL."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Accedit al sistema"
+	line "de #MON."
 	prompt
 
 _AccessedSomeonesPCText::
-	text "Accessed someone's"
-	line "PC."
+	text "Accedit al PC"
+	line "d'algú."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Accedit al sistema"
+	line "de #MON."
 	prompt
 
 _AccessedMyPCText::
-	text "Accessed my PC."
+	text "Accedit al meu PC."
 
-	para "Accessed Item"
-	line "Storage System."
+	para "Sistema d'emmagat-"
+	line "zatge d'objectes."
 	prompt
 
 _TurnedOnPC2Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> ha engegat"
+	line "el PC."
 	prompt
 
 _WhatDoYouWantText::
-	text "What do you want"
-	line "to do?"
+	text "Què vols fer?"
+	line ""
 	done
 
 _WhatToDepositText::
-	text "What do you want"
-	line "to deposit?"
+	text "Què vols"
+	line "dipositar?"
 	done
 
 _DepositHowManyText::
-	text "How many?"
+	text "Quants?"
 	done
 
 _ItemWasStoredText::
 	text_ram wNameBuffer
-	text " was"
-	line "stored via PC."
+	text " s'ha"
+	line "desat al PC."
 	prompt
 
 _NothingToDepositText::
-	text "You have nothing"
-	line "to deposit."
+	text "No tens res a"
+	line "dipositar."
 	prompt
 
 _NoRoomToStoreText::
-	text "No room left to"
-	line "store items."
+	text "No queda espai per"
+	line "desar objectes."
 	prompt
 
 _WhatToWithdrawText::
-	text "What do you want"
-	line "to withdraw?"
+	text "Què vols"
+	line "retirar?"
 	done
 
 _WithdrawHowManyText::
-	text "How many?"
+	text "Quants?"
 	done
 
 _WithdrewItemText::
-	text "Withdrew"
+	text "Has retirat"
 	line "@"
 	text_ram wNameBuffer
 	text "."
 	prompt
 
 _NothingStoredText::
-	text "There is nothing"
-	line "stored."
+	text "No hi ha res"
+	line "desat."
 	prompt
 
 _CantCarryMoreText::
-	text "You can't carry"
-	line "any more items."
+	text "No pots portar"
+	line "més objectes."
 	prompt
 
 _WhatToTossText::
-	text "What do you want"
-	line "to toss away?"
+	text "Què vols"
+	line "tirar?"
 	done
 
 _TossHowManyText::
-	text "How many?"
+	text "Quants?"
 	done
 
 _AccessedHoFPCText::
-	text "Accessed #MON"
-	line "LEAGUE's site."
+	text "Accedit al lloc"
+	line "de la LLIGA #MON."
 
-	para "Accessed the HALL"
-	line "OF FAME List."
+	para "Accedit a la"
+	line "SALA DE LA FAMA."
 	prompt
 
 _SleepingPikachuText2::
-	text "There isn't any"
-	line "response..."
+	text "No hi ha cap"
+	line "resposta..."
 	prompt
 
 _SwitchOnText::
-	text "Switch on!"
+	text "Engegar!"
 	prompt
 
 _WhatText::
-	text "What?"
+	text "Què?"
 	done
 
 _DepositWhichMonText::
-	text "Deposit which"
+	text "Dipositar quin"
 	line "#MON?"
 	done
 
 _MonWasStoredText::
 	text_ram wStringBuffer
-	text " was"
-	line "stored in Box @"
+	text " s'ha"
+	line "desat a Caixa @"
 	text_ram wBoxNumString
 	text "."
 	prompt
 
 _CantDepositLastMonText::
-	text "You can't deposit"
-	line "the last #MON!"
+	text "No pots dipositar"
+	line "l'últim #MON!"
 	prompt
 
 _BoxFullText::
-	text "Oops! This Box is"
-	line "full of #MON."
+	text "Ui! Aquesta Caixa"
+	line "és plena de #MON."
 	prompt
 
 _MonIsTakenOutText::
 	text_ram wStringBuffer
-	text " is"
-	line "taken out."
-	cont "Got @"
+	text " ha"
+	line "sortit."
+	cont "Tens @"
 	text_ram wStringBuffer
 	text "."
 	prompt
 
 _NoMonText::
-	text "What? There are"
-	line "no #MON here!"
+	text "Què? No hi ha cap"
+	line "#MON aquí!"
 	prompt
 
 _CantTakeMonText::
-	text "You can't take"
-	line "any more #MON."
+	text "No pots agafar"
+	line "més #MON."
 
-	para "Deposit #MON"
-	line "first."
+	para "Primer diposita"
+	line "un #MON."
 	prompt
 
 _PikachuUnhappyText::
 	text_ram wNameBuffer
-	text " looks"
-	line "unhappy about it!"
+	text " sembla"
+	line "descontent!"
 	prompt
 
 _ReleaseWhichMonText::
-	text "Release which"
+	text "Alliberar quin"
 	line "#MON?"
 	done
 
 _OnceReleasedText::
-	text "Once released,"
+	text "Si l'alliberes,"
 	line "@"
 	text_ram wStringBuffer
-	text " is"
-	cont "gone forever. OK?"
+	text " se"
+	cont "n'anirà. D'acord?"
 	done
 
 _MonWasReleasedText::
 	text_ram wStringBuffer
-	text " was"
-	line "released outside."
-	cont "Bye @"
+	text " ha"
+	line "estat alliberat."
+	cont "Adéu @"
 	text_ram wStringBuffer
 	text "!"
 	prompt
 
 _RequireCoinCaseText::
-	text "A COIN CASE is"
-	line "required!@"
+	text "Necessites un"
+	line "MONEDER!@"
 	text_end
 
 _ExchangeCoinsForPrizesText::
-	text "We exchange your"
-	line "coins for prizes."
+	text "Canviem monedes"
+	line "per premis."
 	prompt
 
 _WhichPrizeText::
-	text "Which prize do"
-	line "you want?"
+	text "Quin premi"
+	line "vols?"
 	done
 
 _HereYouGoText::
-	text "Here you go!@"
+	text "Aquí tens!@"
 	text_end
 
 _SoYouWantPrizeText::
-	text "So, you want"
+	text "Vols"
 	line "@"
 	text_ram wNameBuffer
 	text "?"
 	done
 
 _SorryNeedMoreCoinsText::
-	text "Sorry, you need"
-	line "more coins.@"
+	text "Ho sento, et"
+	line "falten monedes.@"
 	text_end
 
 _OopsYouDontHaveEnoughRoomText::
-	text "Oops! You don't"
-	line "have enough room.@"
+	text "Ui! No tens prou"
+	line "espai.@"
 	text_end
 
 _OhFineThenText::
-	text "Oh, fine then.@"
+	text "Ah, d'acord.@"
 	text_end
 
 _GetDexRatedText::
-	text "Want to get your"
-	line "#DEX rated?"
+	text "Vols avaluar la"
+	line "teva #DEX?"
 	done
 
 _ClosedOaksPCText::
-	text "Closed link to"
-	line "PROF.OAK's PC.@"
+	text "Tancat l'enllaç al"
+	line "PC del PROF.OAK.@"
 	text_end
 
 _AccessedOaksPCText::
-	text "Accessed PROF."
-	line "OAK's PC."
+	text "Accedit al PC del"
+	line "PROF.OAK."
 
-	para "Accessed #DEX"
-	line "Rating System."
+	para "Sistema avaluació"
+	line "de la #DEX."
 	prompt
 
 _ExpressionText::
-	text "This expression is"
-	line "No. @"
+	text "Aquesta expressió"
+	line "és el núm. @"
 	text_decimal wExpressionNumber, 1, 2
 	text "."
 	prompt
 
 _NotEnoughMemoryText::
-	text "Not enough Yellow"
-	line "Version memory."
+	text "No hi ha prou"
+	line "memòria Groc."
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Hola!"
+	line "Benvingut al món"
+	cont "dels #MON!"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "Em dic OAK!"
+	line "La gent em diu"
+	cont "el PROF. #MON!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@"
+	text "Aquest món és"
+	line "habitat per"
+	cont "criatures anome-"
+	cont "nades #MON!@"
 	text_end
 
 _OakSpeechText2B::
-	text_start
+	text $51,"Per alguns, els"
+	line "#MON són"
+	cont "mascotes. Altres"
+	cont "els fan lluitar."
 
-	para "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	para "Jo..."
 
-	para "Myself..."
-
-	para "I study #MON"
-	line "as a profession."
+	para "Estudio els #MON"
+	line "de professió."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Primer, com et"
+	line "dius?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "Aquest és el meu"
+	line "nét. Ha estat el"
+	cont "teu rival des"
+	cont "que éreu petits."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "...Ehem, com es"
+	line "deia?"
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "La teva pròpia"
+	line "llegenda #MON"
+	cont "està a punt de"
+	cont "començar!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "Un món de somnis"
+	line "i aventures amb"
+	cont "#MON t'espera!"
+	cont "Som-hi!"
 	done
 
 _DoYouWantToNicknameText::
-	text "Do you want to"
-	line "give a nickname"
-	cont "to @"
+	text "Vols posar un"
+	line "sobrenom a"
+	cont "@"
 	text_ram wNameBuffer
 	text "?"
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "D'acord! Et dius"
+	line "<PLAYER>!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "Cert! Ara me'n"
+	line "recordo! Es diu"
+	cont "<RIVAL>!"
 	prompt
 
 _WillBeTradedText::
 	text_ram wNameOfPlayerMonToBeTraded
-	text " and"
+	text " i"
 	line "@"
 	text_ram wNameBuffer
-	text " will"
-	cont "be traded."
+	text " seran"
+	cont "intercanviats."
 	done
 
 _Colosseum3MonsText::
-	text "You need 3 #MON"
-	line "to fight!"
+	text "Necessites 3 #MON"
+	line "per lluitar!"
 	prompt
 
 _ColosseumMewText::
-	text "Sorry, MEW can't"
-	line "attend!"
+	text "MEW no pot"
+	line "participar!"
 	prompt
 
 _ColosseumDifferentMonsText::
-	text "Your #MON must"
-	line "all be different!"
+	text "Els teus #MON han"
+	line "de ser diferents!"
 	prompt
 
 _ColosseumMaxL55Text::
-	text "No #MON can"
-	line "exceed L55!"
+	text "Cap #MON pot"
+	line "passar de N55!"
 	prompt
 
 _ColosseumMinL50Text::
-	text "All #MON must"
-	line "be at least L50!"
+	text "Tots els #MON han"
+	line "de ser mínim N50!"
 	prompt
 
 _ColosseumTotalL155Text::
-	text "Your total levels"
-	line "exceed 155!"
+	text "El total de nivells"
+	line "passa de 155!"
 	prompt
 
 _ColosseumMaxL30Text::
-	text "No #MON can"
-	line "exceed L30!"
+	text "Cap #MON pot"
+	line "passar de N30!"
 	prompt
 
 _ColosseumMinL25Text::
-	text "All #MON must"
-	line "be at least L25!"
+	text "Tots els #MON han"
+	line "de ser mínim N25!"
 	prompt
 
 _ColosseumTotalL80Text::
-	text "Your total levels"
-	line "exceed 80!"
+	text "El total de nivells"
+	line "passa de 80!"
 	prompt
 
 _ColosseumMaxL20Text::
-	text "No #MON can"
-	line "exceed L20!"
+	text "Cap #MON pot"
+	line "passar de N20!"
 	prompt
 
 _ColosseumMinL15Text::
-	text "All #MON must"
-	line "be at least L15!"
+	text "Tots els #MON han"
+	line "de ser mínim N15!"
 	prompt
 
 _ColosseumTotalL50Text::
-	text "Your total levels"
-	line "exceed 50!"
+	text "El total de nivells"
+	line "passa de 50!"
 	prompt
 
 _ColosseumHeightText::
 	text_ram wNameBuffer
-	text " is over"
-	line "6’8” tall!"
+	text " fa més"
+	line "de 2 metres!"
 	prompt
 
 _ColosseumWeightText::
 	text_ram wNameBuffer
-	text " weighs"
-	line "over 44 pounds!"
+	text " pesa més"
+	line "de 20 quilos!"
 	prompt
 
 _ColosseumEvolvedText::
 	text_ram wNameBuffer
-	text " is an"
-	line "evolved #MON!"
+	text " és un"
+	line "#MON evolucionat!"
 	prompt
 
 _ColosseumIneligibleText::
-	text "Your opponent is"
-	line "ineligible."
+	text "El teu rival no"
+	line "és elegible."
 	prompt
 
 _ColosseumWhereToText::
-	text "Where would you"
-	line "like to go?"
+	text "On vols anar?"
+	line ""
 	done
 
 _ColosseumPleaseWaitText::
-	text "OK, please wait"
-	line "just a moment."
+	text "D'acord, espera"
+	line "un moment."
 	done
 
 _ColosseumCanceledText::
-	text "The link was"
-	line "canceled."
+	text "L'enllaç s'ha"
+	line "cancel·lat."
 	done
 
 _ColosseumVersionText::
-	text "The game versions"
-	line "don't match."
+	text "Les versions del"
+	line "joc no coincideix."
 	prompt
 
 _TextIDErrorText::
@@ -632,6 +632,6 @@ _ContCharText::
 	text_end
 
 _NoPokemonText::
-	text "There are no"
-	line "#MON here!"
+	text "No hi ha cap"
+	line "#MON aquí!"
 	prompt

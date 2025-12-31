@@ -1,115 +1,116 @@
 _SilphCo11FSilphPresidentText::
-	text "PRESIDENT: Thank"
-	line "you for saving"
-	cont "SILPH!"
+	text "PRESIDENT: Gràcies"
+	line "per salvar SILPH!"
 
-	para "I will never"
-	line "forget you saved"
-	cont "us in our moment"
-	cont "of peril!"
+	para "Mai oblidaré que"
+	line "ens has salvat en"
+	cont "el nostre moment"
+	cont "de perill!"
 
-	para "I have to thank"
-	line "you in some way!"
+	para "T'ho he d'agrair"
+	line "d'alguna manera!"
 
-	para "Because I am rich,"
-	line "I can give you"
-	cont "anything!"
+	para "Com que sóc ric,"
+	line "et puc donar el"
+	cont "que vulguis!"
 
-	para "Here, maybe this"
-	line "will do!"
+	para "Té, potser això"
+	line "et servirà!"
 	prompt
 
 _SilphCo11FSilphPresidentReceivedMasterBallText::
-	text "<PLAYER> got a"
+	text "<PLAYER> ha rebut"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SilphCo11FSilphPresidentMasterBallDescriptionText::
-	text "PRESIDENT: You"
-	line "can't buy that"
-	cont "anywhere!"
+	text "PRESIDENT: No la"
+	line "pots comprar"
+	cont "enlloc!"
 
-	para "It's our secret"
-	line "prototype MASTER"
-	cont "BALL!"
+	para "És el nostre"
+	line "prototip secret,"
+	cont "la MASTER BALL!"
 
-	para "It will catch any"
-	line "#MON without"
-	cont "fail!"
+	para "Atraparà qualsevol"
+	line "#MON sense"
+	cont "fallar!"
 
-	para "You should be"
-	line "quiet about using"
-	cont "it, though."
+	para "Però hauries de"
+	line "ser discret quan"
+	cont "la usis."
 	done
 
 _SilphCo11FSilphPresidentNoRoomText::
-	text "You have no"
-	line "room for this."
+	text "No tens espai"
+	line "per a això."
 	done
 
 _SilphCo11FBeautyText::
-	text "SECRETARY: Thank"
-	line "you for rescuing"
-	cont "all of us!"
+	text "SECRETÀRIA: Gràcies"
+	line "per rescatar-nos"
+	cont "a tots!"
 
-	para "We admire your"
-	line "courage."
+	para "Admirem el teu"
+	line "coratge."
 	done
 
 _SilphCo11FGiovanniText::
 	text "Ah, <PLAYER>!"
-	line "So we meet again!"
+	line "Ens retrobem!"
 
-	para "The PRESIDENT and"
-	line "I are discussing"
-	cont "a vital business"
-	cont "proposition."
+	para "El PRESIDENT i jo"
+	line "estem discutint"
+	cont "una proposta de"
+	cont "negocis vital."
 
-	para "Keep your nose"
-	line "out of grown-up"
-	cont "matters..."
+	para "No fiquis el nas"
+	line "en assumptes de"
+	cont "grans..."
 
-	para "or, experience a"
-	line "world of pain!"
+	para "o experimenta un"
+	line "món de dolor!"
 	done
 
 _SilphCo10FGiovanniILostAgainText::
-	text "Arrgh!!"
-	line "I lost again!?"
+	text "Argh!!"
+	line "He perdut de nou!?"
 	prompt
 
 _SilphCo11FGiovanniYouRuinedOurPlansText::
-	text "Blast it all!"
-	line "You ruined our"
-	cont "plans for SILPH!"
+	text "Maleït sigui!"
+	line "Has arruïnat els"
+	cont "nostres plans per"
+	cont "a SILPH!"
 
-	para "But, TEAM ROCKET"
-	line "will never fall!"
+	para "Però, el TEAM"
+	line "ROCKET mai caurà!"
 
-	para "<PLAYER>! Never"
-	line "forget that all"
-	cont "#MON exist"
-	cont "for TEAM ROCKET!"
+	para "<PLAYER>! No"
+	line "oblidis mai que"
+	cont "tots els #MON"
+	cont "existeixen pel"
+	cont "TEAM ROCKET!"
 
-	para "I must go, but I"
-	line "shall return!"
+	para "He de marxar,"
+	line "però tornaré!"
 	done
 
 _SilphCo11FRocket2BattleText::
-	text "Halt! Do you have"
-	line "an appointment"
-	cont "with my BOSS?"
+	text "Alt! Tens cita amb"
+	line "el meu CAP?"
 	done
 
 _SilphCo11FRocket2EndBattleText::
 	text "Gaah!"
-	line "Demolished!"
+	line "Demolit!"
 	prompt
 
 _SilphCo11FRocket2AfterBattleText::
-	text "Watch your step,"
-	line "my BOSS likes his"
-	cont "#MON tough!"
+	text "Ves amb compte,"
+	line "al meu CAP li"
+	cont "agraden els #MON"
+	cont "durs!"
 	done

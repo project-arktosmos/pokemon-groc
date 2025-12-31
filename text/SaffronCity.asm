@@ -1,67 +1,66 @@
 _SaffronCityRocket1Text::
-	text "What do you want?"
-	line "Get lost!"
+	text "Què vols?"
+	line "Fes el camp!"
 	done
 
 _SaffronCityRocket2Text::
-	text "BOSS said he'll"
-	line "take this town!"
+	text "El CAP ha dit que"
+	line "s'apodera d'aquí!"
 	done
 
 _SaffronCityRocket3Text::
-	text "Get out of the"
-	line "way!"
+	text "Fora del mig!"
 	done
 
 _SaffronCityRocket4Text::
-	text "SAFFRON belongs"
-	line "to TEAM ROCKET!"
+	text "SAFRÀ pertany"
+	line "al TEAM ROCKET!"
 	done
 
 _SaffronCityRocket5Text::
-	text "Being evil makes"
-	line "me feel so alive!"
+	text "Ser dolent em fa"
+	line "sentir tan viu!"
 	done
 
 _SaffronCityRocket6Text::
-	text "Ow! Watch where"
-	line "you're walking!"
+	text "Au! Mira per on"
+	line "camines!"
 	done
 
 _SaffronCityRocket7Text::
-	text "With SILPH under"
-	line "control, we can"
-	cont "exploit #MON"
-	cont "around the world!"
+	text "Amb SILPH sota"
+	line "control, podrem"
+	cont "explotar #MON"
+	cont "arreu del món!"
 	done
 
 _SaffronCityScientistText::
-	text "You beat TEAM"
-	line "ROCKET all alone?"
-	cont "That's amazing!"
+	text "Has derrotat el"
+	line "TEAM ROCKET tot"
+	cont "sol? Increïble!"
 	done
 
 _SaffronCitySilphWorkerMText::
-	text "Yeah! TEAM ROCKET"
-	line "is gone!"
-	cont "It's safe to go"
-	cont "out again!"
+	text "Sí! El TEAM ROCKET"
+	line "ha marxat! Es pot"
+	cont "tornar a sortir!"
 	done
 
 _SaffronCitySilphWorkerFText::
-	text "People should be"
-	line "flocking back to"
-	cont "SAFFRON now."
+	text "La gent hauria de"
+	line "tornar a SAFRÀ"
+	cont "ara."
 	done
 
 _SaffronCityGentlemanText::
-	text "I flew here on my"
-	line "PIDGEOT when I"
-	cont "read about SILPH."
+	text "He volat fins aquí"
+	line "amb el meu PIDGEOT"
+	cont "quan vaig llegir"
+	cont "sobre SILPH."
 
-	para "It's already over?"
-	line "I missed the"
-	cont "media action."
+	para "Ja ha acabat?"
+	line "M'he perdut la"
+	cont "cobertura a TV."
 	done
 
 _SaffronCityPidgeotText::
@@ -69,84 +68,84 @@ _SaffronCityPidgeotText::
 	text_end
 
 _SaffronCityRockerText::
-	text "I saw ROCKET"
-	line "BOSS escaping"
-	cont "SILPH's building."
+	text "He vist el CAP"
+	line "ROCKET escapant"
+	cont "del EDIFICI SILPH."
 	done
 
 _SaffronCityRocket8Text::
-	text "I'm a security"
-	line "guard."
+	text "Sóc guarda de"
+	line "seguretat."
 
-	para "Suspicious kids I"
-	line "don't allow in!"
+	para "No deixo entrar"
+	line "nens sospitosos!"
 	done
 
 _SaffronCityRocket9Text::
 	text "..."
-	line "Snore..."
+	line "Zzz..."
 
-	para "Hah! He's taking"
-	line "a snooze!"
+	para "Ha! Està fent"
+	line "una becaina!"
 	done
 
 _SaffronCitySignText::
-	text "SAFFRON CITY"
-	line "Shining, Golden"
-	cont "Land of Commerce"
+	text "CIUTAT SAFRÀ"
+	line "Brillant Terra"
+	cont "Daurada de Comerç"
 	done
 
 _SaffronCityFightingDojoSignText::
-	text "FIGHTING DOJO"
+	text "DOJO DE LLUITA"
 	done
 
 _SaffronCityGymSignText::
-	text "SAFFRON CITY"
-	line "#MON GYM"
-	cont "LEADER: SABRINA"
+	text "GIMNÀS #MON DE"
+	line "CIUTAT SAFRÀ"
+	cont "LÍDER: SABRINA"
 
-	para "The Master of"
-	line "Psychic #MON!"
+	para "La Mestra dels"
+	line "#MON Psíquics!"
 	done
 
 _SaffronCityTrainerTips1Text::
-	text "TRAINER TIPS"
+	text "CONSELLS"
 
-	para "FULL HEAL cures"
-	line "all ailments like"
-	cont "sleep and burns."
+	para "CURA TOTAL cura"
+	line "totes les dolences"
+	cont "com son i cremades"
 
-	para "It costs a bit"
-	line "more, but it's"
-	cont "more convenient."
+	para "Costa una mica"
+	line "més, però és més"
+	cont "pràctic."
 	done
 
 _SaffronCityTrainerTips2Text::
-	text "TRAINER TIPS"
+	text "CONSELLS"
 
-	para "New GREAT BALL"
-	line "offers improved"
-	cont "capture rates."
+	para "La nova SUPER BALL"
+	line "ofereix millor"
+	cont "taxa de captura."
 
-	para "Try it on those"
-	line "hard-to-catch"
-	cont "#MON."
+	para "Prova-la amb"
+	line "aquells #MON"
+	cont "difícils d'atrapar"
 	done
 
 _SaffronCitySilphCoSignText::
-	text "SILPH CO."
-	line "OFFICE BUILDING"
+	text "SILPH S.A."
+	line "EDIFICI D'OFICINES"
 	done
 
 _SaffronCityMrPsychicsHouseSignText::
-	text "MR.PSYCHIC's"
-	line "HOUSE"
+	text "CASA DEL"
+	line "SR.PSÍQUIC"
 	done
 
 _SaffronCitySilphCoLatestProductSignText::
-	text "SILPH's latest"
-	line "product!"
+	text "L'últim producte"
+	line "de SILPH!"
 
-	para "Release to be"
-	line "determined..."
+	para "Data de llançament"
+	line "per determinar..."
 	done

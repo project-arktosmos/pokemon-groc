@@ -1,23 +1,22 @@
 _VermilionMartCooltrainerMText::
-	text "There are evil"
-	line "people who will"
-	cont "use #MON for"
-	cont "criminal acts."
+	text "Hi ha gent dolenta"
+	line "que usa #MON"
+	cont "per a actes"
+	cont "criminals."
 
-	para "TEAM ROCKET"
-	line "traffics in rare"
-	cont "#MON."
+	para "El TEAM ROCKET"
+	line "trafica amb #MON"
+	cont "rars."
 
-	para "They also abandon"
-	line "#MON that they"
-	cont "consider not to"
-	cont "be popular or"
-	cont "useful."
+	para "També abandonen"
+	line "#MON que no"
+	cont "consideren útils"
+	cont "o populars."
 	done
 
 _VermilionMartCooltrainerFText::
-	text "I think #MON"
-	line "can be good or"
-	cont "evil. It depends"
-	cont "on the trainer."
+	text "Crec que els #MON"
+	line "poden ser bons o"
+	cont "dolents. Depèn de"
+	cont "l'entrenador."
 	done

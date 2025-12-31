@@ -1,24 +1,24 @@
 _PewterPokecenterGentlemanText::
-	text "What!?"
+	text "Què!?"
 
-	para "TEAM ROCKET is"
-	line "at MT.MOON? Huh?"
-	cont "I'm on the phone!"
+	para "El TEAM ROCKET és"
+	line "a MONT LLUNA? Eh?"
+	cont "Estic al telèfon!"
 
-	para "Scram!"
+	para "Fora!"
 	done
 
 _PewterPokecenterText3::
-	text "#MON CENTERS"
-	line "are wonderful!"
+	text "Els CENTRES #MON"
+	line "són meravellosos!"
 
-	para "They heal #MON"
-	line "completely."
+	para "Curen els #MON"
+	line "completament."
 
-	para "Even conditions"
-	line "like sleep, burn,"
-	cont "poison and others"
-	cont "are cured."
+	para "Fins i tot estats"
+	line "com son, cremades,"
+	cont "verí i altres"
+	cont "es curen."
 	done
 
 _PewterPokecenterJigglypuffText::

@@ -1,113 +1,119 @@
 _SSAnne2FRoomsGentleman3Text::
-	text "In all my travels,"
-	line "I've never seen"
-	cont "any #MON sleep"
-	cont "like this one!"
+	text "En tots els meus"
+	line "viatges, mai he"
+	cont "vist cap #MON"
+	cont "dormir així!"
 
-	para "It was something"
-	line "like this!"
+	para "Era una cosa"
+	line "com això!"
 	prompt
 
 _SSAnne2FRoomsGentleman4Text::
-	text "Ah yes, I have"
-	line "seen some #MON"
-	cont "ferry people"
-	cont "across the water!"
+	text "Ah sí, he vist"
+	line "alguns #MON"
+	cont "que porten gent"
+	cont "per l'aigua!"
 	done
 
 _SSAnne2FRoomsGrampsText::
-	text "#MON can CUT"
-	line "down small bushes."
+	text "Els #MON poden"
+	line "TALLAR arbustos"
+	cont "petits."
 	done
 
 _SSAnne2FRoomsGentleman1BattleText::
-	text "Competing against"
-	line "the young keeps"
-	cont "me youthful."
+	text "Competir contra"
+	line "els joves em"
+	cont "manté jove."
 	done
 
 _SSAnne2FRoomsGentleman1EndBattleText::
-	text "Good"
-	line "fight! Ah, I feel"
-	cont "young again!"
+	text "Bona"
+	line "lluita! Ah, em"
+	cont "sento jove!"
 	prompt
 
 _SSAnne2FRoomsGentleman1AfterBattleText::
-	text "15 years ago, I"
-	line "would have won!"
+	text "Fa 15 anys,"
+	line "hauria guanyat!"
 	done
 
 _SSAnne2FRoomsFisherBattleText::
-	text "Check out what I"
-	line "fished up!"
+	text "Mira què he"
+	line "pescat!"
 	done
 
 _SSAnne2FRoomsFisherEndBattleText::
-	text "I'm"
-	line "all out!"
+	text "Ja"
+	line "no en tinc més!"
 	prompt
 
 _SSAnne2FRoomsFisherAfterBattleText::
-	text "Party?"
+	text "Festa?"
 
-	para "The cruise ship's"
-	line "party should be"
-	cont "over by now."
+	para "La festa del"
+	line "creuer ja deu"
+	cont "haver acabat."
 	done
 
 _SSAnne2FRoomsGentleman2BattleText::
-	text "Which do you like,"
-	line "a strong or a"
-	cont "rare #MON?"
+	text "Què prefereixes,"
+	line "un #MON fort o"
+	cont "un de rar?"
 	done
 
 _SSAnne2FRoomsGentleman2EndBattleText::
-	text "I must"
-	line "salute you!"
+	text "T'he de"
+	line "felicitar!"
 	prompt
 
 _SSAnne2FRoomsGentleman2AfterBattleText::
-	text "I prefer strong"
-	line "and rare #MON."
+	text "Jo prefereixo"
+	line "#MON forts"
+	cont "i rars."
 	done
 
 _SSAnne2FRoomsCooltrainerFBattleText::
-	text "I never saw you"
-	line "at the party."
+	text "No et vaig veure"
+	line "a la festa."
 	done
 
 _SSAnne2FRoomsCooltrainerFEndBattleText::
-	text "Take"
-	line "it easy!"
+	text "Calma't"
+	line "una mica!"
 	prompt
 
 _SSAnne2FRoomsCooltrainerFAfterBattleText::
-	text "Oh, I adore your"
-	line "strong #MON!"
+	text "Oh, m'encanten"
+	line "els teus #MON"
+	cont "tan forts!"
 	done
 
 _SSAnne2FRoomsGentleman5Text::
-	text "Have you gone to"
-	line "the SAFARI ZONE"
-	cont "in FUCHSIA CITY?"
+	text "Has anat a la"
+	line "ZONA SAFARI a"
+	cont "CIUTAT FÚCSIA?"
 
-	para "It had many rare"
-	line "kinds of #MON!!"
+	para "Tenia moltes"
+	line "espècies rares"
+	cont "de #MON!"
 	done
 
 _SSAnne2FRoomsLittleBoyText::
-	text "Me and my Daddy"
-	line "think the SAFARI"
-	cont "ZONE is awesome!"
+	text "Jo i el meu papa"
+	line "pensem que la"
+	cont "ZONA SAFARI és"
+	cont "genial!"
 	done
 
 _SSAnne2FRoomsBrunetteGirlText::
-	text "The CAPTAIN looked"
-	line "really sick and"
-	cont "pale!"
+	text "El CAPITÀ tenia"
+	line "molt mala cara"
+	cont "i estava pàl·lid!"
 	done
 
 _SSAnne2FRoomsBeautyText::
-	text "I hear many people"
-	line "get seasick!"
+	text "He sentit que"
+	line "molta gent té"
+	cont "mareig!"
 	done

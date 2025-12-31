@@ -1,56 +1,57 @@
 _FileDataDestroyedText::
-	text "The file data is"
-	line "destroyed!"
+	text "Les dades de l'arxiu"
+	line "estan destruïdes!"
 	prompt
 
 _WouldYouLikeToSaveText::
-	text "Would you like to"
-	line "SAVE the game?"
+	text "Vols DESAR"
+	line "la partida?"
 	done
 
 _SavingText::
-	text "Saving..."
+	text "Desant..."
 	done
 
 _GameSavedText::
-	text "<PLAYER> saved"
-	line "the game!"
+	text "<PLAYER> ha desat"
+	line "la partida!"
 	done
 
 _OlderFileWillBeErasedText::
-	text "The older file"
-	line "will be erased to"
-	cont "save. Okay?"
+	text "L'arxiu antic"
+	line "s'esborrarà per"
+	cont "desar. D'acord?"
 	done
 
 _WhenYouChangeBoxText::
-	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved."
+	text "Quan canviïs de"
+	line "CAIXA #MON, es"
+	cont "desaran les dades."
 
-	para "Is that okay?"
+	para "D'acord?"
 	done
 
 _ChooseABoxText::
-	text "Choose a"
-	line "<PKMN> BOX.@"
+	text "Tria una"
+	line "CAIXA <PKMN>.@"
 	text_end
 
 _EvolvedText::
 	text_ram wStringBuffer
-	text " evolved"
+	text " ha"
 	done
 
 _IntoText::
 	text_start
-	line "into @"
+	line "evolucionat a"
+	cont "@"
 	text_ram wNameBuffer
 	text "!"
 	done
 
 _StoppedEvolvingText::
-	text "Huh? @"
+	text "Eh? @"
 	text_ram wStringBuffer
 	text_start
-	line "stopped evolving!"
+	line "ha parat d'evol.!"
 	prompt

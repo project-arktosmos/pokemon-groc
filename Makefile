@@ -1,6 +1,6 @@
 roms := \
-	pokeyellow.gbc \
-	pokeyellow_debug.gbc
+	pokemon-groc.gb \
+	pokemon-groc_debug.gb
 patches := \
 	pokeyellow.patch
 
@@ -17,9 +17,9 @@ rom_obj := \
 	gfx/surfing_pikachu.o \
 	gfx/tilesets.o
 
-pokeyellow_obj       := $(rom_obj)
-pokeyellow_debug_obj := $(rom_obj:.o=_debug.o)
-pokeyellow_vc_obj    := $(rom_obj:.o=_vc.o)
+pokemon-groc_obj       := $(rom_obj)
+pokemon-groc_debug_obj := $(rom_obj:.o=_debug.o)
+pokeyellow_vc_obj      := $(rom_obj:.o=_vc.o)
 
 
 ### Build tools
@@ -48,12 +48,12 @@ RGBGFXFLAGS  ?= -Weverything
 .SECONDEXPANSION:
 .PRECIOUS:
 .SECONDARY:
-.PHONY: all yellow yellow_debug clean tidy compare tools
+.PHONY: all groc groc_debug clean tidy compare tools
 
 all: $(roms)
-yellow:       pokeyellow.gbc
-yellow_debug: pokeyellow_debug.gbc
-yellow_vc:    pokeyellow.patch
+groc:       pokemon-groc.gb
+groc_debug: pokemon-groc_debug.gb
+yellow_vc:  pokeyellow.patch
 
 clean: tidy
 	find gfx \
@@ -67,16 +67,16 @@ clean: tidy
 
 tidy:
 	$(RM) $(roms) \
-	      $(roms:.gbc=.sym) \
-	      $(roms:.gbc=.map) \
+	      $(roms:.gb=.sym) \
+	      $(roms:.gb=.map) \
 	      $(patches) \
 	      $(patches:.patch=_vc.gbc) \
 	      $(patches:.patch=_vc.sym) \
 	      $(patches:.patch=_vc.map) \
 	      $(patches:%.patch=vc/%.constants.sym) \
-	      $(pokeyellow_obj) \
+	      $(pokemon-groc_obj) \
 	      $(pokeyellow_vc_obj) \
-	      $(pokeyellow_debug_obj) \
+	      $(pokemon-groc_debug_obj) \
 	      rgbdscheck.o
 	$(MAKE) clean -C tools/
 
@@ -93,7 +93,7 @@ ifeq ($(DEBUG),1)
 RGBASMFLAGS += -E
 endif
 
-$(pokeyellow_debug_obj): RGBASMFLAGS += -D _DEBUG
+$(pokemon-groc_debug_obj): RGBASMFLAGS += -D _DEBUG
 $(pokeyellow_vc_obj):    RGBASMFLAGS += -D _YELLOW_VC
 
 %.patch: %_vc.gbc %.gbc vc/%.patch.template
@@ -118,22 +118,26 @@ $1: $2 $$(shell tools/scan_includes $2) $(preinclude_deps) | rgbdscheck.o
 endef
 
 # Dependencies for objects
-$(foreach obj, $(pokeyellow_obj), $(eval $(call DEP,$(obj),$(obj:.o=.asm))))
-$(foreach obj, $(pokeyellow_debug_obj), $(eval $(call DEP,$(obj),$(obj:_debug.o=.asm))))
+$(foreach obj, $(pokemon-groc_obj), $(eval $(call DEP,$(obj),$(obj:.o=.asm))))
+$(foreach obj, $(pokemon-groc_debug_obj), $(eval $(call DEP,$(obj),$(obj:_debug.o=.asm))))
 $(foreach obj, $(pokeyellow_vc_obj), $(eval $(call DEP,$(obj),$(obj:_vc.o=.asm))))
 
 endif
 
 
 RGBLINKFLAGS += -d
-pokeyellow.gbc:       RGBLINKFLAGS += -p 0x00
-pokeyellow_debug.gbc: RGBLINKFLAGS += -p 0xff
-pokeyellow_vc.gbc:    RGBLINKFLAGS += -p 0x00
+pokemon-groc.gb:       RGBLINKFLAGS += -p 0x00
+pokemon-groc_debug.gb: RGBLINKFLAGS += -p 0xff
+pokeyellow_vc.gbc:     RGBLINKFLAGS += -p 0x00
 
-RGBFIXFLAGS += -cjsv -k 01 -l 0x33 -m MBC5+RAM+BATTERY -r 03 -t "POKEMON YELLOW"
-pokeyellow.gbc:       RGBFIXFLAGS += -p 0x00
-pokeyellow_debug.gbc: RGBFIXFLAGS += -p 0xff
-pokeyellow_vc.gbc:    RGBFIXFLAGS += -p 0x00
+RGBFIXFLAGS += -cjsv -k 01 -l 0x33 -m MBC5+RAM+BATTERY -r 03 -t "POKEMON GROC"
+pokemon-groc.gb:       RGBFIXFLAGS += -p 0x00
+pokemon-groc_debug.gb: RGBFIXFLAGS += -p 0xff
+pokeyellow_vc.gbc:     RGBFIXFLAGS += -p 0x00
+
+%.gb: $$(%_obj) layout.link
+	$(RGBLINK) $(RGBLINKFLAGS) -l layout.link -m $*.map -n $*.sym -o $@ $(filter %.o,$^)
+	$(RGBFIX) $(RGBFIXFLAGS) $@
 
 %.gbc: $$(%_obj) layout.link
 	$(RGBLINK) $(RGBLINKFLAGS) -l layout.link -m $*.map -n $*.sym -o $@ $(filter %.o,$^)

@@ -1,43 +1,44 @@
 _Route12Gate2FBrunetteGirlYouCanHaveThisText::
-	text "My #MON's"
-	line "ashes are stored"
-	cont "in #MON TOWER."
+	text "Les cendres del"
+	line "meu #MON estan"
+	cont "a la TORRE #MON."
 
-	para "You can have this"
-	line "TM. I don't need"
-	cont "it anymore..."
+	para "Pots quedar-te"
+	line "aquest MT. Ja no"
+	cont "el necessito..."
 	prompt
 
 _Route12Gate2FBrunetteGirlReceivedTM39Text::
-	text "<PLAYER> received"
-	line "TM39!@"
+	text "<PLAYER> ha rebut"
+	line "el MT39!@"
 	text_end
 
 _Route12Gate2FBrunetteGirlTM39ExplanationText::
-	text "TM39 is a move"
-	line "called SWIFT."
+	text "El MT39 és un"
+	line "moviment anomenat"
+	cont "METEORS."
 
-	para "It's very accurate,"
-	line "so use it during"
-	cont "battles you can't"
-	cont "afford to lose."
+	para "És molt precís,"
+	line "fes-lo servir en"
+	cont "batalles que no"
+	cont "pots perdre."
 	done
 
 _Route12Gate2FBrunetteGirlTM39NoRoomText::
-	text "You don't have"
-	line "room for this."
+	text "No tens espai"
+	line "per això."
 	done
 
 _Route12Gate2FLeftBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Has mirat pels"
+	line "prismàtics."
 
-	para "A man fishing!"
+	para "Un home pescant!"
 	done
 
 _Route12Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Has mirat pels"
+	line "prismàtics."
 
-	para "It's #MON TOWER!"
+	para "És la TORRE #MON!"
 	done

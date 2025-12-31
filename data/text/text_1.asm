@@ -4,13 +4,13 @@ _CardKeySuccessText1::
 
 _CardKeySuccessText2::
 	text_start
-	line "The CARD KEY"
-	cont "opened the door!"
+	line "La CLAU TARGETA"
+	cont "ha obert la porta!"
 	done
 
 _CardKeyFailText::
-	text "Darn! It needs a"
-	line "CARD KEY!"
+	text "Llàstima! Cal una"
+	line "CLAU TARGETA!"
 	done
 
 _TrainerNameText::
@@ -19,17 +19,17 @@ _TrainerNameText::
 	text_end
 
 _NoNibbleText::
-	text "Not even a nibble!"
+	text "Ni una picada!"
 	prompt
 
 _NothingHereText::
-	text "Looks like there's"
-	line "nothing here."
+	text "Sembla que no hi"
+	line "ha res aquí."
 	prompt
 
 _ItsABiteText::
 	text "Oh!"
-	line "It's a bite!"
+	line "Pica!"
 	prompt
 
 _ExclamationText::
@@ -37,112 +37,112 @@ _ExclamationText::
 	done
 
 _GroundRoseText::
-	text "Ground rose up"
-	line "somewhere!"
+	text "El terra s'ha"
+	line "mogut a algun lloc"
 	done
 
 _BoulderText::
-	text "This requires"
-	line "STRENGTH to move!"
+	text "Requereix FORÇA"
+	line "per moure-ho!"
 	done
 
 _MartSignText::
-	text "All your item"
-	line "needs fulfilled!"
+	text "Totes les teves"
+	line "necessitats!"
 	cont "#MON MART"
 	done
 
 _PokeCenterSignText::
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "Cura els #MON!"
+	line "CENTRE #MON"
 	done
 
 _FoundItemText::
-	text "<PLAYER> found"
+	text "<PLAYER> ha trobat"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _NoMoreRoomForItemText::
-	text "No more room for"
-	line "items!"
+	text "No hi ha més lloc"
+	line "per objectes!"
 	done
 
 _OaksAideHiText::
-	text "Hi! Remember me?"
-	line "I'm PROF.OAK's"
-	cont "AIDE!"
+	text "Hola! Em recordes?"
+	line "Sóc l'ajudant del"
+	cont "PROF.OAK!"
 
-	para "If you caught @"
+	para "Si has capturat @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text_start
-	line "kinds of #MON,"
-	cont "I'm supposed to"
-	cont "give you an"
+	line "tipus de #MON,"
+	cont "t'he de donar"
+	cont "un"
 	cont "@"
 	text_ram wOaksAideRewardItemName
 	text "!"
 
-	para "So, <PLAYER>! Have"
-	line "you caught at"
-	cont "least @"
+	para "I bé, <PLAYER>!"
+	line "Has capturat al-"
+	cont "menys @"
 	text_decimal hOaksAideRequirement, 1, 3
-	text " kinds of"
+	text " tipus de"
 	cont "#MON?"
 	done
 
 _OaksAideUhOhText::
-	text "Let's see..."
-	line "Uh-oh! You have"
-	cont "caught only @"
+	text "Deixa'm veure..."
+	line "Oh! Només has"
+	cont "capturat @"
 	text_decimal hOaksAideNumMonsOwned, 1, 3
 	text_start
-	cont "kinds of #MON!"
+	cont "tipus de #MON!"
 
-	para "You need @"
+	para "En necessites @"
 	text_decimal hOaksAideRequirement, 1, 3
-	text " kinds"
-	line "if you want the"
+	text " tipus"
+	line "si vols el"
 	cont "@"
 	text_ram wOaksAideRewardItemName
 	text "."
 	done
 
 _OaksAideComeBackText::
-	text "Oh. I see."
+	text "Oh. Ja veig."
 
-	para "When you get @"
+	para "Quan tinguis @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text_start
-	line "kinds, come back"
-	cont "for @"
+	line "tipus, torna per"
+	cont "el @"
 	text_ram wOaksAideRewardItemName
 	text "."
 	done
 
 _OaksAideHereYouGoText::
-	text "Great! You have"
-	line "caught @"
+	text "Genial! Has captu-"
+	line "rat @"
 	text_decimal hOaksAideNumMonsOwned, 1, 3
-	text " kinds "
-	cont "of #MON!"
-	cont "Congratulations!"
+	text " tipus "
+	cont "de #MON!"
+	cont "Felicitats!"
 
-	para "Here you go!"
+	para "Aquí tens!"
 	prompt
 
 _OaksAideGotItemText::
-	text "<PLAYER> got the"
+	text "<PLAYER> ha rebut"
 	line "@"
 	text_ram wOaksAideRewardItemName
 	text "!@"
 	text_end
 
 _OaksAideNoRoomText::
-	text "Oh! I see you"
-	line "don't have any"
-	cont "room for the"
+	text "Oh! Veig que no"
+	line "tens lloc per"
+	cont "al"
 	cont "@"
 	text_ram wOaksAideRewardItemName
 	text "."

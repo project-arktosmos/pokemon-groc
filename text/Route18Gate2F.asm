@@ -1,15 +1,15 @@
 _Route18Gate2FLeftBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Has mirat pels"
+	line "prismàtics."
 
-	para "PALLET TOWN is in"
-	line "the west!"
+	para "POBLE PALETA és"
+	line "a l'oest!"
 	done
 
 _Route18Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Has mirat pels"
+	line "prismàtics."
 
-	para "There are people"
-	line "swimming!"
+	para "Hi ha gent"
+	line "nedant!"
 	done

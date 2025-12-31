@@ -1,31 +1,32 @@
 _PokemonTower1FReceptionistText::
-	text "#MON TOWER was"
-	line "erected in the"
-	cont "memory of #MON"
-	cont "that had died."
+	text "La TORRE #MON es"
+	line "va erigir en"
+	cont "memòria dels #MON"
+	cont "que havien mort."
 	done
 
 _PokemonTower1FMiddleAgedWomanText::
-	text "Did you come to"
-	line "pay respects?"
-	cont "Bless you!"
+	text "Has vingut a retre"
+	line "homenatge?"
+	cont "Beneït siguis!"
 	done
 
 _PokemonTower1FBaldingGuyText::
-	text "I came to pray"
-	line "for my CLEFAIRY."
+	text "He vingut a resar"
+	line "pel meu CLEFAIRY."
 
-	para "Sniff! I can't"
-	line "stop crying..."
+	para "Snif! No puc"
+	line "deixar de plorar.."
 	done
 
 _PokemonTower1FGirlText::
-	text "My GROWLITHE..."
-	line "Why did you die?"
+	text "El meu GROWLITHE.."
+	line "Per què vas morir?"
 	done
 
 _PokemonTower1FChannelerText::
-	text "I am a CHANNELER!"
-	line "There are spirits"
-	cont "up to mischief!"
+	text "Sóc una MEDIUM!"
+	line "Hi ha esperits"
+	cont "entremaliant-se!"
 	done
+

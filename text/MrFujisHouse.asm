@@ -1,30 +1,33 @@
 _MrFujisHouseSuperNerdMrFujiIsntHereText::
-	text "That's odd, MR.FUJI"
-	line "isn't here."
-	cont "Where'd he go?"
+	text "Que estrany, el"
+	line "SR.FUJI no hi és."
+	cont "On deu ser?"
 	done
 
 _MrFujisHouseSuperNerdMrFujiHadBeenPrayingText::
-	text "MR.FUJI had been"
-	line "praying alone for"
-	cont "CUBONE's mother."
+	text "El SR.FUJI havia"
+	line "estat pregant sol"
+	cont "per la mare de"
+	cont "CUBONE."
 	done
 
 _MrFujisHouseLittleGirlThisIsMrFujisHouseText::
-	text "This is really"
-	line "MR.FUJI's house."
+	text "Aquesta és de"
+	line "veritat la casa"
+	cont "del SR.FUJI."
 
-	para "He's really kind!"
+	para "És molt amable!"
 
-	para "He looks after"
-	line "abandoned and"
-	cont "orphaned #MON!"
+	para "Cuida els #MON"
+	line "abandonats i"
+	cont "orfes!"
 	done
 
 _MrFujisHouseLittleGirlPokemonAreNiceToHugText::
-	text "It's so warm!"
-	line "#MON are so"
-	cont "nice to hug!"
+	text "Quina escalforeta!"
+	line "Que bé que van"
+	cont "els #MON per"
+	cont "abraçar!"
 	done
 
 _MrFujisHousePsyduckText::
@@ -36,20 +39,21 @@ _MrFujisHouseNidorinoText::
 	text_end
 
 _MrFujisHouseMrFujiIThinkThisMayHelpYourQuestText::
-	text "MR.FUJI: <PLAYER>."
+	text "SR.FUJI: <PLAYER>."
 
-	para "Your #DEX quest"
-	line "may fail without"
-	cont "love for your"
+	para "La teva missió de"
+	line "la #DEX podria"
+	cont "fracassar sense"
+	cont "amor pels teus"
 	cont "#MON."
 
-	para "I think this may"
-	line "help your quest."
+	para "Crec que això pot"
+	line "ajudar-te."
 	prompt
 
 _MrFujisHouseMrFujiReceivedPokeFluteText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> ha rebut"
+	line "una @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
@@ -57,33 +61,35 @@ _MrFujisHouseMrFujiReceivedPokeFluteText::
 _MrFujisHouseMrFujiPokeFluteExplanationText::
 	text_start
 
-	para "Upon hearing #"
-	line "FLUTE, sleeping"
-	cont "#MON will"
-	cont "spring awake."
+	para "En sentir la"
+	line "FLAUTA #, els"
+	cont "#MON adormits"
+	cont "es despertaran."
 
-	para "It works on all"
-	line "sleeping #MON."
+	para "Funciona amb tots"
+	line "els #MON"
+	cont "adormits."
 	done
 
 _MrFujisHouseMrFujiPokeFluteNoRoomText::
-	text "You must make"
-	line "room for this!"
+	text "Has de fer lloc"
+	line "per això!"
 	done
 
 _MrFujisHouseMrFujiHasMyFluteHelpedYouText::
-	text "MR.FUJI: Has my"
-	line "FLUTE helped you?"
+	text "SR.FUJI: T'ha"
+	line "ajudat la meva"
+	cont "FLAUTA?"
 	done
 
 _MrFujisHouseMrFujiPokedexText::
-	text "#MON Monthly"
-	line "Grand Prize"
-	cont "Drawing!"
+	text "Gran Sorteig"
+	line "del Mensual"
+	cont "#MON!"
 
-	para "The application"
-	line "form is..."
+	para "El formulari de"
+	line "sol·licitud és..."
 
-	para "Gone! It's been"
-	line "clipped out!"
+	para "Ha desaparegut!"
+	line "L'han retallat!"
 	done

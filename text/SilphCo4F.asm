@@ -1,56 +1,56 @@
 _SilphCo4FSilphWorkerMImHidingText::
-	text "Sssh! Can't you"
-	line "see I'm hiding?"
+	text "Xsst! No veus que"
+	line "m'estic amagant?"
 	done
 
 _SilphCo4FSilphWorkerMTeamRocketIsGoneText::
-	text "Huh? TEAM ROCKET"
-	line "is gone?"
+	text "Eh? El TEAM ROCKET"
+	line "ha marxat?"
 	done
 
 _SilphCo4FRocket1BattleText::
-	text "TEAM ROCKET has"
-	line "taken command of"
-	cont "SILPH CO.!"
+	text "El TEAM ROCKET ha"
+	line "pres el control"
+	cont "de SILPH SA!"
 	done
 
 _SilphCo4FRocket1EndBattleText::
-	text "Arrgh!"
+	text "Argh!"
 	prompt
 
 _SilphCo4FRocket1AfterBattleText::
 	text "Fwahahaha!"
-	line "My BOSS has been"
-	cont "after this place!"
+	line "El meu CAP tenia"
+	cont "l'ull posat aquí!"
 	done
 
 _SilphCo4FScientistBattleText::
-	text "My #MON are my"
-	line "loyal soldiers!"
+	text "Els meus #MON són"
+	line "soldats lleials!"
 	done
 
 _SilphCo4FScientistEndBattleText::
-	text "Darn!"
-	line "You weak #MON!"
+	text "Diantres!"
+	line "#MON febles!"
 	prompt
 
 _SilphCo4FScientistAfterBattleText::
-	text "The doors are"
-	line "electronically"
-	cont "locked! A CARD"
-	cont "KEY opens them!"
+	text "Les portes estan"
+	line "tancades electrò-"
+	cont "nicament! Una CLAU"
+	cont "TARGETA les obre!"
 	done
 
 _SilphCo4FRocket2BattleText::
-	text "Intruder spotted!"
+	text "Intrús detectat!"
 	done
 
 _SilphCo4FRocket2EndBattleText::
-	text "Who"
-	line "are you?"
+	text "Qui"
+	line "ets?"
 	prompt
 
 _SilphCo4FRocket2AfterBattleText::
-	text "I better tell the"
-	line "BOSS on 11F!"
+	text "Millor aviso el"
+	line "CAP al pis 11!"
 	done

@@ -1,68 +1,72 @@
 _CeruleanBadgeHouseMiddleAgedManText::
-	text "#MON BADGEs"
-	line "are owned only by"
-	cont "skilled trainers."
+	text "Les INSÍGNIES"
+	line "#MON només les"
+	cont "tenen entrenadors"
+	cont "hàbils."
 
-	para "I see you have"
-	line "at least one."
+	para "Veig que en tens"
+	line "almenys una."
 
-	para "Those BADGEs have"
-	line "amazing secrets!"
+	para "Aquelles INSÍGNIES"
+	line "tenen secrets"
+	cont "sorprenents!"
 	prompt
 
 _CeruleanBadgeHouseMiddleAgedManWhichBadgeText::
-	text "Now then..."
+	text "I bé..."
 
-	para "Which of the 8"
-	line "BADGEs should I"
-	cont "describe?"
+	para "Quina de les 8"
+	line "INSÍGNIES hauria"
+	cont "de descriure?"
 	done
 
 _CeruleanBadgeHouseMiddleAgedManVisitAnyTimeText::
-	text "Come visit me any-"
-	line "time you wish."
+	text "Vine a visitar-me"
+	line "quan vulguis."
 	done
 
 _CeruleanBadgeHouseBoulderBadgeText::
-	text "The ATTACK of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "L'ATAC de tots"
+	line "els #MON"
+	cont "augmenta una mica."
 
-	para "It also lets you"
-	line "use FLASH any-"
-	cont "time you desire."
+	para "També et permet"
+	line "usar FLAIX quan"
+	cont "vulguis."
 	prompt
 
 _CeruleanBadgeHouseCascadeBadgeText::
-	text "#MON up to L30"
-	line "will obey you."
+	text "Els #MON fins"
+	line "a N30 t'obeiran."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "Els de nivell més"
+	line "alt es descontro-"
+	cont "laran!"
 
-	para "It also lets you"
-	line "use CUT outside"
-	cont "of battle."
+	para "També et permet"
+	line "usar TALL fora"
+	cont "de combat."
 	prompt
 
 _CeruleanBadgeHouseThunderBadgeText::
-	text "The SPEED of all"
-	line "#MON increases"
-	cont "a little bit."
+	text "La VELOCITAT de"
+	line "tots els #MON"
+	cont "augmenta una mica."
 
-	para "It also lets you"
-	line "use FLY outside"
-	cont "of battle."
+	para "També et permet"
+	line "usar VOL fora"
+	cont "de combat."
 	prompt
 
 _CeruleanBadgeHouseRainbowBadgeText::
-	text "#MON up to L50"
-	line "will obey you."
+	text "Els #MON fins"
+	line "a N50 t'obeiran."
 
-	para "Any higher, they"
-	line "become unruly!"
+	para "Els de nivell més"
+	line "alt es descontro-"
+	cont "laran!"
 
-	para "It also lets you"
-	line "use STRENGTH out-"
-	cont "side of battle."
+	para "També et permet"
+	line "usar FORÇA fora"
+	cont "de combat."
 	prompt

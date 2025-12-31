@@ -260,7 +260,7 @@ LoadTownMap_Fly::
 	jr .pressedDown
 
 ToText:
-	db "To@"
+	db "A@"
 
 BuildFlyLocationsList:
 	ld hl, wFlyAnimUsingCoordList
@@ -428,7 +428,7 @@ DisplayWildLocations:
 	jp CopyData
 
 AreaUnknownText:
-	db " AREA UNKNOWN@"
+	db " ZONA DESCON.@"
 
 TownMapCoordsToOAMCoords:
 ; in: lower nybble of a = x, upper nybble of a = y

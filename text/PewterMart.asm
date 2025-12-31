@@ -1,17 +1,17 @@
 _PewterMartYoungsterText::
-	text "A shady old man"
-	line "got me to buy"
-	cont "this really weird"
-	cont "fish #MON!"
+	text "Un vell sospitós"
+	line "m'ha fet comprar"
+	cont "un #MON peix"
+	cont "molt estrany!"
 
-	para "It's totally weak"
-	line "and it cost ¥500!"
+	para "És molt feble i"
+	line "m'ha costat ¥500!"
 	done
 
 _PewterMartSuperNerdText::
-	text "Good things can"
-	line "happen if you"
-	cont "raise #MON"
-	cont "diligently, even"
-	cont "the weak ones!"
+	text "Poden passar coses"
+	line "bones si cries"
+	cont "#MON amb cura,"
+	cont "fins i tot els"
+	cont "febles!"
 	done

@@ -1,187 +1,188 @@
 _Route24CooltrainerM1YouBeatOurContestText::
-	text "Congratulations!"
-	line "You beat our 5"
-	cont "contest trainers!@"
+	text "Felicitats!"
+	line "Has guanyat els"
+	cont "5 entrenadors del"
+	cont "concurs!@"
 	text_end
 
 _Route24CooltrainerM1YouJustEarnedAPrizeText::
 	text_start
 
-	para "You just earned a"
-	line "fabulous prize!"
+	para "T'has guanyat un"
+	line "premi fabulós!"
 	prompt
 
 _Route24CooltrainerM1ReceivedNuggetText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> ha rebut"
+	line "una @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _Route24CooltrainerM1NoRoomText::
-	text "You don't have"
-	line "any room!"
+	text "No tens espai!"
 	done
 
 _Route24CooltrainerM1JoinTeamRocketText::
-	text "By the way, would"
-	line "you like to join"
-	cont "TEAM ROCKET?"
+	text "Per cert, voldries"
+	line "unir-te al TEAM"
+	cont "ROCKET?"
 
-	para "We're a group"
-	line "dedicated to evil"
-	cont "using #MON!"
+	para "Som un grup"
+	line "dedicat al mal"
+	cont "usant #MON!"
 
-	para "Want to join?"
+	para "Vols unir-t'hi?"
 
-	para "Are you sure?"
+	para "N'estàs segur?"
 
-	para "Come on, join us!"
+	para "Vine, uneix-t'hi!"
 
-	para "I'm telling you"
-	line "to join!"
+	para "Et dic que"
+	line "t'hi uneixis!"
 
-	para "OK, you need"
-	line "convincing!"
+	para "D'acord, et cal"
+	line "que et convenci!"
 
-	para "I'll make you an"
-	line "offer you can't"
-	cont "refuse!"
+	para "Et faré una oferta"
+	line "que no podràs"
+	cont "rebutjar!"
 	done
 
 _Route24CooltrainerM1DefeatedText::
-	text "Arrgh!"
-	line "You are good!"
+	text "Argh!"
+	line "Ets bo!"
 	prompt
 
 _Route24CooltrainerM1YouCouldBecomeATopLeaderText::
-	text "With your ability,"
-	line "you could become"
-	cont "a top leader in"
+	text "Amb les teves"
+	line "habilitats podries"
+	cont "ser un líder del"
 	cont "TEAM ROCKET!"
 	done
 
 _Route24CooltrainerM2BattleText::
-	text "I saw your feat"
-	line "from the grass!"
+	text "He vist la teva"
+	line "proesa des de"
+	cont "l'herba!"
 	done
 
 _Route24CooltrainerM2EndBattleText::
-	text "I"
-	line "thought not!"
+	text "Ja"
+	line "m'ho pensava!"
 	prompt
 
 _Route24CooltrainerM2AfterBattleText::
-	text "I hid because the"
-	line "people on the"
-	cont "bridge scared me!"
+	text "M'he amagat perquè"
+	line "la gent del pont"
+	cont "em feia por!"
 	done
 
 _Route24CooltrainerM3BattleText::
-	text "OK! I'm No. 5!"
-	line "I'll stomp you!"
+	text "D'acord! Sóc el 5!"
+	line "Et trepitjaré!"
 	done
 
 _Route24CooltrainerM3EndBattleText::
-	text "Whoa!"
-	line "Too much!"
+	text "Uau!"
+	line "Massa fort!"
 	prompt
 
 _Route24CooltrainerM3AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "Ho he donat tot,"
+	line "no em penedeixo!"
 	done
 
 _Route24CooltrainerF1BattleText::
-	text "I'm No. 4!"
-	line "Getting tired?"
+	text "Sóc la 4!"
+	line "Estàs cansat?"
 	done
 
 _Route24CooltrainerF1EndBattleText::
-	text "I lost"
-	line "too!"
+	text "Jo també"
+	line "he perdut!"
 	prompt
 
 _Route24CooltrainerF1AfterBattleText::
-	text "I did my best, so"
-	line "I've no regrets!"
+	text "Ho he donat tot,"
+	line "no em penedeixo!"
 	done
 
 _Route24Youngster1BattleText::
-	text "Here's No. 3!"
-	line "I won't be easy!"
+	text "Aquí ve el 3!"
+	line "No serà fàcil!"
 	done
 
 _Route24Youngster1EndBattleText::
-	text "Ow!"
-	line "Stomped flat!"
+	text "Au!"
+	line "Esclafat!"
 	prompt
 
 _Route24Youngster1AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "Ho he donat tot,"
+	line "no em penedeixo!"
 	done
 
 _Route24CooltrainerF2BattleText::
-	text "I'm second!"
-	line "Now it's serious!"
+	text "Sóc la segona!"
+	line "Ara va de debò!"
 	done
 
 _Route24CooltrainerF2EndBattleText::
-	text "How could I"
-	line "lose?"
+	text "Com he"
+	line "pogut perdre?"
 	prompt
 
 _Route24CooltrainerF2AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "Ho he donat tot,"
+	line "no em penedeixo!"
 	done
 
 _Route24Youngster2BattleText::
-	text "This is NUGGET"
-	line "BRIDGE! Beat us 5"
-	cont "trainers and win"
-	cont "a fabulous prize!"
+	text "Això és el PONT"
+	line "PEPITA! Guanya'ns"
+	cont "a 5 entrenadors i"
+	cont "guanya un premi"
+	cont "fabulós!"
 
-	para "Think you got"
-	line "what it takes?"
+	para "Creus que pots?"
 	done
 
 _Route24Youngster2EndBattleText::
-	text "Whoo!"
-	line "Good stuff!"
+	text "Uau!"
+	line "Molt bé!"
 	prompt
 
 _Route24Youngster2AfterBattleText::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "Ho he donat tot,"
+	line "no em penedeixo!"
 	done
 
 _Route24DamianText1::
-	text "I'm not good at"
-	line "raising #MON."
+	text "No sóc bo criant"
+	line "#MON."
 
-	para "I should release"
-	line "my CHARMANDER"
-	cont "because I haven't"
-	cont "raised it well..."
+	para "Hauria d'alliberar"
+	line "el meu CHARMANDER"
+	cont "perquè no l'he"
+	cont "criat bé..."
 
-	para "If you promise me"
-	line "you'll care for"
-	cont "it, it's yours."
+	para "Si em promets que"
+	line "en tindràs cura,"
+	cont "és teu."
 	done
 
 _Route24DamianText2::
-	text "Take good care of"
-	line "my CHARMANDER!@"
+	text "Cuida bé del meu"
+	line "CHARMANDER!@"
 	text_end
 
 _Route24DamianText3::
-	text "Oh... I'd better"
-	line "release it then."
+	text "Oh... Doncs millor"
+	line "que l'alliberi."
 	done
 
 _Route24DamianText4::
-	text "How's CHARMANDER"
-	line "doing?"
+	text "Com està"
+	line "CHARMANDER?"
 	done

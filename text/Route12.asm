@@ -1,139 +1,145 @@
 _Route12SnorlaxText::
-	text "A sleeping #MON"
-	line "blocks the way!"
+	text "Un #MON adormit"
+	line "bloqueja el camí!"
 	done
 
 _Route12SnorlaxWokeUpText::
-	text "SNORLAX woke up!"
+	text "SNORLAX s'ha"
+	line "despertat!"
 
-	para "It attacked in a"
-	line "grumpy rage!"
+	para "Ha atacat amb"
+	line "ràbia malhumorada!"
 	done
 
 _Route12SnorlaxCalmedDownText::
-	text "SNORLAX calmed"
-	line "down! With a big"
-	cont "yawn, it returned"
-	cont "to the mountains!"
+	text "SNORLAX s'ha"
+	line "calmat! Amb un"
+	cont "gran badall, ha"
+	cont "tornat a les"
+	cont "muntanyes!"
 	done
 
 _Route12Fisher1BattleText::
-	text "Yeah! I got a"
-	line "bite, here!"
+	text "Sí! Aquí he tingut"
+	line "una picada!"
 	done
 
 _Route12Fisher1EndBattleText::
-	text "Tch!"
-	line "Just a small fry!"
+	text "Txe!"
+	line "Només un peixet!"
 	prompt
 
 _Route12Fisher1AfterBattleText::
-	text "Hang on! My line's"
-	line "snagged!"
+	text "Espera! El sedal"
+	line "s'ha enganxat!"
 	done
 
 _Route12Fisher2BattleText::
-	text "Be patient!"
-	line "Fishing is a"
-	cont "waiting game!"
+	text "Tingues paciència!"
+	line "Pescar és qüestió"
+	cont "d'esperar!"
 	done
 
 _Route12Fisher2EndBattleText::
-	text "That"
-	line "one got away!"
+	text "Aquest"
+	line "se m'ha escapat!"
 	prompt
 
 _Route12Fisher2AfterBattleText::
-	text "With a better ROD,"
-	line "I could catch"
-	cont "better #MON!"
+	text "Amb una CANYA"
+	line "millor, podria"
+	cont "pescar #MON"
+	cont "millors!"
 	done
 
 _Route12CooltrainerMBattleText::
-	text "Have you found a"
-	line "MOON STONE?"
+	text "Has trobat una"
+	line "PEDRA LLUNA?"
 	done
 
 _Route12CooltrainerMEndBattleText::
-	text "Oww!"
+	text "Au!"
 	prompt
 
 _Route12CooltrainerMAfterBattleText::
-	text "I could have made"
-	line "my #MON evolve"
-	cont "with MOON STONE!"
+	text "Podria haver fet"
+	line "evolucionar el meu"
+	cont "#MON amb una"
+	cont "PEDRA LLUNA!"
 	done
 
 _Route12SuperNerdBattleText::
-	text "Electricity is my"
-	line "specialty!"
+	text "L'electricitat és"
+	line "la meva"
+	cont "especialitat!"
 	done
 
 _Route12SuperNerdEndBattleText::
-	text "Unplugged!"
+	text "Desconnectat!"
 	prompt
 
 _Route12SuperNerdAfterBattleText::
-	text "Water conducts"
-	line "electricity, so"
-	cont "you should zap"
-	cont "sea #MON!"
+	text "L'aigua condueix"
+	line "l'electricitat,"
+	cont "hauries de fer"
+	cont "xoc als #MON"
+	cont "marins!"
 	done
 
 _Route12Fisher3BattleText::
-	text "The FISHING FOOL"
-	line "vs. #MON KID!"
+	text "El BOIG DE PESCAR"
+	line "vs. NEN #MON!"
 	done
 
 _Route12Fisher3EndBattleText::
-	text "Too"
-	line "much!"
+	text "Massa"
+	line "fort!"
 	prompt
 
 _Route12Fisher3AfterBattleText::
-	text "You beat me at"
-	line "#MON, but I'm"
-	cont "good at fishing!"
+	text "M'has guanyat als"
+	line "#MON, però sóc"
+	cont "bo pescant!"
 	done
 
 _Route12Fisher4BattleText::
-	text "I'd rather be"
-	line "working!"
+	text "Preferiria estar"
+	line "treballant!"
 	done
 
 _Route12Fisher4EndBattleText::
-	text "It's"
-	line "not easy..."
+	text "No és"
+	line "fàcil..."
 	prompt
 
 _Route12Fisher4AfterBattleText::
-	text "It's all right."
-	line "Losing doesn't"
-	cont "bug me anymore."
+	text "Està bé."
+	line "Perdre ja no em"
+	cont "molesta."
 	done
 
 _Route12Fisher5BattleText::
-	text "You never know"
-	line "what you could"
-	cont "catch!"
+	text "Mai saps què"
+	line "podries pescar!"
 	done
 
 _Route12Fisher5EndBattleText::
-	text "Lost"
-	line "it!"
+	text "L'he"
+	line "perdut!"
 	prompt
 
 _Route12Fisher5AfterBattleText::
-	text "I catch MAGIKARP"
-	line "all the time, but"
-	cont "they're so weak!"
+	text "Pesco MAGIKARP"
+	line "tot el temps, però"
+	cont "són tan febles!"
 	done
 
 _Route12SignText::
-	text "ROUTE 12 "
-	line "North to LAVENDER"
+	text "RUTA 12 "
+	line "Nord cap a LAVANDA"
 	done
 
 _Route12SportFishingSignText::
-	text "SPORT FISHING AREA"
+	text "ZONA DE PESCA"
+	line "ESPORTIVA"
 	done

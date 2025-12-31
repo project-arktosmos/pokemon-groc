@@ -90,8 +90,8 @@ CreditsTextPointers:
 	assert_table_length NUM_CRED_STRINGS
 
 CreditsText_Version:
-	db -6, "YELLOW VERSION"
-	next   "    STAFF@"
+	db -6, "VERSIÓ GROGA"
+	next   "    EQUIP@"
 CreditsText_Tajiri:
 	db -6, "SATOSHI TAJIRI@"
 CreditsText_Oota:
@@ -151,33 +151,33 @@ CreditsText_Pokemon:
 CreditsText_Director:
 	db -3, "DIRECTOR@"
 CreditsText_Programmers:
-	db -5, "PROGRAMMERS@"
+	db -5, "PROGRAMADORS@"
 CreditsText_CharacterDesign:
-	db -7, "CHARACTER DESIGN@"
+	db -7, "DISSENY PERSONATGES@"
 CreditsText_Music:
-	db -2, "MUSIC@"
+	db -2, "MÚSICA@"
 CreditsText_SoundEffects:
-	db -6, "SOUND EFFECTS@"
+	db -6, "EFECTES DE SO@"
 CreditsText_GameDesign:
-	db -5, "GAME DESIGN@"
+	db -5, "DISSENY JOC@"
 CreditsText_MonsterDesign:
-	db -6, "MONSTER DESIGN@"
+	db -6, "DISSENY MONSTRES@"
 CreditsText_GameScenario:
-	db -6, "GAME SCENARIO@"
+	db -6, "GUIÓ DEL JOC@"
 CreditsText_ParametricDesign:
-	db -7, "PARAMETRIC DESIGN@"
+	db -7, "DISSENY PARAMÈTRIC@"
 CreditsText_MapDesign:
-	db -4, "MAP DESIGN@"
+	db -4, "DISSENY MAPES@"
 CreditsText_Testing:
-	db -6, "PRODUCT TESTING@"
+	db -6, "PROVES PRODUCTE@"
 CreditsText_SpecialThanks:
-	db -6, "SPECIAL THANKS@"
+	db -6, "AGRAÏMENTS@"
 CreditsText_Producers:
-	db -4, "PRODUCERS@"
+	db -4, "PRODUCTORS@"
 CreditsText_Producer:
-	db -3, "PRODUCER@"
+	db -3, "PRODUCTOR@"
 CreditsText_ExecutiveProducer:
-	db -8, "EXECUTIVE PRODUCER@"
+	db -8, "PRODUCTOR EXECUTIU@"
 CreditsText_Tamada:
 	db -6, "SOUSUKE TAMADA@"
 CreditsText_Oota2:
@@ -220,13 +220,13 @@ CreditsText_Shogakukan:
 CreditsText_Ootani:
 	db -5, "IKUE OOTANI@"
 CreditsText_PikachuVoice:
-	db -6, "PIKACHU VOICE@"
+	db -6, "VEU DE PIKACHU@"
 
 	db -3, "××××××××@"
 CreditsText_USStaff:
-	db -7, "US VERSION STAFF@"
+	db -7, "EQUIP VERSIÓ US@"
 CreditsText_USCoord:
-	db -7, "US COORDINATION@"
+	db -7, "COORDINACIÓ US@"
 CreditsText_Tilden:
 	db -5, "GAIL TILDEN@"
 CreditsText_Kawakami:
@@ -238,7 +238,7 @@ CreditsText_Shoemake:
 CreditsText_Osborne:
 	db -5, "SARA OSBORNE@"
 CreditsText_Translation:
-	db -7, "TEXT TRANSLATION@"
+	db -7, "TRADUCCIÓ TEXT@"
 CreditsText_Ogasawara:
 	db -6, "NOB OGASAWARA@"
 CreditsText_Iwata:
@@ -254,7 +254,7 @@ CreditsText_Fukui:
 CreditsText_SuperMarioClub2:
 	db -9, "NCL SUPER MARIO CLUB@"
 CreditsText_Paad:
-	db -5, "PAAD TESTING@"
+	db -5, "PROVES PAAD@"
 CreditsText_Hosokawa:
 	db -8, "TAKEHIKO HOSOKAWA@"
 CreditsText_Okubo:

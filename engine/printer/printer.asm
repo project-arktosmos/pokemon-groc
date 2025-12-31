@@ -580,7 +580,7 @@ GBPrinter_UpdateStatusMessage:
 	ret
 
 .PressBToCancel:
-	db "Press B to Cancel@"
+	db "Prem B per Cancel@"
 
 .PrinterStatusMessages:
 	dw .Blank
@@ -597,35 +597,35 @@ GBPrinter_UpdateStatusMessage:
 	db   "@"
 .CheckingLink:
 	db   ""
-	next " CHECKING LINK...@"
+	next " VERIFICANT LINK...@"
 .Transmitting:
 	db   ""
-	next "  TRANSMITTING...@"
+	next "  TRANSMETENT...@"
 .Printing:
 	db   ""
-	next "    PRINTING...@"
+	next "    IMPRIMINT...@"
 .Error1:
-	db   " Printer Error 1"
+	db   "  Error Impres. 1"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual.@"
+	next "Mira el manual de"
+	next "la Game Boy Printer@"
 .Error2:
-	db   " Printer Error 2"
+	db   "  Error Impres. 2"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual.@"
+	next "Mira el manual de"
+	next "la Game Boy Printer@"
 .Error3:
-	db   " Printer Error 3"
+	db   "  Error Impres. 3"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual.@"
+	next "Mira el manual de"
+	next "la Game Boy Printer@"
 .Error4:
-	db   " Printer Error 4"
+	db   "  Error Impres. 4"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual.@"
+	next "Mira el manual de"
+	next "la Game Boy Printer@"
 .WrongDevice:
-	db   "This is not the"
+	db   "Això no és la"
 	next "Game Boy Printer!@"
 
 Printer_PrepareSurfingMinigameHighScoreTileMap::
@@ -725,11 +725,11 @@ INCBIN "gfx/surfing_pikachu/high_score_1.tilemap"
 INCBIN "gfx/surfing_pikachu/high_score_2.tilemap"
 
 .PikachusBeachString:
-	db "Pikachu's Beach@"
+	db "Platja Pikachu@"
 .HiScoreString:
-	db "'s Hi-Score@"
+	db " Rècord@"
 .PointsString:
-	db "Points@"
+	db "Punts@"
 
 Diploma_Surfing_CopyBox:
 .y
@@ -809,8 +809,8 @@ PrintPCBox_DrawPage1:
 	call PrintPCBox_PlaceBoxMonInfo
 	ret
 
-.PokemonListString: db "POKéMON LIST@"
-.BoxString: db "BOX@"
+.PokemonListString: db "LLISTA #MON@"
+.BoxString: db "CAIXA@"
 
 PrintPCBox_DrawPage2:
 	call ClearScreen

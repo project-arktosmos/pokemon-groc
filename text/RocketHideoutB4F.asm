@@ -1,60 +1,60 @@
 _RocketHideoutJessieJamesText1::
-	text "Not another step,"
-	line "brat!@"
+	text "Ni un pas més,"
+	line "marrec!@"
 	text_end
 
 _RocketHideoutJessieJamesText2::
-	text "How dare you"
-	line "humiliate us at"
-	cont "MT.MOON!"
+	text "Com t'atreveixes"
+	line "a humiliar-nos a"
+	cont "MONT LLUNA!"
 
-	para "It's payback time,"
-	line "you brat!"
+	para "Ha arribat l'hora"
+	line "de la revenja!"
 	done
 
 _RocketHideoutJessieJamesText3::
-	text "Such"
-	line "a dreadful twerp!"
+	text "Quin"
+	line "nano més terrible!"
 	prompt
 
 _RocketHideoutJessieJamesText4::
-	text "Looks like TEAM"
-	line "ROCKET's blasting"
-	cont "off again!@"
+	text "Sembla que el TEAM"
+	line "ROCKET surt"
+	cont "disparant de nou!@"
 	text_end
 
 _RocketHideoutB4FGiovanniImpressedYouGotHereText::
-	text "So! I must say, I"
-	line "am impressed you"
-	cont "got here!"
+	text "Bé! He de dir que"
+	line "estic impressionat"
+	cont "que hagis arribat!"
 	done
 
 _RocketHideoutB4FGiovanniWhatCannotBeText::
-	text "WHAT!"
-	line "This cannot be!"
+	text "QUÈ!"
+	line "Això no pot ser!"
 	prompt
 
 _RocketHideoutB4FGiovanniHopeWeMeetAgainText::
-	text "I see that you"
-	line "raise #MON"
-	cont "with utmost care."
+	text "Veig que cries"
+	line "#MON amb molta"
+	cont "cura."
 
-	para "A child like you"
-	line "would never"
-	cont "understand what I"
-	cont "hope to achieve."
+	para "Un nen com tu"
+	line "mai no entendria"
+	cont "el que espero"
+	cont "aconseguir."
 
-	para "I shall step"
-	line "aside this time!"
+	para "Em faré a un"
+	line "costat aquest cop!"
 
-	para "I hope we meet"
-	line "again..."
+	para "Espero que ens"
+	line "tornem a trobar..."
 	done
 
 _RocketHideoutB4FRocketBattleText::
-	text "The elevator"
-	line "doesn't work? Who"
-	cont "has the LIFT KEY?"
+	text "L'ascensor no"
+	line "funciona? Qui té"
+	cont "la CLAU ASCENSOR?"
 	done
 
 _RocketHideoutB4FRocketEndBattleText::
@@ -62,6 +62,7 @@ _RocketHideoutB4FRocketEndBattleText::
 	prompt
 
 _RocketHideoutB4FRocketAfterBattleText::
-	text "Oh no! I dropped"
-	line "the LIFT KEY!"
+	text "Oh no! He deixat"
+	line "caure la CLAU"
+	cont "ASCENSOR!"
 	done

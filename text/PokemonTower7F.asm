@@ -1,51 +1,53 @@
 _PokemonTowerJessieJamesText1::
-	text "Stop right there!@"
+	text "Para aquí!@"
 	text_end
 
 _PokemonTowerJessieJamesText2::
-	text "Grampa here wanted"
-	line "to complain, so"
-	cont "we're setting him"
-	cont "straight."
+	text "L'avi d'aquí volia"
+	line "queixar-se, així"
+	cont "que li estem"
+	cont "donant una lliçó."
 
-	para "So render yourself"
-	line "invisible, or"
-	cont "prepare to fight!"
+	para "Així que fes-te"
+	line "invisible, o"
+	cont "prepara't per"
+	cont "lluitar!"
 	done
 
 _PokemonTowerJessieJamesText3::
-	text "You"
-	line "will regret this!"
+	text "Te'n"
+	line "penediràs!"
 	prompt
 
 _PokemonTowerJessieJamesText4::
-	text "Looks like TEAM"
-	line "ROCKET's blasting"
-	cont "off again!@"
+	text "Sembla que el TEAM"
+	line "ROCKET surt"
+	cont "disparant de nou!@"
 	text_end
 
 _PokemonTower7FMrFujiRescueText::
-	text "MR.FUJI: Heh? You"
-	line "came to save me?"
+	text "SR.FUJI: Eh? M'has"
+	line "vingut a salvar?"
 
-	para "Thank you. But, I"
-	line "came here of my"
-	cont "own free will."
+	para "Gràcies. Però he"
+	line "vingut aquí per"
+	cont "voluntat pròpia."
 
-	para "I came to calm"
-	line "the soul of"
-	cont "CUBONE's mother."
+	para "He vingut a calmar"
+	line "l'ànima de la mare"
+	cont "de CUBONE."
 
-	para "I think MAROWAK's"
-	line "spirit has gone"
-	cont "to the afterlife."
+	para "Crec que l'esperit"
+	line "de MAROWAK ha anat"
+	cont "a l'altra vida."
 
-	para "I must thank you"
-	line "for your kind"
-	cont "concern!"
+	para "T'he d'agrair"
+	line "la teva amable"
+	cont "preocupació!"
 
-	para "Follow me to my"
-	line "home, #MON"
-	cont "HOUSE at the foot"
-	cont "of this tower."
+	para "Segueix-me a casa"
+	line "meva, la CASA"
+	cont "#MON al peu"
+	cont "d'aquesta torre."
 	done
+

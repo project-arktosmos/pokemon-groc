@@ -2132,7 +2132,7 @@ DisplayBattleMenu::
 	ld a, $2 ; select the "ITEM" menu
 	jp .upperLeftMenuItemWasNotSelected
 .oldManName
-	db "OLD MAN@"
+	db "VELL@"
 .profOakName
 	db "PROF.OAK@"
 .handleBattleMenuInput
@@ -2795,7 +2795,7 @@ MoveDisabledText:
 	text_end
 
 WhichTechniqueString:
-	db "WHICH TECHNIQUE?@"
+	db "QUINA TÈCNICA?@"
 
 SelectMenuItem_CursorUp:
 	ld a, [wCurrentMenuItem]
@@ -3077,10 +3077,10 @@ PrintMenuItem:
 	jp Delay3
 
 DisabledText:
-	db "Disabled!@"
+	db "Desactivat!@"
 
 TypeText:
-	db "TYPE@"
+	db "TIPUS@"
 
 SelectEnemyMove:
 	ld a, [wLinkState]

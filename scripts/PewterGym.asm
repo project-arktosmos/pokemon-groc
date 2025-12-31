@@ -18,7 +18,7 @@ PewterGym_Script:
 	ret
 
 .CityName:
-	db "PEWTER CITY@"
+	db "C. PELTRE@"
 
 .LeaderName:
 	db "BROCK@"

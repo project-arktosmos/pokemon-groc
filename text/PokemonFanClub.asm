@@ -1,45 +1,47 @@
 _PokemonFanClubClefairyFanNormalText::
-	text "Won't you admire"
-	line "my CLEFAIRY's"
-	cont "adorable tail?"
+	text "No vols admirar"
+	line "la cua adorable"
+	cont "del meu CLEFAIRY?"
 	done
 
 _PokemonFanClubClefairyFanBetterText::
-	text "Humph! My CLEFAIRY"
-	line "is twice as cute"
-	cont "as that one!"
+	text "Bah! El meu"
+	line "CLEFAIRY és el"
+	cont "doble de bonic"
+	cont "que aquest!"
 	done
 
 _PokemonFanClubClefairyFanText::
-	text "Our CHAIRMAN's new"
-	line "hobby is taking"
-	cont "#MON photos."
+	text "El nou hobby del"
+	line "nostre PRESIDENT"
+	cont "és fer fotos de"
+	cont "#MON."
 
-	para "He gave me a nice"
-	line "PRINT of my cute"
-	cont "CLEFAIRY."
+	para "Em va donar una"
+	line "FOTO maca del meu"
+	cont "CLEFAIRY bonic."
 	done
 
 _PokemonFanClubSeelFanNormalText::
-	text "I just love my"
+	text "Estimo el meu"
 	line "SEEL!"
 
-	para "It squeals when I"
-	line "hug it!"
+	para "Crida quan"
+	line "l'abraço!"
 	done
 
 _PokemonFanClubSeelFanBetterText::
-	text "Oh dear!"
+	text "Oh, vaja!"
 
-	para "My SEEL is far"
-	line "more attractive!"
+	para "El meu SEEL és"
+	line "molt més atractiu!"
 	done
 
 _PokemonFanClubSeelFanText::
-	text "I'm going to hook"
-	line "up the cable to"
-	cont "get a photo PRINT"
-	cont "of my SEEL!"
+	text "Connectaré el"
+	line "cable per obtenir"
+	cont "una FOTO impresa"
+	cont "del meu SEEL!"
 	done
 
 _PokemonFanClubClefairyText::
@@ -51,57 +53,58 @@ _PokemonFanClubSeelText::
 	done
 
 _PokemonFanClubChairmanIntroText::
-	text "I chair the"
-	line "#MON Fan Club!"
+	text "Presideixo el Club"
+	line "de Fans de #MON!"
 
-	para "I have more than"
-	line "100 #MON. I"
-	cont "love them all!"
+	para "Tinc més de 100"
+	line "#MON. Els estimo"
+	cont "a tots!"
 
-	para "I'm very fussy"
-	line "when it comes to"
-	cont "#MON!"
+	para "Sóc molt exigent"
+	line "quan es tracta"
+	cont "de #MON!"
 
-	para "So..."
+	para "Així que..."
 
-	para "Did you come to"
-	line "hear me brag"
-	cont "about my #MON?"
+	para "Has vingut a"
+	line "escoltar-me"
+	cont "presumir dels"
+	cont "meus #MON?"
 	done
 
 _PokemonFanClubChairmanStoryText::
-	text "Good!"
-	line "Then listen up!"
+	text "Bé!"
+	line "Doncs escolta!"
 
-	para "My favorite"
-	line "RAPIDASH..."
+	para "El meu RAPIDASH"
+	line "preferit..."
 
-	para "It...cute..."
-	line "lovely...smart..."
-	cont "plus...amazing..."
-	cont "you think so?..."
-	cont "oh yes...it..."
-	cont "stunning..."
-	cont "kindly..."
-	cont "love it!"
+	para "És...maco..."
+	line "adorable...llest.."
+	cont "a més...increïble."
+	cont "no ho creus?..."
+	cont "oh sí...és..."
+	cont "impressionant..."
+	cont "amable..."
+	cont "l'estimo!"
 
-	para "Hug it...when..."
-	line "sleeping...warm"
-	cont "and cuddly..."
-	cont "spectacular..."
-	cont "ravishing..."
-	cont "...Oops! Look at"
-	cont "the time! I kept"
-	cont "you too long!"
+	para "L'abraço...quan..."
+	line "dorm...calent"
+	cont "i suau..."
+	cont "espectacular..."
+	cont "encantador..."
+	cont "...Ui! Mira quina"
+	cont "hora és! T'he"
+	cont "entretingut massa!"
 
-	para "Thanks for hearing"
-	line "me out! I want"
-	cont "you to have this!"
+	para "Gràcies per"
+	line "escoltar-me! Vull"
+	cont "que tinguis això!"
 	prompt
 
 _PokemonFanClubReceivedBikeVoucherText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> ha rebut"
+	line "un @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
@@ -109,72 +112,79 @@ _PokemonFanClubReceivedBikeVoucherText::
 _PokemonFanClubExplainBikeVoucherText::
 	text_start
 
-	para "Exchange that for"
-	line "a BICYCLE!"
+	para "Canvia'l per"
+	line "una BICICLETA!"
 
-	para "Don't worry, my"
-	line "FEAROW will FLY"
-	cont "me anywhere!"
+	para "No et preocupis,"
+	line "el meu FEAROW"
+	cont "em porta volant"
+	cont "a tot arreu!"
 
-	para "So, I don't need a"
-	line "BICYCLE!"
+	para "Així que no"
+	line "necessito una"
+	cont "BICICLETA!"
 
-	para "I hope you like"
-	line "cycling!"
+	para "Espero que"
+	line "t'agradi anar"
+	cont "en bici!"
 	done
 
 _PokemonFanClubNoStoryText::
-	text "Oh. Come back"
-	line "when you want to"
-	cont "hear my story!"
+	text "Oh. Torna quan"
+	line "vulguis escoltar"
+	cont "la meva història!"
 	done
 
 _PokemonFanClubChairFinalText::
-	text "Hello, <PLAYER>!"
+	text "Hola, <PLAYER>!"
 
-	para "Did you come see"
-	line "me about my"
-	cont "#MON again?"
+	para "Has vingut a"
+	line "veure'm pels meus"
+	cont "#MON una altra"
+	cont "vegada?"
 
-	para "No? Too bad!"
+	para "No? Quina"
+	line "llàstima!"
 	done
 
 _PokemonFanClubBagFullText::
-	text "Make room for"
-	line "this!"
+	text "Fes lloc per"
+	line "a això!"
 	done
 
 FanClubChairPrintText1::
-	text "Hi there, <PLAYER>!"
-	line "Have you seen my"
-	cont "#MON photos?"
+	text "Hola, <PLAYER>!"
+	line "Has vist les meves"
+	cont "fotos de #MON?"
 
-	para "I have them framed"
-	line "up on that wall."
+	para "Les tinc"
+	line "emmarcades a"
+	cont "aquella paret."
 
-	para "Ah, I know!"
+	para "Ah, ja sé!"
 
-	para "Would you like me"
-	line "to take a photo"
-	cont "of your #MON?"
+	para "Vols que faci una"
+	line "foto del teu"
+	cont "#MON?"
 	done
 
 FanClubChairPrintText2::
-	text "No? That's really"
-	line "disappointing."
+	text "No? Això és molt"
+	line "decebedor."
 	done
 
 FanClubChairPrintText3::
-	text "OK, I'm done."
+	text "D'acord, ja està."
 	done
 
 FanClubChairPrintText4::
-	text "Maybe we won't"
-	line "PRINT this now."
+	text "Potser no ho"
+	line "imprimirem ara."
 	done
 
 _PokemonFanClubReceptionistText::
-	text "Our CHAIRMAN is"
-	line "very vocal about"
+	text "El nostre"
+	line "PRESIDENT és molt"
+	cont "parlador sobre"
 	cont "#MON."
 	done

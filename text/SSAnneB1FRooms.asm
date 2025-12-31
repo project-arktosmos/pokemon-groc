@@ -4,111 +4,118 @@ _SSAnneB1FRoomsMachokeText::
 	text_end
 
 _SSAnneB1FRoomsSailor1BattleText::
-	text "You know what they"
-	line "say about sailors"
-	cont "and fighting!"
+	text "Ja saps el que"
+	line "diuen dels"
+	cont "mariners i les"
+	cont "baralles!"
 	done
 
 _SSAnneB1FRoomsSailor1EndBattleText::
-	text "Right!"
-	line "Good fight, mate!"
+	text "Molt bé!"
+	line "Bona lluita, nano!"
 	prompt
 
 _SSAnneB1FRoomsSailor1AfterBattleText::
-	text "Haha! Want to be"
-	line "a sailor, mate?"
+	text "Haha! Vols ser"
+	line "mariner, nano?"
 	done
 
 _SSAnneB1FRoomsSailor2BattleText::
-	text "My sailor's pride"
-	line "is at stake!"
+	text "El meu orgull de"
+	line "mariner està en"
+	cont "joc!"
 	done
 
 _SSAnneB1FRoomsSailor2EndBattleText::
-	text "Your"
-	line "spirit sank me!"
+	text "El teu"
+	line "esperit m'ha"
+	cont "enfonsat!"
 	prompt
 
 _SSAnneB1FRoomsSailor2AfterBattleText::
-	text "Did you see the"
-	line "FISHING GURU in"
-	cont "VERMILION CITY?"
+	text "Has vist el MESTRE"
+	line "DE PESCA a CIUTAT"
+	cont "VERMELLA?"
 	done
 
 _SSAnneB1FRoomsSailor3BattleText::
-	text "Us sailors have"
-	line "#MON too!"
+	text "Els mariners també"
+	line "tenim #MON!"
 	done
 
 _SSAnneB1FRoomsSailor3EndBattleText::
-	text "OK, "
-	line "you're not bad."
+	text "Bé, "
+	line "no ets dolent."
 	prompt
 
 _SSAnneB1FRoomsSailor3AfterBattleText::
-	text "We caught all our"
-	line "#MON while"
-	cont "out at sea!"
+	text "Hem atrapat tots"
+	line "els nostres"
+	cont "#MON navegant"
+	cont "mar endins!"
 	done
 
 _SSAnneB1FRoomsSailor4BattleText::
-	text "I like feisty"
-	line "kids like you!@"
+	text "M'agraden els"
+	line "nens valents!@"
 	text_end
 
 _SSAnneB1FRoomsSailor4EndBattleText::
-	text "Argh!"
-	line "Lost it!"
+	text "Arg!"
+	line "L'he perdut!"
 	prompt
 
 _SSAnneB1FRoomsSailor4AfterBattleText::
-	text "Sea #MON live"
-	line "in deep water."
-	cont "You'll need a ROD!"
+	text "Els #MON marins"
+	line "viuen a aigües"
+	cont "profundes."
+	cont "Necessites CANYA!"
 	done
 
 _SSAnneB1FRoomsSailor5BattleText::
-	text "Matey, you're"
-	line "walking the plank"
-	cont "if you lose!"
+	text "Nano, passaràs"
+	line "per la planca si"
+	cont "perds!"
 	done
 
 _SSAnneB1FRoomsSailor5EndBattleText::
-	text "Argh!"
-	line "Beaten by a kid!"
+	text "Arg!"
+	line "Vençut per un nen!"
 	prompt
 
 _SSAnneB1FRoomsSailor5AfterBattleText::
-	text "Jellyfish some-"
-	line "times drift into"
-	cont "the ship."
+	text "De vegades les"
+	line "meduses entren"
+	cont "al vaixell."
 	done
 
 _SSAnneB1FRoomsFisherBattleText::
-	text "Hello stranger!"
-	line "Stop and chat!"
+	text "Hola foraster!"
+	line "Para i parla!"
 
-	para "All my #MON"
-	line "are from the sea!"
+	para "Tots els meus"
+	line "#MON són"
+	cont "del mar!"
 	done
 
 _SSAnneB1FRoomsFisherEndBattleText::
-	text "Darn!"
-	line "I let that one"
-	cont "get away!"
+	text "Diantres!"
+	line "Aquest se m'ha"
+	cont "escapat!"
 	prompt
 
 _SSAnneB1FRoomsFisherAfterBattleText::
-	text "I was going to"
-	line "make you my"
-	cont "assistant too!"
+	text "I que t'anava a"
+	line "fer el meu"
+	cont "ajudant!"
 	done
 
 _SSAnneB1FRoomsSuperNerdText::
-	text "My buddy, MACHOKE,"
-	line "is super strong!"
+	text "El meu amic,"
+	line "MACHOKE, és"
+	cont "super fort!"
 
-	para "He has enough"
-	line "STRENGTH to move"
-	cont "big rocks!"
+	para "Té prou FORÇA"
+	line "per moure grans"
+	cont "roques!"
 	done

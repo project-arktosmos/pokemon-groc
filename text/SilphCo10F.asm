@@ -1,68 +1,72 @@
 _SilphCo10FSilphWorkerFImScaredText::
-	text "Waaaaa!"
-	line "I'm scared!"
+	text "Uaaaa!"
+	line "Tinc por!"
 	done
 
 _SilphCo10FSilphWorkerFQuietAboutMyCryingText::
-	text "Please keep quiet"
-	line "about my crying!"
+	text "Si us plau no"
+	line "diguis que jo"
+	cont "plorava!"
 	done
 
 _SilphCo10FRocketBattleText::
-	text "Welcome to the"
-	line "10F! So good of"
-	cont "you to join me!"
+	text "Benvingut al pis"
+	line "10! Gràcies per"
+	cont "unir-t'hi!"
 	done
 
 _SilphCo10FRocketEndBattleText::
-	text "I'm"
-	line "stunned!"
+	text "Estic"
+	line "al·lucinat!"
 	prompt
 
 _SilphCo10FRocketAfterBattleText::
-	text "Nice try, but the"
-	line "boardroom is up"
-	cont "one more floor!"
+	text "Bona prova, però"
+	line "la sala de juntes"
+	cont "és un pis més"
+	cont "amunt!"
 	done
 
 _SilphCo10FScientistBattleText::
-	text "Enough of your"
-	line "silly games!"
+	text "N'hi ha prou dels"
+	line "teus jocs absurds!"
 	done
 
 _SilphCo10FScientistEndBattleText::
 	text "No"
-	line "continues left!"
+	line "queden continues!"
 	prompt
 
 _SilphCo10FScientistAfterBattleText::
-	text "Are you satisfied"
-	line "with beating me?"
-	cont "Then go on home!"
+	text "Estàs satisfet"
+	line "d'haver-me vençut?"
+	cont "Doncs vés a casa!"
 	done
 
 _SilphCoJessieJamesText1::
-	text "Hold it right"
-	line "there, brat!@"
+	text "Para aquí,"
+	line "marrec!@"
 	text_end
 
 _SilphCoJessieJamesText2::
-	text "Our BOSS is in a"
-	line "meeting!"
+	text "El nostre CAP està"
+	line "en una reunió!"
 
-	para "You better not"
-	line "disturb him!"
+	para "Més val que no"
+	line "el molestis!"
 	done
 
 _SilphCoJessieJamesText3::
-	text "Like"
-	line "always..."
+	text "Com"
+	line "sempre..."
 	prompt
 
 _SilphCoJessieJamesText4::
-	text "TEAM ROCKET, blast"
-	line "off at the speed"
-	cont "of light!"
+	text "TEAM ROCKET, surt"
+	line "disparant a la"
+	cont "velocitat de la"
+	cont "llum!"
 
-	para "Again...@"
+	para "Una altra"
+	line "vegada...@"
 	text_end

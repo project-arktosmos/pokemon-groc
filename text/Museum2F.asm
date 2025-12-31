@@ -1,59 +1,62 @@
 _Museum2FYoungsterText::
-	text "MOON STONE?"
+	text "PEDRA LUNAR?"
 
-	para "What's so special"
-	line "about it?"
+	para "Què té"
+	line "d'especial?"
 	done
 
 _Museum2FGrampsText::
-	text "July 20, 1969!"
+	text "20 de juliol de"
+	line "1969!"
 
-	para "The 1st lunar"
-	line "landing!"
+	para "El primer"
+	line "allunatge!"
 
-	para "I bought a color"
-	line "TV to watch it!"
+	para "Vaig comprar una"
+	line "TV en color per"
+	cont "veure-ho!"
 	done
 
 _Museum2FScientistText::
-	text "We have a space"
-	line "exhibit now."
+	text "Tenim una expo-"
+	line "sició espacial."
 	done
 
 _Museum2FBrunetteGirlText::
-	text "I want a PIKACHU!"
-	line "It's so cute!"
+	text "Vull un PIKACHU!"
+	line "És tan maco!"
 
-	para "I asked my Daddy"
-	line "to catch me one!"
+	para "Li he demanat al"
+	line "papa que me'n"
+	cont "capturi un!"
 	done
 
 _Museum2FHikerText::
-	text "Yeah, a PIKACHU"
-	line "soon, I promise!"
+	text "Sí, un PIKACHU"
+	line "aviat, ho prometo!"
 	done
 
 _Museum2FPikachuText1::
-	text "Your PIKACHU looks"
-	line "untamed."
-	cont "May I have it for"
-	cont "my daughter?"
+	text "El teu PIKACHU"
+	line "sembla indomat."
+	cont "Me'l dones per a"
+	cont "la meva filla?"
 	done
 
 _Museum2FPikachuText2::
-	text "I'd like to get"
-	line "that PIKACHU off"
-	cont "you, but it's too"
-	cont "attached to you."
+	text "M'agradaria tenir"
+	line "el teu PIKACHU,"
+	cont "però et té massa"
+	cont "afecte."
 	done
 
 _Museum2FSpaceShuttleSignText::
-	text "SPACE SHUTTLE"
-	line "COLUMBIA"
+	text "TRANSBORDADOR"
+	line "ESPACIAL COLUMBIA"
 	done
 
 _Museum2FMoonStoneSignText::
-	text "Meteorite that"
-	line "fell on MT.MOON."
-	cont "(MOON STONE?)"
+	text "Meteorit que va"
+	line "caure al MT.MOON."
+	cont "(PEDRA LUNAR?)"
 	done

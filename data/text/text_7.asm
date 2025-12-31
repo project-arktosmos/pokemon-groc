@@ -3,103 +3,103 @@ _PokemonText::
 	done
 
 _PokemartGreetingText::
-	text "Hi there!"
-	next "May I help you?"
+	text "Hola!"
+	next "Puc ajudar-te?"
 	done
 
 _PokemonFaintedText::
 	text_ram wNameBuffer
 	text_start
-	line "fainted!"
+	line "s'ha debilitat!"
 	done
 
 _PlayerBlackedOutText::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> no té"
+	line "#MON disponibles!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER> s'ha"
+	line "desmallat!"
 	prompt
 
 _RepelWoreOffText::
-	text "REPEL's effect"
-	line "wore off."
+	text "L'efecte del REPEL"
+	line "s'ha acabat."
 	done
 
 _PokemartBuyingGreetingText::
-	text "Take your time."
+	text "Mira tranquil."
 	done
 
 _PokemartTellBuyPriceText::
 	text_ram wStringBuffer
 	text "?"
-	line "That will be"
+	line "Seran"
 	cont "¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text ". OK?"
+	text ". D'acord?"
 	done
 
 _PokemartBoughtItemText::
-	text "Here you are!"
-	line "Thank you!"
+	text "Aquí tens!"
+	line "Gràcies!"
 	prompt
 
 _PokemartNotEnoughMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "No tens prou"
+	line "diners."
 	prompt
 
 _PokemartItemBagFullText::
-	text "You can't carry"
-	line "any more items."
+	text "No pots portar"
+	line "més objectes."
 	prompt
 
 _PokemonSellingGreetingText::
-	text "What would you"
-	line "like to sell?"
+	text "Què vols"
+	line "vendre?"
 	done
 
 _PokemartTellSellPriceText::
-	text "I can pay you"
+	text "Et puc pagar"
 	line "¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text " for that."
+	text " per això."
 	done
 
 _PokemartItemBagEmptyText::
-	text "You don't have"
-	line "anything to sell."
+	text "No tens res"
+	line "per vendre."
 	prompt
 
 _PokemartUnsellableItemText::
-	text "I can't put a"
-	line "price on that."
+	text "No puc posar-li"
+	line "un preu."
 	prompt
 
 _PokemartThankYouText::
-	text "Thank you!"
+	text "Gràcies!"
 	done
 
 _PokemartAnythingElseText::
-	text "Is there anything"
-	line "else I can do?"
+	text "Puc fer alguna"
+	line "cosa més?"
 	done
 
 _LearnedMove1Text::
 	text_ram wLearnMoveMonName
-	text " learned"
+	text " ha après"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _WhichMoveToForgetText::
-	text "Which move should"
-	next "be forgotten?"
+	text "Quin moviment"
+	next "s'ha d'oblidar?"
 	done
 
 _AbandonLearningText::
-	text "Abandon learning"
+	text "Abandonar aprendre"
 	line "@"
 	text_ram wStringBuffer
 	text "?"
@@ -108,7 +108,7 @@ _AbandonLearningText::
 _DidNotLearnText::
 	text_ram wLearnMoveMonName
 	text_start
-	line "did not learn"
+	line "no ha après"
 	cont "@"
 	text_ram wStringBuffer
 	text "!"
@@ -116,101 +116,101 @@ _DidNotLearnText::
 
 _TryingToLearnText::
 	text_ram wLearnMoveMonName
-	text " is"
-	line "trying to learn"
+	text " vol"
+	line "aprendre"
 	cont "@"
 	text_ram wStringBuffer
 	text "!"
 
-	para "But, @"
+	para "Però, @"
 	text_ram wLearnMoveMonName
 	text_start
-	line "can't learn more"
-	cont "than 4 moves!"
+	line "no pot aprendre"
+	cont "més de 4 movim.!"
 
-	para "Delete an older"
-	line "move to make room"
-	cont "for @"
+	para "Esborrar un mov."
+	line "antic per fer"
+	cont "lloc a @"
 	text_ram wStringBuffer
 	text "?"
 	done
 
 _OneTwoAndText::
-	text "1, 2 and...@"
+	text "1, 2 i...@"
 	text_end
 
 _PoofText::
-	text " Poof!@"
+	text " Puf!@"
 	text_end
 
 _ForgotAndText::
 	text_start
 	para "@"
 	text_ram wLearnMoveMonName
-	text " forgot"
+	text " oblida"
 	line "@"
 	text_ram wNameBuffer
 	text "!"
 
-	para "And..."
+	para "I..."
 	prompt
 
 _HMCantDeleteText::
-	text "HM techniques"
-	line "can't be deleted!"
+	text "No es poden esborrar"
+	line "tècniques MO!"
 	prompt
 
 _PokemonCenterWelcomeText::
-	text "Welcome to our"
-	line "#MON CENTER!"
+	text "Benvingut al"
+	line "CENTRE #MON!"
 
-	para "We heal your"
-	line "#MON back to"
-	cont "perfect health!"
+	para "Curem els teus"
+	line "#MON fins que"
+	cont "estiguin bé!"
 	prompt
 
 _ShallWeHealYourPokemonText::
-	text "Shall we heal your"
-	line "#MON?"
+	text "Vols que curem els"
+	line "teus #MON?"
 	done
 
 _NeedYourPokemonText::
-	text "OK. We'll need"
-	line "your #MON."
+	text "D'acord. Necessito"
+	line "els teus #MON."
 	done
 
 _PokemonFightingFitText::
-	text "Thank you!"
-	line "Your #MON are"
-	cont "fighting fit!"
+	text "Gràcies!"
+	line "Els teus #MON"
+	cont "estan en forma!"
 	prompt
 
 _PokemonCenterFarewellText::
-	text "We hope to see"
-	line "you again!"
+	text "Torna sempre que"
+	line "ho necessitis!"
 	done
 
 _LooksContentText::
-	text "It looks very"
-	line "content asleep."
+	text "Sembla molt content"
+	line "adormit."
 	done
 
 _CableClubNPCAreaReservedFor2FriendsLinkedByCableText::
-	text "This area is"
-	line "reserved for 2"
-	cont "friends who are"
-	cont "linked by cable."
+	text "Aquesta àrea està"
+	line "reservada per a 2"
+	cont "amics connectats"
+	cont "per cable."
 	done
 
 _CableClubNPCWelcomeText::
-	text "Welcome to the"
-	line "Cable Club!"
+	text "Benvingut al"
+	line "Club del Cable!"
 	done
 
 _CableClubNPCPleaseApplyHereHaveToSaveText::
-	text "Please apply here."
+	text "Inscriu-te aquí."
 
-	para "Before opening"
-	line "the link, we have"
-	cont "to save the game."
+	para "Abans d'obrir"
+	line "l'enllaç, hem de"
+	cont "desar la partida."
 	done

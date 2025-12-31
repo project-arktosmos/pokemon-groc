@@ -1,24 +1,23 @@
 _Route15Gate2FOaksAideExpAllText::
-	text "EXP.ALL gives"
-	line "EXP points to all"
-	cont "the #MON with"
-	cont "you, even if they"
-	cont "don't fight."
+	text "El REPARTIR EXP"
+	line "dóna punts d'EXP"
+	cont "a tots els #MON"
+	cont "que portes, encara"
+	cont "que no lluitin."
 
-	para "It does, however,"
-	line "reduce the amount"
-	cont "of EXP for each"
-	cont "#MON."
+	para "Tot i així redueix"
+	line "la quantitat d'EXP"
+	cont "per a cada #MON."
 
-	para "If you don't need"
-	line "it, you should "
-	cont "store it via PC."
+	para "Si no el vols,"
+	line "hauries de posar-"
+	cont "lo al PC."
 	done
 
 _Route15Gate2FBinocularsText::
-	text "Looked into the"
-	line "binoculars."
+	text "Has mirat pels"
+	line "prismàtics."
 
-	para "It looks like a"
-	line "small island!"
+	para "Sembla una illa"
+	line "petita!"
 	done

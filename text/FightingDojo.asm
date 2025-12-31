@@ -1,130 +1,133 @@
 _FightingDojoKarateMasterText::
 	text "Grunt!"
 
-	para "I am the KARATE"
-	line "MASTER! I am the"
-	cont "LEADER here!"
+	para "Sóc el MESTRE DE"
+	line "KARATE! Sóc el"
+	cont "LÍDER aquí!"
 
-	para "You wish to"
-	line "challenge us?"
-	cont "Expect no mercy!"
+	para "Vols desafiar-nos?"
+	line "No esperis"
+	cont "pietat!"
 
 	para "Fwaaa!"
 	done
 
 _FightingDojoKarateMasterDefeatedText::
 	text "Hwa!"
-	line "Arrgh! Beaten!"
+	line "Arrgh! Vençut!"
 	prompt
 
 _FightingDojoKarateMasterIWillGiveYouAPokemonText::
-	text "Indeed, I have"
-	line "lost!"
+	text "Cert, he"
+	line "perdut!"
 
-	para "But, I beseech"
-	line "you, do not take"
-	cont "our emblem as"
-	cont "your trophy!"
+	para "Però, et demano"
+	line "que no t'emportis"
+	cont "el nostre emblema"
+	cont "com a trofeu!"
 
-	para "In return, I will"
-	line "give you a prized"
-	cont "fighting #MON!"
+	para "A canvi, et donaré"
+	line "un preat #MON"
+	cont "de lluita!"
 
-	para "Choose whichever"
-	line "one you like!"
+	para "Tria el que"
+	line "vulguis!"
 	done
 
 _FightingDojoKarateMasterStayAndTrainWithUsText::
 	text "Ho!"
 
-	para "Stay and train at"
-	line "Karate with us!"
+	para "Queda't a entrenar"
+	line "Karate amb"
+	cont "nosaltres!"
 	done
 
 _FightingDojoBlackbelt1BattleText::
-	text "Hoargh! Take your"
-	line "shoes off!"
+	text "Hoargh! Treu-te"
+	line "les sabates!"
 	done
 
 _FightingDojoBlackbelt1EndBattleText::
-	text "I give"
-	line "up!"
+	text "Em"
+	line "rendeixo!"
 	prompt
 
 _FightingDojoBlackbelt1AfterBattleText::
-	text "You wait 'til you"
-	line "see our Master!"
+	text "Espera a veure el"
+	line "nostre Mestre!"
 
-	para "I'm a small fry"
-	line "compared to him!"
+	para "Sóc un peix petit"
+	line "comparat amb ell!"
 	done
 
 _FightingDojoBlackbelt2BattleText::
-	text "I hear you're"
-	line "good! Show me!"
+	text "He sentit que ets"
+	line "bo! Demostra-ho!"
 	done
 
 _FightingDojoBlackbelt2EndBattleText::
-	text "Judge!"
-	line "1 point!"
+	text "Jutge!"
+	line "1 punt!"
 	prompt
 
 _FightingDojoBlackbelt2AfterBattleText::
-	text "Our Master is a"
-	line "pro fighter!"
+	text "El nostre Mestre"
+	line "és un lluitador"
+	cont "professional!"
 	done
 
 _FightingDojoBlackbelt3BattleText::
-	text "Nothing tough"
-	line "frightens me!"
+	text "Res dur no"
+	line "m'espanta!"
 
-	para "I break boulders"
-	line "for training!"
+	para "Trenco roques"
+	line "per entrenar!"
 	done
 
 _FightingDojoBlackbelt3EndBattleText::
-	text "Yow!"
-	line "Stubbed fingers!"
+	text "Ai!"
+	line "Dits colpejats!"
 	prompt
 
 _FightingDojoBlackbelt3AfterBattleText::
-	text "The only thing"
-	line "that frightens us"
-	cont "is psychic power!"
+	text "L'única cosa que"
+	line "ens espanta és"
+	cont "el poder psíquic!"
 	done
 
 _FightingDojoBlackbelt4BattleText::
 	text "Hoohah!"
 
-	para "You're trespassing"
-	line "in our FIGHTING"
-	cont "DOJO!"
+	para "Estàs entrant"
+	line "al nostre DOJO"
+	cont "DE LLUITA!"
 	done
 
 _FightingDojoBlackbelt4EndBattleText::
-	text "Oof!"
-	line "I give up!"
+	text "Uf!"
+	line "Em rendeixo!"
 	prompt
 
 _FightingDojoBlackbelt4AfterBattleText::
-	text "The prime fighters"
-	line "across the land"
-	cont "train here."
+	text "Els millors"
+	line "lluitadors del"
+	cont "país entrenen"
+	cont "aquí."
 	done
 
 _FightingDojoHitmonleePokeBallText::
-	text "You want the"
-	line "hard-kicking"
-	cont "HITMONLEE?"
+	text "Vols l'HITMONLEE"
+	line "de les potades"
+	cont "fortes?"
 	done
 
 _FightingDojoHitmonchanPokeBallText::
-	text "You want the"
-	line "piston-punching"
-	cont "HITMONCHAN?"
+	text "Vols l'HITMONCHAN"
+	line "dels cops de puny"
+	cont "de pistó?"
 	done
 
 _FightingDojoBetterNotGetGreedyText::
-	text "Better not get"
-	line "greedy..."
+	text "Millor no ser"
+	line "cobdiciós..."
 	done

@@ -1,56 +1,57 @@
 __SilphCo8FSilphWorkerMThanksForSavingUsText::
-	text "I wonder if SILPH"
-	line "is finished..."
+	text "Em pregunto si"
+	line "SILPH ha acabat..."
 	done
 
 _SilphCo8FSilphWorkerMThanksForSavingUsText::
-	text "Thanks for saving"
-	line "us!"
+	text "Gràcies per"
+	line "salvar-nos!"
 	done
 
 _SilphCo8FRocket1BattleText::
-	text "That's as far as"
-	line "you'll go!"
+	text "Fins aquí has"
+	line "arribat!"
 	done
 
 _SilphCo8FRocket1EndBattleText::
-	text "Not"
-	line "enough grit!"
+	text "No"
+	line "n'he tingut prou!"
 	prompt
 
 _SilphCo8FRocket1AfterBattleText::
-	text "If you don't turn"
-	line "back, I'll call"
-	cont "for backup!"
+	text "Si no tornes"
+	line "enrere, cridaré"
+	cont "reforços!"
 	done
 
 _SilphCo8FScientistBattleText::
-	text "You're causing us"
-	line "problems!"
+	text "Ens estàs causant"
+	line "problemes!"
 	done
 
 _SilphCo8FScientistEndBattleText::
-	text "Huh?"
-	line "I lost?"
+	text "Eh?"
+	line "He perdut?"
 	prompt
 
 _SilphCo8FScientistAfterBattleText::
-	text "So, what do you"
-	line "think of SILPH"
-	cont "BUILDING's maze?"
+	text "Doncs, què et"
+	line "sembla el laberint"
+	cont "de l'EDIFICI SILPH"
 	done
 
 _SilphCo8FRocket2BattleText::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "Sóc un dels 4"
+	line "GERMANS ROCKET!"
 	done
 
 _SilphCo8FRocket2EndBattleText::
-	text "Whoo!"
-	line "Oh brothers!"
+	text "Uu!"
+	line "Germans!"
 	prompt
 
 _SilphCo8FRocket2AfterBattleText::
-	text "I'll leave you up"
-	line "to my brothers!"
+	text "Et deixo a les"
+	line "mans dels meus"
+	cont "germans!"
 	done

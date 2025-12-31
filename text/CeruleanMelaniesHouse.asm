@@ -1,35 +1,34 @@
 MelanieText1::
-	text "I take care of"
-	line "injured #MON."
+	text "Cuido els #MON"
+	line "ferits."
 
-	para "I nursed this"
-	line "BULBASAUR back to"
-	cont "health."
+	para "He curat aquest"
+	line "BULBASAUR."
 
-	para "It needs a good"
-	line "trainer to take"
-	cont "care of it now.@"
+	para "Ara necessita un"
+	line "bon entrenador que"
+	cont "se'n cuidi.@"
 	text_end
 
 MelanieText2::
-	text "I know! Would you"
-	line "take care of this"
+	text "Ja ho sé! Voldries"
+	line "cuidar aquest"
 	cont "BULBASAUR?"
 	done
 
 MelanieText3::
-	text "Please take care"
-	line "of BULBASAUR!@"
+	text "Sisplau, cuida"
+	line "el BULBASAUR!@"
 	text_end
 
 MelanieText4::
-	text "Is BULBASAUR"
-	line "doing well?@"
+	text "El BULBASAUR"
+	line "està bé?@"
 	text_end
 
 MelanieText5::
 	text "Oh..."
-	line "That's too bad...@"
+	line "Quina llàstima...@"
 	text_end
 
 MelanieBulbasaurText::

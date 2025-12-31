@@ -1,172 +1,178 @@
 _Route15CooltrainerF1BattleText::
-	text "Let me try out the"
-	line "#MON I just"
-	cont "got in a trade!"
+	text "Deixa'm provar el"
+	line "#MON que acabo"
+	cont "d'aconseguir en"
+	cont "un intercanvi!"
 	done
 
 _Route15CooltrainerF1EndBattleText::
-	text "Not"
-	line "good enough!"
+	text "No n'hi"
+	line "ha prou!"
 	prompt
 
 _Route15CooltrainerF1AfterBattleText::
-	text "You can't change"
-	line "the nickname of"
-	cont "any #MON you"
-	cont "get in a trade."
+	text "No pots canviar"
+	line "el sobrenom de cap"
+	cont "#MON que"
+	cont "aconsegueixis en"
+	cont "un intercanvi."
 
-	para "Only the Original"
-	line "Trainer can."
+	para "Només l'Entrenador"
+	line "Original pot."
 	done
 
 _Route15CooltrainerF2BattleText::
-	text "You look gentle,"
-	line "so I think I can"
-	cont "beat you!"
+	text "Sembles suau,"
+	line "crec que et puc"
+	cont "guanyar!"
 	done
 
 _Route15CooltrainerF2EndBattleText::
 	text "No,"
-	line "wrong!"
+	line "m'equivoco!"
 	prompt
 
 _Route15CooltrainerF2AfterBattleText::
-	text "I'm afraid of"
-	line "BIKERs, they look"
-	cont "so ugly and mean!"
+	text "Em fan por els"
+	line "MOTORISTES, són"
+	cont "tan lletjos!"
 	done
 
 _Route15CooltrainerM1BattleText::
-	text "When I whistle, I"
-	line "can summon bird"
-	cont "#MON!"
+	text "Quan xiulo, puc"
+	line "cridar #MON"
+	cont "ocells!"
 	done
 
 _Route15CooltrainerM1EndBattleText::
-	text "Ow!"
-	line "That's tragic!"
+	text "Au!"
+	line "Quin drama!"
 	prompt
 
 _Route15CooltrainerM1AfterBattleText::
-	text "Maybe I'm not cut"
-	line "out for battles."
+	text "Potser no estic"
+	line "fet per les"
+	cont "batalles."
 	done
 
 _Route15CooltrainerM2BattleText::
-	text "Hmm? My birds are"
-	line "shivering! You're"
-	cont "good, aren't you?"
+	text "Mmm? Els meus"
+	line "ocells tremolen!"
+	cont "Ets bo, oi?"
 	done
 
 _Route15CooltrainerM2EndBattleText::
-	text "Just"
-	line "as I thought!"
+	text "Tal com"
+	line "pensava!"
 	prompt
 
 _Route15CooltrainerM2AfterBattleText::
-	text "Did you know moves"
-	line "like EARTHQUAKE"
-	cont "don't have any"
-	cont "effect on birds?"
+	text "Sabies que movi-"
+	line "ments com TERRA-"
+	cont "TRÈMOL no afecten"
+	cont "els ocells?"
 	done
 
 _Route15Beauty1BattleText::
-	text "Oh, you're a"
-	line "little cutie!"
+	text "Oh, ets molt"
+	line "bonic!"
 	done
 
 _Route15Beauty1EndBattleText::
-	text "You looked"
-	line "so cute too!"
+	text "Tu també"
+	line "semblaves bonic!"
 	prompt
 
 _Route15Beauty1AfterBattleText::
-	text "I forgive you!"
-	line "I can take it!"
+	text "Et perdono!"
+	line "Ho puc suportar!"
 	done
 
 _Route15Beauty2BattleText::
-	text "I raise #MON"
-	line "because I live"
-	cont "alone!"
+	text "Crio #MON"
+	line "perquè visc sola!"
 	done
 
 _Route15Beauty2EndBattleText::
-	text "I didn't"
-	line "ask for this!"
+	text "No ho"
+	line "he demanat!"
 	prompt
 
 _Route15Beauty2AfterBattleText::
-	text "I just like going"
-	line "home to be with"
-	cont "my #MON!"
+	text "M'agrada tornar a"
+	line "casa per estar"
+	cont "amb els meus"
+	cont "#MON!"
 	done
 
 _Route15Biker1BattleText::
-	text "Hey kid! C'mon!"
-	line "I just got these!"
+	text "Ei nano! Vine!"
+	line "Acabo de rebre'ls!"
 	done
 
 _Route15Biker1EndBattleText::
-	text "Why"
-	line "not?"
+	text "Per"
+	line "què no?"
 	prompt
 
 _Route15Biker1AfterBattleText::
-	text "You only live"
-	line "once, so I live"
-	cont "as an outlaw!"
-	cont "TEAM ROCKET RULES!"
+	text "Només vius un cop,"
+	line "així que visc com"
+	cont "un fora de llei!"
+	cont "VIVA TEAM ROCKET!"
 	done
 
 _Route15Biker2BattleText::
-	text "Fork over all your"
-	line "cash when you"
-	cont "lose to me, kid!"
+	text "Dóna'm tots els"
+	line "diners quan perdis"
+	cont "contra mi, nano!"
 	done
 
 _Route15Biker2EndBattleText::
-	text "That"
-	line "can't be true!"
+	text "Això"
+	line "no pot ser!"
 	prompt
 
 _Route15Biker2AfterBattleText::
-	text "I was just joking"
-	line "about the money!"
+	text "Era broma allò"
+	line "dels diners!"
 	done
 
 _Route15CooltrainerF3BattleText::
-	text "What's cool?"
-	line "Trading #MON!"
+	text "Què mola?"
+	line "Intercanviar"
+	cont "#MON!"
 	done
 
 _Route15CooltrainerF3EndBattleText::
-	text "I"
-	line "said trade!"
+	text "He dit"
+	line "intercanviar!"
 	prompt
 
 _Route15CooltrainerF3AfterBattleText::
-	text "I trade #MON"
-	line "with my friends!"
+	text "Intercanvio #MON"
+	line "amb els meus"
+	cont "amics!"
 	done
 
 _Route15CooltrainerF4BattleText::
-	text "Want to play with"
-	line "my #MON?"
+	text "Vols jugar amb"
+	line "els meus #MON?"
 	done
 
 _Route15CooltrainerF4EndBattleText::
-	text "I was"
-	line "too impatient!"
+	text "He estat"
+	line "massa impacient!"
 	prompt
 
 _Route15CooltrainerF4AfterBattleText::
-	text "I'll go train with"
-	line "weaker people.@"
+	text "Aniré a entrenar"
+	line "amb gent més"
+	cont "feble.@"
 	text_end
 
 _Route15SignText::
-	text "ROUTE 15"
-	line "West to FUCHSIA"
-	cont "CITY"
+	text "RUTA 15"
+	line "Oest cap a CIUTAT"
+	cont "FÚCSIA"
 	done

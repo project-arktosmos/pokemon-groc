@@ -1,240 +1,243 @@
 _ViridianGymGiovanniPreBattleText::
-	text "Fwahahaha! This is"
-	line "my hideout!"
+	text "Fwahahaha! Aquesta"
+	line "és la meva guarida"
 
-	para "I planned to"
-	line "resurrect TEAM"
-	cont "ROCKET here!"
+	para "Planejava revifar"
+	line "el TEAM ROCKET"
+	cont "aquí!"
 
-	para "But, you have"
-	line "caught me again!"
-	cont "So be it! This"
-	cont "time, I'm not"
-	cont "holding back!"
+	para "M'has enxampat de"
+	line "nou! Molt bé!"
+	cont "Aquest cop, no em"
+	cont "contindré!"
 
-	para "Once more, you"
-	line "shall face"
-	cont "GIOVANNI, the"
-	cont "greatest trainer!"
+	para "Un cop més,"
+	line "t'enfrontaràs a"
+	cont "GIOVANNI, el gran"
+	cont "entrenador!"
 	done
 
 _ViridianGymGiovanniReceivedEarthBadgeText::
 	text "Ha!"
-	line "That was a truly"
-	cont "intense fight!"
-	cont "You have won!"
-	cont "As proof, here is"
-	cont "the EARTHBADGE!@"
+	line "Ha estat un combat"
+	cont "realment intens!"
+	cont "Has guanyat!"
+	cont "Com a prova, aquí"
+	cont "tens la MEDALLA"
+	cont "TERRA!@"
 	text_end
 
 _ViridianGymGiovanniPostBattleAdviceText::
-	text "Having lost, I"
-	line "cannot face my"
-	cont "underlings!"
-	cont "TEAM ROCKET is"
-	cont "finished forever!"
+	text "Havent perdut, no"
+	line "puc mirar als meus"
+	cont "subordinats a la"
+	cont "cara! TEAM ROCKET"
+	cont "està acabat!"
 
-	para "I will dedicate my"
-	line "life to the study"
-	cont "of #MON!"
+	para "Dedicaré la meva"
+	line "vida a l'estudi"
+	cont "dels #MON!"
 
-	para "Let us meet again"
-	line "someday!"
-	cont "Farewell!@"
+	para "Trobem-nos de nou"
+	line "algun dia!"
+	cont "Adéu!@"
 	text_end
 
 _ViridianGymGiovanniEarthBadgeInfoText::
-	text "The EARTHBADGE"
-	line "makes #MON of"
-	cont "any level obey!"
+	text "La MEDALLA TERRA"
+	line "fa que els #MON"
+	cont "de tot nivell"
+	cont "t'obeixin!"
 
-	para "It is evidence of"
-	line "your mastery as a"
-	cont "#MON trainer!"
+	para "És l'evidència del"
+	line "teu domini com a"
+	cont "entrenador #MON!"
 
-	para "With it, you can"
-	line "enter the #MON"
-	cont "LEAGUE!"
+	para "Amb ella, pots"
+	line "entrar a la LLIGA"
+	cont "#MON!"
 
-	para "It is my gift for"
-	line "your #MON"
-	cont "LEAGUE challenge!"
+	para "És el regal pel"
+	line "teu desafiament"
+	cont "a la LLIGA #MON!"
 	done
 
 _ViridianGymGiovanniReceivedTM27Text::
-	text "<PLAYER> received"
-	line "TM27!@"
+	text "<PLAYER> ha rebut"
+	line "la MT27!@"
 	text_end
 
 _ViridianGymGiovanniTM27ExplanationText::
 	text_start
 
-	para "TM27 is FISSURE!"
-	line "It will take out"
-	cont "#MON with just"
-	cont "one hit!"
+	para "La MT27, FISSURA!"
+	line "Eliminarà els"
+	cont "#MON d'un sol"
+	cont "cop!"
 
-	para "I made it when I"
-	line "ran the GYM here,"
-	cont "too long ago..."
+	para "La vaig crear quan"
+	line "dirigia el GIMNÀS,"
+	cont "fa molt temps..."
 	done
 
 _ViridianGymGiovanniTM27NoRoomText::
-	text "You do not have"
-	line "space for this!"
+	text "No tens espai"
+	line "per a això!"
 	done
 
 _ViridianGymCooltrainerM1BattleText::
-	text "Heh! You must be"
-	line "running out of"
-	cont "steam by now!"
+	text "Heh! Ja deus estar"
+	line "quedant-te sense"
+	cont "forces!"
 	done
 
 _ViridianGymCooltrainerM1EndBattleText::
-	text "I"
-	line "ran out of gas!"
+	text "M'he"
+	line "quedat sec!"
 	prompt
 
 _ViridianGymCooltrainerM1AfterBattleText::
-	text "You need power to"
-	line "keep up with our"
-	cont "GYM LEADER!"
+	text "Necessites poder"
+	line "per mantenir el"
+	cont "ritme del nostre"
+	cont "LÍDER DE GIMNÀS!"
 	done
 
 _ViridianGymHiker1BattleText::
-	text "Rrrroar! I'm"
-	line "working myself"
-	cont "into a rage!"
+	text "Rrrroar! M'estic"
+	line "posant en plena"
+	cont "fúria!"
 	done
 
 _ViridianGymHiker1EndBattleText::
-	text "Wargh!"
+	text "Uargh!"
 	prompt
 
 _ViridianGymHiker1AfterBattleText::
-	text "I'm still not"
-	line "worthy!"
+	text "Encara no sóc"
+	line "digne!"
 	done
 
 _ViridianGymRocker1BattleText::
-	text "#MON and I, we"
-	line "make wonderful"
-	cont "music together!"
+	text "Els #MON i jo,"
+	line "fem música"
+	cont "meravellosa junts!"
 	done
 
 _ViridianGymRocker1EndBattleText::
-	text "You are in"
-	line "perfect harmony!"
+	text "Estàs en perfecta"
+	line "harmonia!"
 	prompt
 
 _ViridianGymRocker1AfterBattleText::
-	text "Do you know the"
-	line "identity of our"
-	cont "GYM LEADER?"
+	text "Saps la identitat"
+	line "del nostre LÍDER"
+	cont "DE GIMNÀS?"
 	done
 
 _ViridianGymHiker2BattleText::
-	text "Karate is the"
-	line "ultimate form of"
-	cont "martial arts!"
+	text "El karate és la"
+	line "forma definitiva"
+	cont "d'arts marcials!"
 	done
 
 _ViridianGymHiker2EndBattleText::
-	text "Atcho!"
+	text "Aitxó!"
 	prompt
 
 _ViridianGymHiker2AfterBattleText::
-	text "If my #MON"
-	line "were as good at"
-	cont "Karate as I..."
+	text "Si els meus #MON"
+	line "fossin tan bons"
+	cont "en karate com jo.."
 	done
 
 _ViridianGymCooltrainerM2BattleText::
-	text "The truly talented"
-	line "win with style!"
+	text "Els de veritat"
+	line "talentosos guanyen"
+	cont "amb estil!"
 	done
 
 _ViridianGymCooltrainerM2EndBattleText::
-	text "I"
-	line "lost my grip!"
+	text "He"
+	line "perdut el control!"
 	prompt
 
 _ViridianGymCooltrainerM2AfterBattleText::
-	text "The LEADER will"
-	line "scold me!"
+	text "El LÍDER em"
+	line "renyarà!"
 	done
 
 _ViridianGymHiker3BattleText::
-	text "I'm the KARATE"
-	line "KING! Your fate"
-	cont "rests with me!"
+	text "Sóc el REI DEL"
+	line "KARATE! El destí"
+	cont "depèn de mi!"
 	done
 
 _ViridianGymHiker3EndBattleText::
-	text "Ayah!"
+	text "Aia!"
 	prompt
 
 _ViridianGymHiker3AfterBattleText::
-	text "#MON LEAGUE?"
-	line "You? Don't get"
-	cont "cocky!"
+	text "La LLIGA #MON?"
+	line "Tu? No et posis"
+	cont "gallets!"
 	done
 
 _ViridianGymRocker2BattleText::
-	text "Your #MON will"
-	line "cower at the"
-	cont "crack of my whip!"
+	text "Els teus #MON"
+	line "s'acovardiran amb"
+	cont "el meu fuet!"
 	done
 
 _ViridianGymRocker2EndBattleText::
-	text "Yowch!"
-	line "Whiplash!"
+	text "Au!"
+	line "Fuetada!"
 	prompt
 
 _ViridianGymRocker2AfterBattleText::
-	text "Wait! I was just"
-	line "careless!"
+	text "Espera! Només he"
+	line "estat descuidat!"
 	done
 
 _ViridianGymCooltrainerM3BattleText::
-	text "VIRIDIAN GYM was"
-	line "closed for a long"
-	cont "time, but now our"
-	cont "LEADER is back!"
+	text "El GIMNÀS VIRIDIAN"
+	line "va estar tancat"
+	cont "molt temps, però"
+	cont "ja ha tornat!"
 	done
 
 _ViridianGymCooltrainerM3EndBattleText::
-	text "I"
-	line "was beaten?"
+	text "M'han"
+	line "vençut?"
 	prompt
 
 _ViridianGymCooltrainerM3AfterBattleText::
-	text "You can go on to"
-	line "#MON LEAGUE"
-	cont "only by defeating"
-	cont "our GYM LEADER!"
+	text "Només pots anar a"
+	line "la LLIGA #MON"
+	cont "derrotant el LÍDER"
+	cont "DE GIMNÀS!"
 	done
 
 _ViridianGymGuidePreBattleText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Ei! Futur campió!"
 
-	para "Even I don't know"
-	line "VIRIDIAN LEADER's"
-	cont "identity!"
+	para "Ni jo sé qui és"
+	line "el LÍDER d'aquest"
+	cont "GIMNÀS!"
 
-	para "This will be the"
-	line "toughest of all"
-	cont "the GYM LEADERs!"
+	para "Aquest serà el més"
+	line "dur de tots els"
+	cont "LÍDERS DE GIMNÀS!"
 
-	para "I heard that the"
-	line "trainers here"
-	cont "like ground-type"
-	cont "#MON!"
+	para "He sentit que els"
+	line "entrenadors d'aquí"
+	cont "prefereixen #MON"
+	cont "de tipus terra!"
 	done
 
 _ViridianGymGuidePostBattleText::
-	text "Blow me away!"
-	line "GIOVANNI was the"
-	cont "GYM LEADER here?"
+	text "Em deixes de pedra!"
+	line "En GIOVANNI era el"
+	cont "LÍDER DE GIMNÀS?"
 	done
+

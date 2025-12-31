@@ -3,84 +3,83 @@ _VictoryRoad2FMoltresBattleText::
 	text_end
 
 _VictoryRoad2FHikerBattleText::
-	text "VICTORY ROAD is"
-	line "the final test"
-	cont "for trainers!"
+	text "El CAMÍ VICTÒRIA"
+	line "és la prova final"
+	cont "pels entrenadors!"
 	done
 
 _VictoryRoad2FHikerEndBattleText::
-	text "Aiyah!"
+	text "Aitxó!"
 	prompt
 
 _VictoryRoad2FHikerAfterBattleText::
-	text "If you get stuck,"
-	line "try moving some"
-	cont "boulders around!"
+	text "Si t'encalles,"
+	line "prova de moure"
+	cont "algunes roques!"
 	done
 
 _VictoryRoad2FSuperNerd1BattleText::
-	text "Ah, so you wish"
-	line "to challenge the"
-	cont "ELITE FOUR?"
+	text "Ah, així que vols"
+	line "desafiar l'ELIT"
+	cont "QUATRE?"
 	done
 
 _VictoryRoad2FSuperNerd1EndBattleText::
-	text "You"
-	line "got me!"
+	text "M'has"
+	line "enxampat!"
 	prompt
 
 _VictoryRoad2FSuperNerd1AfterBattleText::
-	text "<RIVAL> also came"
-	line "through here!"
+	text "<RIVAL> també ha"
+	line "passat per aquí!"
 	done
 
 _VictoryRoad2FCooltrainerMBattleText::
-	text "Come on!"
-	line "I'll whip you!"
+	text "Vine aquí!"
+	line "Et donaré lliçó!"
 	done
 
 _VictoryRoad2FCooltrainerMEndBattleText::
-	text "I got"
-	line "whipped!"
+	text "M'has"
+	line "estomacat!"
 	prompt
 
 _VictoryRoad2FCooltrainerMAfterBattleText::
-	text "You earned the"
-	line "right to be on"
-	cont "VICTORY ROAD!"
+	text "T'has guanyat el"
+	line "dret de ser al"
+	cont "CAMÍ VICTÒRIA!"
 	done
 
 _VictoryRoad2FSuperNerd2BattleText::
-	text "If you can get"
-	line "through here, you"
-	cont "can go meet the"
-	cont "ELITE FOUR!"
+	text "Si passes per aquí,"
+	line "podràs conèixer"
+	cont "l'ELIT QUATRE!"
 	done
 
 _VictoryRoad2FSuperNerd2EndBattleText::
 	text "No!"
-	line "Unbelievable!"
+	line "Increïble!"
 	prompt
 
 _VictoryRoad2FSuperNerd2AfterBattleText::
-	text "I can beat you"
-	line "when it comes to"
-	cont "knowledge about"
+	text "Et puc guanyar"
+	line "quan es tracta de"
+	cont "coneixements sobre"
 	cont "#MON!"
 	done
 
 _VictoryRoad2FSuperNerd3BattleText::
-	text "Is VICTORY ROAD"
-	line "too tough?"
+	text "El CAMÍ VICTÒRIA"
+	line "és massa dur?"
 	done
 
 _VictoryRoad2FSuperNerd3EndBattleText::
-	text "Well"
-	line "done!"
+	text "Ben"
+	line "fet!"
 	prompt
 
 _VictoryRoad2FSuperNerd3AfterBattleText::
-	text "Many trainers give"
-	line "up the challenge"
-	cont "here."
+	text "Molts entrenadors"
+	line "abandonen el"
+	cont "desafiament aquí."
 	done

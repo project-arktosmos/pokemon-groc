@@ -1,31 +1,30 @@
 _VictoryRoad1FCooltrainerFBattleText::
-	text "I wonder if you"
-	line "are good enough"
-	cont "for me!"
+	text "Em pregunto si ets"
+	line "prou bo per a mi!"
 	done
 
 _VictoryRoad1FCooltrainerFEndBattleText::
-	text "I"
-	line "lost out!"
+	text "He"
+	line "perdut!"
 	prompt
 
 _VictoryRoad1FCooltrainerFAfterBattleText::
-	text "I never wanted to"
-	line "lose to anybody!"
+	text "No volia perdre"
+	line "contra ningú!"
 	done
 
 _VictoryRoad1FCooltrainerMBattleText::
-	text "I can see you're"
-	line "good! Let me see"
-	cont "exactly how good!"
+	text "Veig que ets bo!"
+	line "Deixa'm veure"
+	cont "fins a quin punt!"
 	done
 
 _VictoryRoad1FCooltrainerMEndBattleText::
-	text "I"
-	line "had a chance..."
+	text "Tenia"
+	line "una oportunitat..."
 	prompt
 
 _VictoryRoad1FCooltrainerMAfterBattleText::
-	text "I concede, you're"
-	line "better than me!"
+	text "Ho admeto, ets"
+	line "millor que jo!"
 	done

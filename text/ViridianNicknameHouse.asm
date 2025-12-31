@@ -1,16 +1,17 @@
 _ViridianNicknameHouseBaldingGuyText::
-	text "Coming up with"
-	line "nicknames is fun,"
-	cont "but hard."
+	text "Inventar sobrenoms"
+	line "és divertit però"
+	cont "difícil."
 
-	para "Simple names are"
-	line "the easiest to"
-	cont "remember."
+	para "Els noms simples"
+	line "són els més fàcils"
+	cont "de recordar."
 	done
 
 _ViridianNicknameHouseLittleGirlText::
-	text "My Daddy loves"
-	line "#MON too."
+	text "Al meu papa també"
+	line "li agraden els"
+	cont "#MON."
 	done
 
 _ViridianNicknameHouseSpearowText::
@@ -19,5 +20,5 @@ _ViridianNicknameHouseSpearowText::
 
 _ViridianNicknameHouseSpearySignText::
 	text "SPEAROW"
-	line "Name: SPEARY"
+	line "Nom: SPEARY"
 	done

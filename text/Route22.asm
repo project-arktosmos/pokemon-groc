@@ -1,104 +1,102 @@
 _Route22Rival1DefeatedText::
-	text "Awww!"
-	line "You just lucked"
-	cont "out!"
+	text "Aaah!"
+	line "Has tingut sort!"
 	prompt
 
 _Route22Rival1VictoryText::
-	text "<RIVAL>: What?"
-	line "Why do I have 2"
+	text "<RIVAL>: Què?"
+	line "Per què tinc 2"
 	cont "#MON?"
 
-	para "You should catch"
-	cont "some more too!"
+	para "Tu també n'hauries"
+	cont "d'atrapar més!"
 	prompt
 
 _Route22Rival2DefeatedText::
-	text "What!?"
+	text "Què!?"
 
-	para "I was just"
-	line "careless!"
+	para "He estat"
+	line "descuidat!"
 	prompt
 
 _Route22Rival2VictoryText::
 	text "<RIVAL>: Hahaha!"
-	line "<PLAYER>! That's"
-	cont "your best? You're"
-	cont "nowhere near as"
-	cont "good as me, pal!"
+	line "<PLAYER>! Això és"
+	cont "tot? No ets ni de"
+	cont "bon tros tan bo"
+	cont "com jo, tio!"
 
-	para "Go train some"
-	line "more! You loser!"
+	para "Ves a entrenar"
+	line "més! Perdedor!"
 	prompt
 
 _Route22RivalBeforeBattleText1::
-	text "<RIVAL>: Hey!"
+	text "<RIVAL>: Ei!"
 	line "<PLAYER>!"
 
-	para "You're going to"
-	line "#MON LEAGUE?"
+	para "Vas a la LLIGA"
+	line "#MON?"
 
-	para "Forget it! You"
-	line "probably don't"
-	cont "have any BADGEs!"
+	para "Oblida-t'ho!"
+	line "Segurament no tens"
+	cont "cap MEDALLA!"
 
-	para "The guard won't"
-	line "let you through!"
+	para "El guarda no et"
+	line "deixarà passar!"
 
-	para "By the way, did"
-	line "your #MON"
-	cont "get any stronger?"
+	para "Per cert, els teus"
+	line "#MON s'han fet"
+	cont "més forts?"
 	done
 
 _Route22RivalAfterBattleText1::
-	text "I heard #MON"
-	line "LEAGUE has many"
-	cont "tough trainers!"
+	text "He sentit que la"
+	line "LLIGA #MON té"
+	cont "molts entrenadors"
+	cont "durs!"
 
-	para "I have to figure"
-	line "out how to get"
-	cont "past them!"
+	para "He de trobar com"
+	line "passar-los!"
 
-	para "You should quit"
-	line "dawdling and get"
-	cont "a move on!"
+	para "Hauries de deixar"
+	line "de perdre el temps"
+	cont "i moure't!"
 	done
 
 _Route22RivalBeforeBattleText2::
-	text "<RIVAL>: What?"
-	line "<PLAYER>! What a"
-	cont "surprise to see"
-	cont "you here!"
+	text "<RIVAL>: Què?"
+	line "<PLAYER>! Quina"
+	cont "sorpresa veure't"
+	cont "aquí!"
 
-	para "So you're going to"
-	line "#MON LEAGUE?"
+	para "Així que vas a la"
+	line "LLIGA #MON?"
 
-	para "You collected all"
-	line "the BADGEs too?"
-	cont "That's cool!"
+	para "Tu també has"
+	line "recollit totes les"
+	cont "MEDALLES? Genial!"
 
-	para "Then I'll whip"
-	line "you, <PLAYER>, as"
-	cont "a warmup for"
-	cont "#MON LEAGUE!"
+	para "Doncs et guanyaré,"
+	line "<PLAYER>, com"
+	cont "a escalfament per"
+	cont "la LLIGA #MON!"
 
-	para "Come on!"
+	para "Vine!"
 	done
 
 _Route22RivalAfterBattleText2::
-	text "That loosened me"
-	line "up! I'm ready for"
-	cont "#MON LEAGUE!"
+	text "Això m'ha escalfat!"
+	line "Estic a punt per"
+	cont "la LLIGA #MON!"
 
-	para "<PLAYER>, you need"
-	line "more practice!"
+	para "<PLAYER>, et cal"
+	line "més pràctica!"
 
-	para "But hey, you know"
-	line "that! I'm out of"
-	cont "here. Smell ya!"
+	para "Però bé, ho saps!"
+	line "Me'n vaig. Adéu!"
 	done
 
 _Route22PokemonLeagueSignText::
-	text "#MON LEAGUE"
-	line "Front Gate"
+	text "LLIGA #MON"
+	line "Porta Principal"
 	done

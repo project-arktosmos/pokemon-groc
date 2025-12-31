@@ -1,107 +1,110 @@
 _SilphCo6FSilphWorkerM1TookOverTheBuildingText::
-	text "The ROCKETs came"
-	line "and took over the"
-	cont "building!"
+	text "Els ROCKETs han"
+	line "vingut i han pres"
+	cont "l'edifici!"
 	done
 
 _SilphCo6FSilphWorkerM1BackToWorkText::
-	text "Well, better get"
-	line "back to work!"
+	text "Bé, millor torno"
+	line "a la feina!"
 	done
 
 _SilphCo6FSilphWorkerMHelpMePleaseText::
-	text "Oh dear, oh dear."
-	line "Help me please!"
+	text "Mare meva, mare"
+	line "meva. Ajuda'm"
+	cont "si us plau!"
 	done
 
 _SilphCo6FSilphWorkerMWeGotEngagedText::
-	text "We got engaged!"
-	line "Heheh!"
+	text "Ens hem promès!"
+	line "Hehe!"
 	done
 
 _SilphCo6FSilphWorkerF1SuchACowardText::
-	text "Look at him! He's"
-	line "such a coward!"
+	text "Mira'l! És tan"
+	line "covard!"
 	done
 
 _SilphCo6FSilphWorkerF1HaveToMarryHimText::
-	text "I feel so sorry"
-	line "for him, I have"
-	cont "to marry him!"
+	text "Em fa tanta pena"
+	line "que m'he de casar"
+	cont "amb ell!"
 	done
 
 _SilphCo6FSilphWorkerF2TeamRocketConquerWorldText::
-	text "TEAM ROCKET is"
-	line "trying to conquer"
-	cont "the world with"
+	text "El TEAM ROCKET"
+	line "intenta conquerir"
+	cont "el món amb"
 	cont "#MON!"
 	done
 
 _SilphCo6FSilphWorkerF2TeamRocketRanText::
-	text "TEAM ROCKET ran"
-	line "because of you!"
+	text "El TEAM ROCKET ha"
+	line "fugit gràcies a"
+	cont "tu!"
 	done
 
 _SilphCo6FSilphWorkerM3TargetedSilphText::
-	text "They must have"
-	line "targeted SILPH"
-	cont "for our #MON"
-	cont "products."
+	text "Deuen haver"
+	line "apuntat a SILPH"
+	cont "pels"
+	cont "nostres productes"
+	cont "de #MON."
 	done
 
 _SilphCo6FSilphWorkerM3WorkForSilphText::
-	text "Come work for"
-	line "SILPH when you"
-	cont "get older!"
+	text "Vine a treballar"
+	line "a SILPH quan"
+	cont "siguis gran!"
 	done
 
 _SilphCo6FRocket1BattleText::
-	text "I am one of the 4"
-	line "ROCKET BROTHERS!"
+	text "Sóc un dels 4"
+	line "GERMANS ROCKET!"
 	done
 
 _SilphCo6FRocket1EndBattleText::
-	text "Flame"
-	line "out!"
+	text "Cremat!"
 	prompt
 
 _SilphCo6FRocket1AfterBattleText::
-	text "No matter!"
-	line "My brothers will"
-	cont "avenge me!"
+	text "No importa!"
+	line "Els meus germans"
+	cont "em venjaran!"
 	done
 
 _SilphCo6FScientistBattleText::
-	text "That rotten"
-	line "PRESIDENT!"
+	text "Aquell PRESIDENT"
+	line "maleït!"
 
-	para "He shouldn't have"
-	line "sent me to the"
-	cont "TIKSI BRANCH!"
+	para "No m'hauria"
+	line "d'haver enviat a"
+	cont "la branca TIKSI!"
 	done
 
 _SilphCo6FScientistEndBattleText::
-	text "Shoot!"
+	text "Drac!"
 	prompt
 
 _SilphCo6FScientistAfterBattleText::
-	text "TIKSI BRANCH?"
-	line "It's in Russian"
-	cont "no man's land!"
+	text "La branca TIKSI?"
+	line "És al cap del món"
+	cont "a Rússia!"
 	done
 
 _SilphCo6FRocket2BattleText::
-	text "You dare betray"
-	line "TEAM ROCKET?"
+	text "T'atreveixes a"
+	line "trair el TEAM"
+	cont "ROCKET?"
 	done
 
 _SilphCo6FRocket2EndBattleText::
-	text "You"
-	line "traitor!"
+	text "Ets"
+	line "un traïdor!"
 	prompt
 
 _SilphCo6FRocket2AfterBattleText::
-	text "If you stand for"
-	line "justice, you"
-	cont "betray evil!"
+	text "Si defenses la"
+	line "justícia, traeixes"
+	cont "el mal!"
 	done

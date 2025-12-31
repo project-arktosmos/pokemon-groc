@@ -1,119 +1,119 @@
 _MtMoon1FHikerBattleText::
-	text "WHOA! You shocked"
-	line "me! Oh, you're"
-	cont "just a kid!"
+	text "UALA! M'has"
+	line "espantat! Oh,"
+	cont "només ets un nen!"
 	done
 
 _MtMoon1FHikerEndBattleText::
-	text "Wow!"
-	line "Shocked again!"
+	text "Uau!"
+	line "Espantat de nou!"
 	prompt
 
 _MtMoon1FHikerAfterBattleText::
-	text "Kids like you"
-	line "shouldn't be"
-	cont "here!"
+	text "Els nens com tu"
+	line "no haurien de ser"
+	cont "aquí!"
 	done
 
 _MtMoon1FYoungster1BattleText::
-	text "Did you come to"
-	line "explore too?"
+	text "Has vingut a"
+	line "explorar també?"
 	done
 
 _MtMoon1FYoungster1EndBattleText::
-	text "Losing"
-	line "stinks!"
+	text "Perdre"
+	line "fa pudor!"
 	prompt
 
 _MtMoon1FYoungster1AfterBattleText::
-	text "I came down here"
-	line "to show off to"
-	cont "girls."
+	text "He vingut aquí baix"
+	line "per impressionar"
+	cont "les noies."
 	done
 
 _MtMoon1FCooltrainerF1BattleText::
-	text "Wow! It's way"
-	line "bigger in here"
-	cont "than I thought!"
+	text "Uau! És molt més"
+	line "gran aquí dins del"
+	cont "que pensava!"
 	done
 
 _MtMoon1FCooltrainerF1EndBattleText::
 	text "Oh!"
-	line "I lost it!"
+	line "He perdut!"
 	prompt
 
 _MtMoon1FCooltrainerF1AfterBattleText::
-	text "How do you get"
-	line "out of here?"
+	text "Com se surt"
+	line "d'aquí?"
 	done
 
 _MtMoon1FSuperNerdBattleText::
-	text "What! Don't sneak"
-	line "up on me!"
+	text "Què! No t'acostis"
+	line "a mi d'amagat!"
 	done
 
 _MtMoon1FSuperNerdEndBattleText::
-	text "My"
-	line "#MON won't do!"
+	text "Els meus"
+	line "#MON no valen!"
 	prompt
 
 _MtMoon1FSuperNerdAfterBattleText::
-	text "I have to find"
-	line "stronger #MON."
+	text "He de trobar #MON"
+	line "més forts."
 	done
 
 _MtMoon1FCooltrainerF2BattleText::
-	text "What? I'm waiting"
-	line "for my friends to"
-	cont "find me here."
+	text "Què? Estic esperant"
+	line "que els meus amics"
+	cont "em trobin aquí."
 	done
 
 _MtMoon1FCooltrainerF2EndBattleText::
-	text "I lost?"
+	text "He perdut?"
 	prompt
 
 _MtMoon1FCooltrainerF2AfterBattleText::
-	text "I heard there are"
-	line "some very rare"
-	cont "fossils here."
+	text "He sentit que hi ha"
+	line "fòssils molt rars"
+	cont "aquí."
 	done
 
 _MtMoon1FYoungster2BattleText::
-	text "Suspicious men"
-	line "are in the cave."
-	cont "What about you?"
+	text "Hi ha homes"
+	line "sospitosos aquí."
+	cont "I tu què?"
 	done
 
 _MtMoon1FYoungster2EndBattleText::
-	text "You"
-	line "got me!"
+	text "M'has"
+	line "enxampat!"
 	prompt
 
 _MtMoon1FYoungster2AfterBattleText::
-	text "I saw them! I'm"
-	line "sure they're from"
+	text "Els he vist! Estic"
+	line "segur que són del"
 	cont "TEAM ROCKET!"
 	done
 
 _MtMoon1FYoungster3BattleText::
-	text "Go through this"
-	line "cave to get to"
-	cont "CERULEAN CITY!"
+	text "Travessa aquesta"
+	line "cova per arribar a"
+	cont "CIUTAT CERÚLIA!"
 	done
 
 _MtMoon1FYoungster3EndBattleText::
-	text "I"
-	line "lost."
+	text "He"
+	line "perdut."
 	prompt
 
 _MtMoon1FYoungster3AfterBattleText::
-	text "ZUBAT is tough!"
-	line "But, it can be"
-	cont "useful if you"
-	cont "catch one."
+	text "El ZUBAT és dur!"
+	line "Però pot ser útil"
+	cont "si n'atrapes un."
 	done
 
 _MtMoon1FBewareZubatSign::
-	text "Beware! ZUBAT is"
-	line "a bloodsucker!"
+	text "Alerta! El ZUBAT"
+	line "xucla la sang!"
 	done
+

@@ -3,23 +3,24 @@ _PewterNidoranHouseNidoranText::
 	text_end
 
 _PewterNidoranHouseLittleBoyText::
-	text "NIDORAN sit!"
+	text "NIDORAN, seu!"
 	done
 
 _PewterNidoranHouseMiddleAgedManText::
-	text "Our #MON's an"
-	line "outsider, so it's"
-	cont "hard to handle."
+	text "El nostre #MON"
+	line "és un foraster,"
+	cont "així que és"
+	cont "difícil de portar."
 
-	para "An outsider is a"
-	line "#MON that you"
-	cont "get in a trade."
+	para "Un foraster és un"
+	line "#MON que tens"
+	cont "d'intercanvi."
 
-	para "It grows fast, but"
-	line "it may ignore an"
-	cont "unskilled trainer"
-	cont "in battle!"
+	para "Creix ràpid, però"
+	line "pot ignorar un"
+	cont "entrenador poc"
+	cont "hàbil en combat!"
 
-	para "If only we had"
-	line "some BADGEs..."
+	para "Si tingués unes"
+	line "quantes MEDALLES.."
 	done

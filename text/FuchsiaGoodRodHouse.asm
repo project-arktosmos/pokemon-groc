@@ -1,44 +1,44 @@
 _FuchsiaGoodRodHouseFishingGuruText::
-	text "I'm the FISHING"
-	line "GURU's older"
-	cont "brother!"
+	text "Sóc el germà gran"
+	line "del MESTRE DE"
+	cont "PESCA!"
 
-	para "I simply Looove"
-	line "fishing!"
+	para "M'encaaanta"
+	line "pescar!"
 
-	para "Do you like to"
-	line "fish?"
+	para "T'agrada"
+	line "pescar?"
 	done
 
 _FuchsiaGoodRodHouseFishingGuruReceivedGoodRodText::
-	text "Grand! I like"
-	line "your style!"
+	text "Genial! M'agrada"
+	line "el teu estil!"
 
-	para "Take this and"
-	line "fish, young one!"
+	para "Pren això i"
+	line "pesca, jove!"
 
-	para "<PLAYER> received"
-	line "a @"
+	para "<PLAYER> ha rebut"
+	line "una @"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _FuchsiaGoodRodHouseFishingGuruThatsSoDisappointingText::
-	text "Oh... That's so"
-	line "disappointing..."
+	text "Oh... Quina"
+	line "decepció..."
 	done
 
 _FuchsiaGoodRodHouseFishingGuruHowAreTheFishText::
-	text "Hello there,"
+	text "Hola,"
 	line "<PLAYER>!"
 
-	para "How are the fish"
-	line "biting?"
+	para "Com piquen"
+	line "els peixos?"
 	done
 
 _FuchsiaGoodRodHouseFishingGuruNoRoomText::
 	text "Oh no!"
 
-	para "You have no room"
-	line "for my gift!"
+	para "No tens lloc"
+	line "pel meu regal!"
 	done

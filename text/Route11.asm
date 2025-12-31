@@ -1,162 +1,166 @@
 _Route11Gambler1BattleText::
-	text "Win, lose or draw!"
+	text "Guanyar, perdre o"
+	line "empatar!"
 	done
 
 _Route11Gambler1EndBattleText::
-	text "Atcha!"
-	line "Didn't go my way!"
+	text "Atxa!"
+	line "No m'ha anat bé!"
 	prompt
 
 _Route11Gambler1AfterBattleText::
-	text "#MON is life!"
-	line "And to live is to"
-	cont "gamble!"
+	text "#MON és vida!"
+	line "I viure és"
+	cont "apostar!"
 	done
 
 _Route11Gambler2BattleText::
-	text "Competition! I"
-	line "can't get enough!"
+	text "Competició! No en"
+	line "tinc mai prou!"
 	done
 
 _Route11Gambler2EndBattleText::
-	text "I had"
-	line "a chance!"
+	text "Tenia"
+	line "una oportunitat!"
 	prompt
 
 _Route11Gambler2AfterBattleText::
-	text "You can't be a"
-	line "coward in the"
-	cont "world of #MON!"
+	text "No pots ser un"
+	line "covard al món"
+	cont "dels #MON!"
 	done
 
 _Route11Youngster1BattleText::
-	text "Let's go, but"
-	line "don't cheat!"
+	text "Anem, però"
+	line "no facis trampes!"
 	done
 
 _Route11Youngster1EndBattleText::
-	text "Huh?"
-	line "That's not right!"
+	text "Eh?"
+	line "Això no és just!"
 	prompt
 
 _Route11Youngster1AfterBattleText::
-	text "I did my best! I"
-	line "have no regrets!"
+	text "Ho he donat tot!"
+	line "No em penedeixo!"
 	done
 
 _Route11SuperNerd1BattleText::
-	text "Careful!"
-	line "I'm laying down"
-	cont "some cables!"
+	text "Compte!"
+	line "Estic posant"
+	cont "cables!"
 	done
 
 _Route11SuperNerd1EndBattleText::
-	text "That"
-	line "was electric!"
+	text "Això"
+	line "ha estat elèctric!"
 	prompt
 
 _Route11SuperNerd1AfterBattleText::
-	text "Spread the word"
-	line "to save energy!"
+	text "Escampa la veu"
+	line "d'estalviar"
+	cont "energia!"
 	done
 
 _Route11Youngster2BattleText::
-	text "I just became a"
-	line "trainer! But, I"
-	cont "think I can win!"
+	text "Acabo de fer-me"
+	line "entrenador! Però"
+	cont "crec que puc"
+	cont "guanyar!"
 	done
 
 _Route11Youngster2EndBattleText::
-	text "My"
-	line "#MON couldn't!"
+	text "El meu"
+	line "#MON no ha pogut!"
 	prompt
 
 _Route11Youngster2AfterBattleText5::
-	text "What do you want?"
-	line "Leave me alone!"
+	text "Què vols?"
+	line "Deixa'm en pau!"
 	done
 
 _Route11Gambler3BattleText::
-	text "Fwahaha! I have"
-	line "never lost!"
+	text "Fuahaha! No he"
+	line "perdut mai!"
 	done
 
 _Route11Gambler3EndBattleText::
-	text "My"
-	line "first loss!"
+	text "La meva"
+	line "primera derrota!"
 	prompt
 
 _Route11Gambler3AfterBattleText::
-	text "Luck of the draw!"
-	line "Just luck!"
+	text "Sort del sorteig!"
+	line "Només sort!"
 	done
 
 _Route11Gambler4BattleText::
-	text "I have never won"
-	line "before..."
+	text "No he guanyat"
+	line "mai..."
 	done
 
 _Route11Gambler4EndBattleText::
-	text "I saw"
-	line "this coming..."
+	text "M'ho"
+	line "veia venir..."
 	prompt
 
 _Route11Gambler4AfterBattleText::
-	text "It's just luck."
-	line "Luck of the draw."
+	text "Només és sort."
+	line "Sort del sorteig."
 	done
 
 _Route11Youngster3BattleText::
-	text "I'm the best in"
-	line "my class!"
+	text "Sóc el millor de"
+	line "la meva classe!"
 	done
 
 _Route11Youngster3EndBattleText::
-	text "Darn!"
-	line "I need to make my"
-	cont "#MON stronger!"
+	text "Caram!"
+	line "He de fer els"
+	cont "meus #MON més"
+	cont "forts!"
 	prompt
 
 _Route11Youngster3AfterBattleText::
-	text "There's a fat"
-	line "#MON that"
-	cont "comes down from"
-	cont "the mountains."
+	text "Hi ha un #MON"
+	line "gras que baixa"
+	cont "de les muntanyes."
 
-	para "It's strong if"
-	line "you can get it."
+	para "És fort si"
+	line "l'aconsegueixes."
 	done
 
 _Route11SuperNerd2BattleText::
-	text "Watch out for"
-	line "live wires!"
+	text "Compte amb els"
+	line "cables amb corrent"
 	done
 
 _Route11SuperNerd2EndBattleText::
-	text "Whoa!"
-	line "You spark plug!"
+	text "Uau!"
+	line "Quina espurna!"
 	prompt
 
 _Route11SuperNerd2AfterBattleText::
-	text "Well, better get"
-	line "back to work."
+	text "Bé, millor que"
+	line "torni a la feina."
 	done
 
 _Route11Youngster4BattleText::
-	text "My #MON should"
-	line "be ready by now!"
+	text "El meu #MON ja"
+	line "hauria d'estar a"
+	cont "punt!"
 	done
 
 _Route11Youngster4EndBattleText::
-	text "Too"
-	line "much, too young!"
+	text "Massa"
+	line "fort, massa jove!"
 	prompt
 
 _Route11Youngster4AfterBattleText::
-	text "I better go find"
-	line "stronger ones!"
+	text "Millor que busqui"
+	line "de més forts!"
 	done
 
 _Route11DiglettsCaveSignText::
-	text "DIGLETT's CAVE"
+	text "COVA DIGLETT"
 	done

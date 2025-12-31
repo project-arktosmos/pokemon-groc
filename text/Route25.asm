@@ -1,156 +1,156 @@
 _Route25Youngster1BattleText::
-	text "Local trainers"
-	line "come here to"
-	cont "practice!"
+	text "Els entrenadors"
+	line "locals vénen aquí"
+	cont "a practicar!"
 	done
 
 _Route25Youngster1EndBattleText::
-	text "You're"
+	text "Ets"
 	line "decent."
 	prompt
 
 _Route25Youngster1AfterBattleText::
-	text "All #MON have"
-	line "weaknesses. It's"
-	cont "best to raise"
-	cont "different kinds."
+	text "Tots els #MON"
+	line "tenen febleses. És"
+	cont "millor criar"
+	cont "tipus diferents."
 	done
 
 _Route25Youngster2BattleText::
-	text "Dad took me to a"
-	line "great party on"
-	cont "S.S.ANNE at"
-	cont "VERMILION CITY!"
+	text "El pare em va"
+	line "portar a una gran"
+	cont "festa al S.S.ANNE"
+	cont "a CIUTAT VERMELLA!"
 	done
 
 _Route25Youngster2EndBattleText::
-	text "I'm"
-	line "not mad!"
+	text "No estic"
+	line "enfadat!"
 	prompt
 
 _Route25Youngster2AfterBattleText::
-	text "On S.S.ANNE, I"
-	line "saw trainers from"
-	cont "around the world."
+	text "Al S.S.ANNE vaig"
+	line "veure entrenadors"
+	cont "de tot el món."
 	done
 
 _Route25CooltrainerMBattleText::
-	text "I'm a cool guy."
-	line "I've got a girl"
-	cont "friend!"
+	text "Sóc un tio guai."
+	line "Tinc xicota!"
 	done
 
 _Route25CooltrainerMEndBattleText::
-	text "Aww,"
-	line "darn..."
+	text "Ai,"
+	line "caram..."
 	prompt
 
 _Route25CooltrainerMAfterBattleText::
-	text "Oh well. My girl"
-	line "will cheer me up."
+	text "Bé. La meva xicota"
+	line "m'animarà."
 	done
 
 _Route25CooltrainerF1BattleText::
-	text "Hi! My boy"
-	line "friend is cool!"
+	text "Hola! El meu"
+	line "xicot és genial!"
 	done
 
 _Route25CooltrainerF1EndBattleText::
-	text "I'm in"
-	line "a slump!"
+	text "Estic en"
+	line "mala ratxa!"
 	prompt
 
 _Route25CooltrainerF1AfterBattleText::
-	text "I wish my guy was"
-	line "as good as you!"
+	text "M'agradaria que el"
+	line "meu xicot fos tan"
+	cont "bo com tu!"
 	done
 
 _Route25Youngster3BattleText::
-	text "I knew I had to"
-	line "fight you!"
+	text "Sabia que havia"
+	line "de lluitar amb tu!"
 	done
 
 _Route25Youngster3EndBattleText::
-	text "I knew"
-	line "I'd lose too!"
+	text "Sabia"
+	line "que perdria!"
 	prompt
 
 _Route25Youngster3AfterBattleText::
-	text "If your #MON"
-	line "gets confused or"
-	cont "falls asleep,"
-	cont "switch it!"
+	text "Si el teu #MON"
+	line "es confon o"
+	cont "s'adorm,"
+	cont "canvia'l!"
 	done
 
 _Route25CooltrainerF2BattleText::
-	text "My friend has a"
-	line "cute #MON."
-	cont "I'm so jealous!"
+	text "La meva amiga té"
+	line "un #MON bonic."
+	cont "Tinc molta enveja!"
 	done
 
 _Route25CooltrainerF2EndBattleText::
-	text "I'm"
-	line "not so jealous!"
+	text "Ja no"
+	line "tinc tanta enveja!"
 	prompt
 
 _Route25CooltrainerF2AfterBattleText::
-	text "You came from MT."
-	line "MOON? May I have"
-	cont "a CLEFAIRY?"
+	text "Véns del MONT"
+	line "LLUNA? Em pots"
+	cont "donar un CLEFAIRY?"
 	done
 
 _Route25Hiker1BattleText::
-	text "I just got down"
-	line "from MT.MOON,"
-	cont "but I'm ready!"
+	text "Acabo de baixar"
+	line "del MONT LLUNA,"
+	cont "però estic a punt!"
 	done
 
 _Route25Hiker1EndBattleText::
-	text "You"
-	line "worked hard!"
+	text "T'has"
+	line "esforçat!"
 	prompt
 
 _Route25Hiker1AfterBattleText::
-	text "Drat!"
-	line "A ZUBAT bit me"
-	cont "back in there."
+	text "Caram! Un ZUBAT"
+	line "em va mossegar"
+	cont "allà dins."
 	done
 
 _Route25Hiker2BattleText::
-	text "I'm off to see a"
-	line "#MON collector"
-	cont "at the cape!"
+	text "Vaig a veure un"
+	line "col·leccionista de"
+	cont "#MON al cap!"
 	done
 
 _Route25Hiker2EndBattleText::
-	text "You"
-	line "got me."
+	text "M'has"
+	line "guanyat."
 	prompt
 
 _Route25Hiker2AfterBattleText::
-	text "The collector has"
-	line "many rare kinds"
-	cont "of #MON."
+	text "El col·leccionista"
+	line "té molts tipus"
+	cont "rars de #MON."
 	done
 
 _Route25Hiker3BattleText::
-	text "You're going to"
-	line "see BILL? First,"
-	cont "let's fight!"
+	text "Vas a veure en"
+	line "BILL? Primer,"
+	cont "lluitem!"
 	done
 
 _Route25Hiker3EndBattleText::
-	text "You're"
-	line "something."
+	text "Ets"
+	line "algú."
 	prompt
 
 _Route25Hiker3AfterBattleText::
-	text "The trail below"
-	line "is a shortcut to"
-	cont "CERULEAN CITY."
+	text "El camí de sota"
+	line "és una drecera a"
+	cont "CIUTAT CERÚLIA."
 	done
 
 _Route25BillSignText::
-	text "SEA COTTAGE"
-	line "BILL lives here!"
+	text "CASETA DE MAR"
+	line "En BILL viu aquí!"
 	done

@@ -1,21 +1,21 @@
 _SSAnne1FWaiterText::
 	text "Bonjour!"
-	line "I am le waiter on"
-	cont "this ship!"
+	line "Sóc el cambrer"
+	cont "d'aquest vaixell!"
 
-	para "I will be happy"
-	line "to serve you any-"
-	cont "thing you please!"
+	para "Estaré encantat"
+	line "de servir-vos el"
+	cont "que desitgeu!"
 
-	para "Ah! Le strong"
-	line "silent type!"
+	para "Ah! El tipus fort"
+	line "i silenciós!"
 	done
 
 _SSAnne1FSailorText::
-	text "The passengers"
-	line "are restless!"
+	text "Els passatgers"
+	line "estan inquiets!"
 
-	para "You might be"
-	line "challenged by the"
-	cont "more bored ones!"
+	para "Pot ser que els"
+	line "més avorrits et"
+	cont "desafiïn!"
 	done

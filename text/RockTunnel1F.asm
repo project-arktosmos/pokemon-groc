@@ -1,115 +1,116 @@
 _RockTunnel1FHiker1BattleText::
-	text "This tunnel goes"
-	line "a long way, kid!"
+	text "Aquest túnel és"
+	line "molt llarg, nen!"
 	done
 
 _RockTunnel1FHiker1EndBattleText::
 	text "Doh!"
-	line "You win!"
+	line "Tu guanyes!"
 	prompt
 
 _RockTunnel1FHiker1AfterBattleText::
-	text "Watch for ONIX!"
-	line "It can put the"
-	cont "squeeze on you!"
+	text "Vigila amb l'ONIX!"
+	line "Et pot fer un"
+	cont "bon abraçada!"
 	done
 
 _RockTunnel1FHiker2BattleText::
-	text "Hmm. Maybe I'm"
-	line "lost in here..."
+	text "Hmm. Potser m'he"
+	line "perdut aquí..."
 	done
 
 _RockTunnel1FHiker2EndBattleText::
-	text "Ease up!"
-	line "What am I doing?"
-	cont "Which way is out?"
+	text "Calma!"
+	line "Què estic fent?"
+	cont "Per on se surt?"
 	prompt
 
 _RockTunnel1FHiker2AfterBattleText::
-	text "That sleeping"
-	line "#MON on ROUTE"
-	cont "12 forced me to"
-	cont "take this detour."
+	text "Aquell #MON"
+	line "adormit a la RUTA"
+	cont "12 m'ha obligat"
+	cont "a fer el rodeig."
 	done
 
 _RockTunnel1FHiker3BattleText::
-	text "Outsiders like"
-	line "you need to show"
-	cont "me some respect!"
+	text "Els forasters com"
+	line "tu han de mostrar"
+	cont "respecte!"
 	done
 
 _RockTunnel1FHiker3EndBattleText::
-	text "I give!"
+	text "Em rendeixo!"
 	prompt
 
 _RockTunnel1FHiker3AfterBattleText::
-	text "You're talented"
-	line "enough to hike!"
+	text "Tens prou talent"
+	line "per senderisme!"
 	done
 
 _RockTunnel1FSuperNerdBattleText::
-	text "#MON fight!"
-	line "Ready, go!"
+	text "Combat #MON!"
+	line "Preparats, ja!"
 	done
 
 _RockTunnel1FSuperNerdEndBattleText::
-	text "Game"
-	line "over!"
+	text "Fi del"
+	line "joc!"
 	prompt
 
 _RockTunnel1FSuperNerdAfterBattleText::
-	text "Oh well, I'll get"
-	line "a ZUBAT as I go!"
+	text "Bé, atraparé un"
+	line "ZUBAT pel camí!"
 	done
 
 _RockTunnel1FCooltrainerF1BattleText::
-	text "Eek! Don't try"
-	line "anything funny in"
-	cont "the dark!"
+	text "Eek! No intentis"
+	line "res estrany a les"
+	cont "fosques!"
 	done
 
 _RockTunnel1FCooltrainerF1EndBattleText::
-	text "It"
-	line "was too dark!"
+	text "Era"
+	line "massa fosc!"
 	prompt
 
 _RockTunnel1FCooltrainerF1AfterBattleText::
-	text "I saw a MACHOP"
-	line "in this tunnel!"
+	text "He vist un MACHOP"
+	line "en aquest túnel!"
 	done
 
 _RockTunnel1FCooltrainerF2BattleText::
-	text "I came this far"
-	line "for #MON!"
+	text "He vingut fins"
+	line "aquí pels #MON!"
 	done
 
 _RockTunnel1FCooltrainerF2EndBattleText::
-	text "I'm"
-	line "out of #MON!"
+	text "No em"
+	line "queden #MON!"
 	prompt
 
 _RockTunnel1FCooltrainerF2AfterBattleText::
-	text "You looked cute"
-	line "and harmless!"
+	text "Semblaves maco"
+	line "i inofensiu!"
 	done
 
 _RockTunnel1FCooltrainerF3BattleText::
-	text "You have #MON!"
-	line "Let's start!"
+	text "Tens #MON!"
+	line "Comencem!"
 	done
 
 _RockTunnel1FCooltrainerF3EndBattleText::
-	text "You"
-	line "play hard!"
+	text "Jugues"
+	line "dur!"
 	prompt
 
 _RockTunnel1FCooltrainerF3AfterBattleText::
-	text "Whew! I'm all"
-	line "sweaty now!"
+	text "Uf! Estic tota"
+	line "suada ara!"
 	done
 
 _RockTunnel1FSignText::
-	text "ROCK TUNNEL"
-	line "CERULEAN CITY -"
-	cont "LAVENDER TOWN"
+	text "TÚNEL ROCA"
+	line "CIUTAT CERÚLIA -"
+	cont "POBLE LAVANDA"
 	done
+

@@ -1,128 +1,128 @@
 _CableClubNPCPleaseWaitText::
-	text "Please wait.@"
+	text "Espera.@"
 	text_end
 
 _CableClubNPCLinkClosedBecauseOfInactivityText::
 	vc_patch Change_link_closed_inactivity_message
 IF DEF(_YELLOW_VC)
-	text "Please come again!"
+	text "L'enllaç s'ha tancat"
 	done
 	text_start
-	text "sed because of"
-	cont "inactivity."
+	text "per inactivitat."
+	cont ""
 ELSE
-	text "The link has been"
-	line "closed because of"
-	cont "inactivity."
+	text "L'enllaç s'ha tancat"
+	line "per inactivitat."
+	cont ""
 ENDC
 	vc_patch_end
 
-	para "Please contact"
-	line "your friend and"
-	cont "come again!"
+	para "Posa't en contacte"
+	line "amb el teu amic i"
+	cont "torna!"
 	done
 
 _CableClubNPCPleaseComeAgainText::
-	text "Please come again!"
+	text "Torna quan vulguis!"
 	done
 
 _CableClubNPCMakingPreparationsText::
-	text "We're making"
-	line "preparations."
-	cont "Please wait."
+	text "Estem fent"
+	line "preparatius."
+	cont "Espera."
 	done
 
 _FlashLightsAreaText::
-	text "A blinding FLASH"
-	line "lights the area!"
+	text "Un FLAIX lluminós"
+	line "il·lumina la zona!"
 	prompt
 
 _WarpToLastPokemonCenterText::
-	text "Warp to the last"
-	line "#MON CENTER."
+	text "Teletransport a"
+	line "l'últim CENTRE."
 	done
 
 _CannotUseTeleportNowText::
 	text_ram wNameBuffer
-	text " can't"
-	line "use TELEPORT now."
+	text " no pot"
+	line "usar TELETRANSP."
 	prompt
 
 _CannotFlyHereText::
 	text_ram wNameBuffer
-	text " can't"
-	line "FLY here."
+	text " no pot"
+	line "VOLAR aquí."
 	prompt
 
 _NotHealthyEnoughText::
-	text "Not healthy"
-	line "enough."
+	text "No és prou"
+	line "saludable."
 	prompt
 
 _NewBadgeRequiredText::
-	text "No! A new BADGE"
-	line "is required."
+	text "No! Cal una MEDALLA"
+	line "nova."
 	prompt
 
 _CannotUseItemsHereText::
-	text "You can't use items"
-	line "here."
+	text "No pots usar objec-"
+	line "tes aquí."
 	prompt
 
 _CannotGetOffHereText::
-	text "You can't get off"
-	line "here."
+	text "No pots baixar"
+	line "aquí."
 	prompt
 
 _UsedStrengthText::
 	text_ram wNameBuffer
-	text " used"
-	line "STRENGTH.@"
+	text " ha usat"
+	line "FORÇA.@"
 	text_end
 
 _CanMoveBouldersText::
 	text_ram wNameBuffer
-	text " can"
-	line "move boulders."
+	text " pot"
+	line "moure pedres."
 	prompt
 
 _CurrentTooFastText::
-	text "The current is"
-	line "much too fast!"
+	text "El corrent és"
+	line "massa ràpid!"
 	prompt
 
 _CyclingIsFunText::
-	text "Cycling is fun!"
-	line "Forget SURFing!"
+	text "Anar en bici és"
+	line "divertit! No SURF!"
 	prompt
 
 _GotMonText::
-	text "<PLAYER> got"
+	text "<PLAYER> ha rebut"
 	line "@"
 	text_ram wNameBuffer
 	text "!@"
 	text_end
 
 _SentToBoxText::
-	text "There's no more"
-	line "room for #MON!"
+	text "No hi ha més lloc"
+	line "per #MON!"
 	cont "@"
 	text_ram wBoxMonNicks
-	text " was"
-	cont "sent to #MON"
-	cont "BOX @"
+	text " s'ha"
+	cont "enviat a CAIXA"
+	cont "#MON @"
 	text_ram wStringBuffer
-	text " on PC!"
+	text " al PC!"
 	done
 
 _BoxIsFullText::
-	text "There's no more"
-	line "room for #MON!"
+	text "No hi ha més lloc"
+	line "per #MON!"
 
-	para "The #MON BOX"
-	line "is full and can't"
-	cont "accept any more!"
+	para "La CAIXA #MON"
+	line "és plena i no pot"
+	cont "acceptar-ne més!"
 
-	para "Change the BOX at"
-	line "a #MON CENTER!"
+	para "Canvia la CAIXA al"
+	line "CENTRE #MON!"
 	done

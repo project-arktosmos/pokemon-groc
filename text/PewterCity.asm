@@ -1,117 +1,120 @@
 _PewterCityCooltrainerFText::
-	text "It's rumored that"
-	line "CLEFAIRYs came"
-	cont "from the moon!"
+	text "Es rumoreja que"
+	line "els CLEFAIRY vénen"
+	cont "de la lluna!"
 
-	para "They appeared "
-	line "after MOON STONE"
-	cont "fell on MT.MOON."
+	para "Van aparèixer"
+	line "després que la"
+	cont "PEDRA LLUNA caís"
+	cont "al MONT LLUNA."
 	done
 
 _PewterCityCooltrainerMText::
-	text "There aren't many"
-	line "serious #MON"
-	cont "trainers here!"
+	text "No hi ha gaires"
+	line "entrenadors de"
+	cont "#MON seriosos!"
 
-	para "They're all like"
-	line "BUG CATCHERs,"
-	cont "but PEWTER GYM's"
-	cont "BROCK is totally"
-	cont "into it!"
+	para "Són tots tipus"
+	line "CAÇABICHOS, però"
+	cont "en BROCK del"
+	cont "GIMNÀS PELTRE"
+	cont "s'ho pren de debò!"
 	done
 
 _PewterCitySuperNerd1DidYouCheckOutMuseumText::
-	text "Did you check out"
-	line "the MUSEUM?"
+	text "Has visitat el"
+	line "MUSEU?"
 	done
 
 _PewterCitySuperNerd1WerentThoseFossilsAmazingText::
-	text "Weren't those"
-	line "fossils from MT."
-	cont "MOON amazing?"
+	text "No eren increïbles"
+	line "aquells fòssils"
+	cont "del MONT LLUNA?"
 	done
 
 _PewterCitySuperNerd1YouHaveToGoText::
-	text "Really?"
-	line "You absolutely"
-	cont "have to go!"
+	text "De veritat?"
+	line "Hi has d'anar"
+	cont "sí o sí!"
 	done
 
 _PewterCitySuperNerd1ItsRightHereText::
-	text "It's right here!"
-	line "You have to pay"
-	cont "to get in, but"
-	cont "it's worth it!"
-	cont "See you around!"
+	text "És aquí mateix!"
+	line "Has de pagar per"
+	cont "entrar, però val"
+	cont "la pena! Adéu!"
 	done
 
 _PewterCitySuperNerd2DoYouKnowWhatImDoingText::
 	text "Psssst!"
-	line "Do you know what"
-	cont "I'm doing?"
+	line "Saps què estic"
+	cont "fent?"
 	done
 
 _PewterCitySuperNerd2ThatsRightText::
-	text "That's right!"
-	line "It's hard work!"
+	text "Exacte!"
+	line "És molt dur!"
 	done
 
 _PewterCitySuperNerd2ImSprayingRepelText::
-	text "I'm spraying REPEL"
-	line "to keep #MON"
-	cont "out of my garden!"
+	text "Estic ruixant"
+	line "REPEL per mantenir"
+	cont "els #MON fora"
+	cont "del meu jardí!"
 	done
 
 _PewterCityYoungsterYoureATrainerFollowMeText::
-	text "You're a trainer"
-	line "right? BROCK's"
-	cont "looking for new"
-	cont "challengers!"
-	cont "Follow me!"
+	text "Ets entrenador,"
+	line "oi? En BROCK busca"
+	cont "nous rivals!"
+	cont "Segueix-me!"
 	done
 
 _PewterCityYoungsterGoTakeOnBrockText::
-	text "If you have the"
-	line "right stuff, go"
-	cont "take on BROCK!"
+	text "Si tens el que"
+	line "cal, ves a"
+	cont "enfrontar-te a"
+	cont "en BROCK!"
 	done
 
 _PewterCityTrainerTipsText::
-	text "TRAINER TIPS"
+	text "CONSELLS"
 
-	para "Any #MON that"
-	line "takes part in"
-	cont "battle, however"
-	cont "short, earns EXP!"
+	para "Qualsevol #MON"
+	line "que participi en"
+	cont "combat, encara que"
+	cont "poc, guanya EXP!"
 	done
 
 _PewterCityPoliceNoticeSignText::
-	text "NOTICE!"
+	text "AVÍS!"
 
-	para "Thieves have been"
-	line "stealing #MON"
-	cont "fossils at MT."
-	cont "MOON! Please call"
-	cont "PEWTER POLICE"
-	cont "with any info!"
+	para "Hi ha lladres"
+	line "robant fòssils de"
+	cont "#MON al MONT"
+	cont "LLUNA! Truqueu a"
+	cont "POLICIA PELTRE"
+	cont "amb qualsevol"
+	cont "pista!"
 	done
 
 _PewterCityMuseumSignText::
-	text "PEWTER MUSEUM"
-	line "OF SCIENCE"
+	text "MUSEU DE CIÈNCIA"
+	line "DE PELTRE"
 	done
 
 _PewterCityGymSignText::
-	text "PEWTER CITY"
-	line "#MON GYM"
-	cont "LEADER: BROCK"
+	text "GIMNÀS #MON DE"
+	line "CIUTAT PELTRE"
+	cont "LÍDER: BROCK"
 
-	para "The Rock Solid"
-	line "#MON Trainer!"
+	para "L'Entrenador de"
+	line "#MON Sòlid"
+	cont "com la Roca!"
 	done
 
 _PewterCitySignText::
-	text "PEWTER CITY"
-	line "A Stone Gray"
-	cont "City"
+	text "CIUTAT PELTRE"
+	line "Una Ciutat"
+	cont "Gris Pedra"
 	done

@@ -1,64 +1,67 @@
 _SSAnneCaptainsRoomRubCaptainsBackText::
-	text "CAPTAIN: Ooargh..."
-	line "I feel hideous..."
-	cont "Urrp! Seasick..."
+	text "CAPITÀ: Ooargh..."
+	line "Em trobo fatal..."
+	cont "Urrp! Mareig..."
 
-	para "<PLAYER> rubbed"
-	line "the CAPTAIN's"
-	cont "back!"
+	para "<PLAYER> ha fregat"
+	line "l'esquena del"
+	cont "CAPITÀ!"
 
-	para "Rub-rub..."
-	line "Rub-rub...@"
+	para "Frec-frec..."
+	line "Frec-frec...@"
 	text_end
 
 _SSAnneCaptainsRoomCaptainIFeelMuchBetterText::
-	text "CAPTAIN: Whew!"
-	line "Thank you! I"
-	cont "feel much better!"
+	text "CAPITÀ: Uf!"
+	line "Gràcies! Em trobo"
+	cont "molt millor!"
 
-	para "You want to see"
-	line "my CUT technique?"
+	para "Vols veure la"
+	line "meva tècnica de"
+	cont "TALL?"
 
-	para "I could show you"
-	line "if I wasn't ill..."
+	para "T'ho podria"
+	line "mostrar si no"
+	cont "estigués malalt..."
 
-	para "I know! You can"
-	line "have this!"
+	para "Ja ho sé! Pots"
+	line "quedar-te això!"
 
-	para "Teach it to your"
-	line "#MON and you"
-	cont "can see it CUT"
-	cont "anytime!"
+	para "Ensenya-la als"
+	line "teus #MON i"
+	cont "podràs veure'ls"
+	cont "TALLAR quan vols!"
 	prompt
 
 _SSAnneCaptainsRoomCaptainReceivedHM01Text::
-	text "<PLAYER> got"
+	text "<PLAYER> ha rebut"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SSAnneCaptainsRoomCaptainNotSickAnymoreText::
-	text "CAPTAIN: Whew!"
+	text "CAPITÀ: Uf!"
 
-	para "Now that I'm not"
-	line "sick anymore, I"
-	cont "guess it's time."
+	para "Ara que ja no"
+	line "estic malalt,"
+	cont "suposo que és"
+	cont "hora de marxar."
 	done
 
 _SSAnneCaptainsRoomCaptainHM01NoRoomText::
-	text "Oh no! You have"
-	line "no room for this!"
+	text "Oh no! No tens"
+	line "espai per això!"
 	done
 
 _SSAnneCaptainsRoomTrashText::
-	text "Yuck! Shouldn't"
-	line "have looked!"
+	text "Ecs! No hauria"
+	line "d'haver mirat!"
 	done
 
 _SSAnneCaptainsRoomSeasickBookText::
-	text "How to Conquer"
-	line "Seasickness..."
-	cont "The CAPTAIN's"
-	cont "reading this!"
+	text "Com Vèncer el"
+	line "Mareig..."
+	cont "El CAPITÀ llegeix"
+	cont "això!"
 	done

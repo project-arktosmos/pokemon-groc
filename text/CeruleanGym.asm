@@ -1,135 +1,140 @@
 _CeruleanGymMistyPreBattleText::
-	text "Hi, you're a new"
-	line "face!"
+	text "Hola, ets una cara"
+	line "nova!"
 
-	para "What's your policy"
-	line "on #MON? What"
-	cont "is your approach?"
+	para "Quina és la teva"
+	line "política amb els"
+	cont "#MON? Quin és"
+	cont "el teu enfocament?"
 
-	para "My policy is an"
-	line "all-out offensive"
-	cont "with water-type"
-	cont "#MON!"
+	para "La meva política:"
+	line "ofensiva total"
+	cont "amb #MON de"
+	cont "tipus aigua!"
 
-	para "MISTY, the world-"
-	line "famous beauty, is"
-	cont "your host!"
+	para "La MISTY, bellesa"
+	line "famosa al món,"
+	cont "t'acompanya!"
 
-	para "Are you ready,"
-	line "sweetie?"
+	para "Estàs llest,"
+	line "bonic?"
 	done
 
 _CeruleanGymMistyTM11ExplanationText::
-	text "TM11 teaches"
-	line "BUBBLEBEAM!"
+	text "La MT11 ensenya"
+	line "RAIG BOMBOLLA!"
 
-	para "Use it on an"
-	line "aquatic #MON!"
+	para "Usa-la en un"
+	line "#MON aquàtic!"
 	done
 
 _CeruleanGymMistyCascadeBadgeInfoText::
-	text "The CASCADEBADGE"
-	line "makes all #MON"
-	cont "up to L30 obey!"
+	text "La MEDALLA CASCADA"
+	line "fa que tots els"
+	cont "#MON fins a N30"
+	cont "t'obeixin!"
 
-	para "That includes"
-	line "even outsiders!"
+	para "Això inclou"
+	line "fins i tot els"
+	cont "de fora!"
 
-	para "There's more, you"
-	line "can now use CUT"
-	cont "anytime!"
+	para "I hi ha més, ara"
+	line "pots usar TALLAR"
+	cont "sempre!"
 
-	para "You can CUT down"
-	line "small bushes to"
-	cont "open new paths!"
+	para "Pots TALLAR"
+	line "arbustos petits i"
+	cont "obrir nous camins!"
 
-	para "You can also have"
-	line "my favorite TM!"
+	para "Pots tenir la meva"
+	line "MT favorita!"
 	done
 
 _CeruleanGymMistyReceivedTM11Text::
-	text "<PLAYER> received"
-	line "TM11!@"
+	text "<PLAYER> ha rebut"
+	line "la MT11!@"
 	text_end
 
 _CeruleanGymMistyTM11NoRoomText::
-	text "You better make"
-	line "room for this!"
+	text "Millor que facis"
+	line "espai per a això!"
 	done
 
 _CeruleanGymMistyReceivedCascadeBadgeText::
-	text "I can't"
-	line "believe I lost!"
+	text "No em puc creure"
+	line "que he perdut!"
 
-	para "All right!"
+	para "D'acord!"
 
-	para "You can have the"
-	line "CASCADEBADGE to"
-	cont "show you beat me!"
+	para "Pots tenir la"
+	line "MEDALLA CASCADA"
+	cont "per demostrar que"
+	cont "m'has vençut!"
 	prompt
 
 _CeruleanGymBattleText1::
-	text "I'm more than good"
-	line "enough for you!"
+	text "Sóc més que"
+	line "prou per a tu!"
 
-	para "MISTY can wait!"
+	para "MISTY pot esperar!"
 	done
 
 _CeruleanGymEndBattleText1::
-	text "You"
-	line "overwhelmed me!"
+	text "M'has"
+	line "esclafat!"
 	prompt
 
 _CeruleanGymAfterBattleText1::
-	text "You have to face"
-	line "other trainers to"
-	cont "find out how good"
-	cont "you really are."
+	text "Has d'enfrontar-te"
+	line "a més entrenadors"
+	cont "per veure com"
+	cont "n'ets de bo."
 	done
 
 _CeruleanGymBattleText2::
 	text "Splash!"
 
-	para "I'm first up!"
-	line "Let's do it!"
+	para "Sóc la primera!"
+	line "Endavant!"
 	done
 
 _CeruleanGymEndBattleText2::
-	text "That"
-	line "can't be!"
+	text "Això"
+	line "no pot ser!"
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
-	line "keep improving!"
+	text "La MISTY continuarà"
+	line "millorant!"
 
-	para "She won't lose to"
-	line "someone like you!"
+	para "No perdrà contra"
+	line "algú com tu!"
 	done
 
 _CeruleanGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Ei! Futur campió!"
 
-	para "Here's my advice!"
+	para "Aquí tens el"
+	line "meu consell!"
 
-	para "The LEADER, MISTY,"
-	line "is a pro who uses"
-	cont "water #MON!"
+	para "La LÍDER, MISTY,"
+	line "és una pro que usa"
+	cont "#MON d'aigua!"
 
-	para "You can drain all"
-	line "their water with"
-	cont "plant #MON!"
+	para "Pots drenar-los"
+	line "l'aigua amb #MON"
+	cont "de planta!"
 
-	para "Or, zap them with"
-	line "electricity!"
+	para "O, electrocuta'ls"
+	line "amb electricitat!"
 	done
 
 _CeruleanGymGymGuideBeatMistyText::
-	text "You beat MISTY!"
-	line "What'd I tell ya?"
+	text "Has vençut la MISTY!"
+	line "Què t'havia dit?"
 
-	para "You and me, kid,"
-	line "we make a pretty"
-	cont "darn good team!"
+	para "Tu i jo, nen,"
+	line "fem un equip"
+	cont "força bo!"
 	done
+

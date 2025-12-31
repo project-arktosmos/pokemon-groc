@@ -1,104 +1,102 @@
 _Route6CooltrainerM1BattleText::
-	text "I'm doing this"
-	line "out of love."
-	cont "Leave me alone!"
+	text "Ho faig per amor."
+	line "Deixa'm en pau!"
 	done
 
 _Route6CooltrainerM1EndBattleText::
 	text "No,"
-	line "this can't be..."
+	line "no pot ser..."
 	prompt
 
 _Route6CooltrainerM1AfterBattleText::
-	text "My love will leave"
-	line "me in disgust."
+	text "El meu amor em"
+	line "deixarà amb fàstic"
 	done
 
 _Route6CooltrainerF1BattleText::
-	text "I'm training for"
-	line "my love. Don't"
-	cont "bother me!"
+	text "Entreno pel meu"
+	line "amor. No em"
+	cont "molestis!"
 	done
 
 _Route6CooltrainerF1EndBattleText::
-	text "My"
-	line "textbook never..."
+	text "El meu"
+	line "llibre mai..."
 	prompt
 
 _Route6CooltrainerF1AfterBattleText::
-	text "Now I understand,"
-	line "#MON isn't"
-	cont "about calculated"
-	cont "numbers."
+	text "Ara ho entenc, els"
+	line "#MON no van de"
+	cont "números calculats."
 	done
 
 _Route6Youngster1BattleText::
-	text "There aren't many"
-	line "bugs out here."
+	text "No hi ha gaires"
+	line "insectes aquí."
 	done
 
 _Route6Youngster1EndBattleText::
 	text "No!"
-	line "You're kidding!"
+	line "De broma!"
 	prompt
 
 _Route6Youngster1AfterBattleText::
-	text "I like bugs, so"
-	line "I'm going back to"
-	cont "VIRIDIAN FOREST."
+	text "M'agraden els"
+	line "insectes, tornaré"
+	cont "al BOSC VIRIDIAN."
 	done
 
 _Route6CooltrainerM2BattleText::
-	text "Huh? You want"
-	line "to talk to me?"
+	text "Eh? Vols parlar"
+	line "amb mi?"
 	done
 
 _Route6CooltrainerM2EndBattleText::
-	text "I"
-	line "didn't start it!"
+	text "Jo"
+	line "no ho he començat!"
 	prompt
 
 _Route6CooltrainerM2AfterBattleText::
-	text "I should carry"
-	line "more #MON with"
-	cont "me for safety."
+	text "Hauria de portar"
+	line "més #MON per"
+	cont "seguretat."
 	done
 
 _Route6CooltrainerF2BattleText::
-	text "Me? Well, OK."
-	line "I'll play!"
+	text "Jo? Bé, d'acord."
+	line "Juguem!"
 	done
 
 _Route6CooltrainerF2EndBattleText::
-	text "Just"
-	line "didn't work!"
+	text "No ha"
+	line "funcionat!"
 	prompt
 
 _Route6CooltrainerF2AfterBattleText::
-	text "I want to get"
-	line "stronger! What's"
-	cont "your secret?"
+	text "Vull fer-me més"
+	line "forta! Quin és el"
+	cont "teu secret?"
 	done
 
 _Route6Youngster2BattleText::
-	text "I've never seen"
-	line "you around!"
-	cont "Are you good?"
+	text "No t'havia vist"
+	line "mai per aquí!"
+	cont "Ets bo?"
 	done
 
 _Route6Youngster2EndBattleText::
-	text "You"
-	line "are too good!"
+	text "Ets"
+	line "massa bo!"
 	prompt
 
 _Route6Youngster2AfterBattleText::
-	text "Are my #MON"
-	line "weak? Or, am I"
-	cont "just bad?"
+	text "Són febles els"
+	line "meus #MON? O"
+	cont "sóc dolent jo?"
 	done
 
 _Route6UndergroundPathSignText::
-	text "UNDERGROUND PATH"
-	line "CERULEAN CITY -"
-	cont "VERMILION CITY"
+	text "CAMÍ SUBTERRANI"
+	line "CIUTAT CERÚLIA -"
+	cont "CIUTAT VERMELLA"
 	done

@@ -1,30 +1,29 @@
 _Route16FlyHouseBrunetteGirlText::
-	text "Oh, you found my"
-	line "secret retreat!"
+	text "Oh, has trobat el"
+	line "meu refugi secret!"
 
-	para "Please don't tell"
-	line "anyone I'm here."
-	cont "I'll make it up"
-	cont "to you with this!"
+	para "Si us plau, no"
+	line "diguis a ningú"
+	cont "que sóc aquí."
+	cont "T'ho compensaré!"
 	prompt
 
 _Route16FlyHouseBrunetteGirlReceivedHM02Text::
-	text "<PLAYER> received"
-	line "HM02!@"
+	text "<PLAYER> ha rebut"
+	line "l'MO02!@"
 	text_end
 
 _Route16FlyHouseBrunetteGirlHM02ExplanationText::
-	text "HM02 is FLY."
-	line "It will take you"
-	cont "back to any town."
+	text "L'MO02 és VOL."
+	line "Et portarà a"
+	cont "qualsevol poble."
 
-	para "Put it to good"
-	line "use!"
+	para "Fes-ne bon ús!"
 	done
 
 _Route16FlyHouseBrunetteGirlHM02NoRoomText::
-	text "You don't have any"
-	line "room for this."
+	text "No tens espai"
+	line "per això."
 	done
 
 _Route16FlyHouseFearowText::

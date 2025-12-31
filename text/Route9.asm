@@ -1,136 +1,140 @@
 _Route9CooltrainerF1BattleText::
-	text "You have #MON"
-	line "with you!"
-	cont "You're mine!"
+	text "Portes #MON"
+	line "amb tu!"
+	cont "Ets meu!"
 	done
 
 _Route9CooltrainerF1EndBattleText::
-	text "You"
-	line "deceived me!"
+	text "M'has"
+	line "enganyat!"
 	prompt
 
 _Route9CooltrainerF1AfterBattleText::
-	text "You need light to"
-	line "get through that"
-	cont "dark tunnel ahead."
+	text "Necessites llum"
+	line "per passar el"
+	cont "túnel fosc."
 	done
 
 _Route9AJBattleText::
-	text "I aim to be the"
-	line "ultimate trainer!"
+	text "Aspiro a ser"
+	line "l'entrenador"
+	cont "definitiu!"
 	done
 
 _Route9AJEndBattleText::
-	text "My"
-	line "SANDSHREW lost?"
+	text "El meu"
+	line "SANDSHREW ha"
+	cont "perdut?"
 	prompt
 
 _Route9AJAfterBattleText::
-	text "I'll restart my"
-	line "100-win streak"
-	cont "with SANDSHREW."
+	text "Recomençaré la"
+	line "ratxa de 100"
+	cont "victòries amb"
+	cont "SANDSHREW."
 	done
 
 _Route9CooltrainerM2BattleText::
-	text "I'm taking ROCK"
-	line "TUNNEL to go to"
-	cont "LAVENDER..."
+	text "Vaig pel TÚNEL"
+	line "ROCA cap a"
+	cont "LAVANDA..."
 	done
 
 _Route9CooltrainerM2EndBattleText::
-	text "Can't"
-	line "measure up!"
+	text "No"
+	line "estic a l'alçada!"
 	prompt
 
 _Route9CooltrainerM2AfterBattleText::
-	text "Are you off to"
-	line "ROCK TUNNEL too?"
+	text "També vas al"
+	line "TÚNEL ROCA?"
 	done
 
 _Route9CooltrainerF2BattleText::
-	text "Don't you dare"
-	line "condescend me!"
+	text "No t'atreveixis"
+	line "a menysprear-me!"
 	done
 
 _Route9CooltrainerF2EndBattleText::
 	text "No!"
-	line "You're too much!"
+	line "Ets massa fort!"
 	prompt
 
 _Route9CooltrainerF2AfterBattleText::
-	text "You're obviously"
-	line "talented! Good"
-	cont "luck to you!"
+	text "És evident que"
+	line "tens talent! Bona"
+	cont "sort!"
 	done
 
 _Route9Hiker1BattleText::
-	text "Bwahaha!"
-	line "Great! I was"
-	cont "bored, eh!"
+	text "Buahaha!"
+	line "Genial! M'avorria,"
+	cont "eh!"
 	done
 
 _Route9Hiker1EndBattleText::
-	text "Keep it"
-	line "coming, eh!"
+	text "Continua,"
+	line "eh!"
 
-	para "Oh wait. I'm out"
-	line "of #MON!"
+	para "Espera. No em"
+	line "queden #MON!"
 	prompt
 
 _Route9Hiker1AfterBattleText::
-	text "You sure had guts"
-	line "standing up to me"
-	cont "there, eh?"
+	text "Has tingut valor"
+	line "plantant-me cara"
+	cont "així, eh?"
 	done
 
 _Route9Hiker2BattleText::
 	text "Hahaha!"
-	line "Aren't you a"
-	cont "little toughie!"
+	line "Però si ets un"
+	cont "durillo!"
 	done
 
 _Route9Hiker2EndBattleText::
-	text "What's"
-	line "that?"
+	text "Com"
+	line "dius?"
 	prompt
 
 _Route9Hiker2AfterBattleText::
-	text "Hahaha! Kids"
-	line "should be tough!"
+	text "Hahaha! Els nens"
+	line "han de ser durs!"
 	done
 
 _Route9Youngster1BattleText::
-	text "I got up early"
-	line "every day to"
-	cont "raise my #MON"
-	cont "from cocoons!"
+	text "M'aixecava d'hora"
+	line "cada dia per criar"
+	cont "els meus #MON des"
+	cont "de capoll!"
 	done
 
 _Route9Youngster1EndBattleText::
-	text "WHAT?"
+	text "QUÈ?"
 
-	para "What a total"
-	line "waste of time!"
+	para "Quina pèrdua"
+	line "de temps total!"
 	prompt
 
 _Route9Youngster1AfterBattleText::
-	text "I have to collect"
-	line "more than bugs to"
-	cont "get stronger..."
+	text "He d'atrapar més"
+	line "que insectes per"
+	cont "fer-me fort..."
 	done
 
 _Route9Hiker3BattleText::
 	text "Hahahaha!"
-	line "Come on, dude!"
+	line "Vine, tio!"
 	done
 
 _Route9Hiker3EndBattleText::
 	text "Hahahaha!"
-	line "You beat me fair!"
+	line "M'has guanyat bé!"
 	prompt
 
 _Route9Hiker3AfterBattleText::
 	text "Hahahaha!"
-	line "Us hearty guys"
-	cont "always laugh!"
+	line "Els tios com"
+	cont "nosaltres sempre"
+	cont "riem!"
 	done

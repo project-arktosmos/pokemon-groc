@@ -1,120 +1,124 @@
 _Route16Biker1BattleText::
-	text "What do you want?"
+	text "Què vols?"
 	done
 
 _Route16Biker1EndBattleText::
-	text "Don't you"
-	line "dare laugh!"
+	text "No t'atreveixis"
+	line "a riure!"
 	prompt
 
 _Route16Biker1AfterBattleText::
-	text "We like just"
-	line "hanging here,"
-	cont "what's it to you?"
+	text "Ens agrada estar"
+	line "aquí. A tu què"
+	cont "t'importa?"
 	done
 
 _Route16Biker2BattleText::
-	text "Nice BIKE!"
-	line "Hand it over!"
+	text "Bona BICI!"
+	line "Dóna-me-la!"
 	done
 
 _Route16Biker2EndBattleText::
-	text "Knock-"
-	line "out!"
+	text "KO!"
 	prompt
 
 _Route16Biker2AfterBattleText::
-	text "Forget it, who"
-	line "needs your BIKE!"
+	text "Oblida-ho, qui"
+	line "necessita la teva"
+	cont "BICI!"
 	done
 
 _Route16Biker3BattleText::
-	text "Come out and play,"
-	line "little mouse!"
+	text "Surt a jugar,"
+	line "ratolinet!"
 	done
 
 _Route16Biker3EndBattleText::
-	text "You"
-	line "little rat!"
+	text "Petit"
+	line "rata!"
 	prompt
 
 _Route16Biker3AfterBattleText::
-	text "I hate losing!"
-	line "Get away from me!"
+	text "Odio perdre!"
+	line "Aparta't de mi!"
 	done
 
 _Route16biker4BattleText::
-	text "Hey, you just"
-	line "bumped me!"
+	text "Ei, m'acabes de"
+	line "donar un cop!"
 	done
 
 _Route16Biker4EndBattleText::
-	text "Kaboom!"
+	text "Bum!"
 	prompt
 
 _Route16Biker4AfterBattleText::
-	text "You can also get"
-	line "to FUCHSIA from"
-	cont "VERMILION using a"
-	cont "coastal road."
+	text "També pots anar"
+	line "a FÚCSIA des de"
+	cont "VERMELLA per un"
+	cont "camí costaner."
 	done
 
 _Route16Biker5BattleText::
-	text "I'm feeling"
-	line "hungry and mean!"
+	text "Em sento afamat"
+	line "i de mala llet!"
 	done
 
 _Route16Biker5EndBattleText::
-	text "Bad,"
-	line "bad, bad!"
+	text "Malament,"
+	line "malament!"
 	prompt
 
 _Route16Biker5AfterBattleText::
-	text "I like my #MON"
-	line "ferocious! They"
-	cont "tear up enemies!"
+	text "M'agraden els meus"
+	line "#MON feroços!"
+	cont "Destrossen els"
+	cont "enemics!"
 	done
 
 _Route16Biker6BattleText::
-	text "Sure, I'll go!"
+	text "És clar, anem!"
 	done
 
 _Route16Biker6EndBattleText::
-	text "Don't make"
-	line "me mad!"
+	text "No em"
+	line "facis enfadar!"
 	prompt
 
 _Route16Biker6AfterBattleText::
-	text "I like harassing"
-	line "people with my"
-	cont "vicious #MON!"
+	text "M'agrada molestar"
+	line "la gent amb els"
+	cont "meus #MON"
+	cont "viciosos!"
 	done
 
 _Route16Text7::
-	text "A sleeping #MON"
-	line "blocks the way!"
+	text "Un #MON adormit"
+	line "bloqueja el camí!"
 	done
 
 _Route16SnorlaxWokeUpText::
-	text "SNORLAX woke up!"
+	text "SNORLAX s'ha"
+	line "despertat!"
 
-	para "It attacked in a"
-	line "grumpy rage!"
+	para "Ha atacat amb"
+	line "ràbia malhumorada!"
 	done
 
 _Route16SnorlaxReturnedToMountainsText::
-	text "With a big yawn,"
-	line "SNORLAX returned"
-	cont "to the mountains!"
+	text "Amb un gran badall,"
+	line "SNORLAX ha tornat"
+	cont "a les muntanyes!"
 	done
 
 _Route16CyclingRoadSignText::
-	text "Enjoy the slope!"
-	line "CYCLING ROAD"
+	text "Gaudeix del"
+	line "pendent!"
+	cont "CAMÍ DE BICIS"
 	done
 
 _Route16SignText::
-	text "ROUTE 16"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	text "RUTA 16"
+	line "CIUTAT CELESTE -"
+	cont "CIUTAT FÚCSIA"
 	done

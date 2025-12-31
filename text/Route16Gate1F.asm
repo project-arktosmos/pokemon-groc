@@ -1,22 +1,22 @@
 _Route16Gate1FGuardNoPedestriansAllowedText::
-	text "No pedestrians"
-	line "are allowed on"
-	cont "CYCLING ROAD!"
+	text "No es permeten"
+	line "vianants al CAMÍ"
+	cont "DE LES BICIS!"
 	done
 
 _Route16Gate1FGuardCyclingRoadExplanationText::
-	text "CYCLING ROAD is a"
-	line "downhill course"
-	cont "by the sea. It's"
-	cont "a great ride."
+	text "El CAMÍ DE LES"
+	line "BICIS és un camí"
+	cont "de baixada al mar."
+	cont "És genial!"
 	done
 
 _Route16Gate1FGuardWaitUpText::
-	text "Excuse me! Wait"
-	line "up please!"
+	text "Perdona! Espera"
+	line "un moment!"
 	done
 
 _Route16Gate1FGamblerText::
-	text "How'd you get in?"
-	line "Good effort!"
+	text "Com has entrat?"
+	line "Ben fet!"
 	done

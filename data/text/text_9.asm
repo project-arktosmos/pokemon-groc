@@ -1,193 +1,196 @@
 _ItemUseBallText00::
-	text "It dodged the"
-	line "thrown BALL!"
+	text "Ha esquivat la"
+	line "BALL llençada!"
 
-	para "This #MON"
-	line "can't be caught!"
+	para "Aquest #MON no"
+	line "es pot capturar!"
 	prompt
 
 _ItemUseBallText01::
-	text "You missed the"
+	text "Has fallat el"
 	line "#MON!"
 	prompt
 
 _ItemUseBallText02::
-	text "Darn! The #MON"
-	line "broke free!"
+	text "Ui! El #MON"
+	line "s'ha escapat!"
 	prompt
 
 _ItemUseBallText03::
-	text "Aww! It appeared"
-	line "to be caught! "
+	text "Oh! Semblava que"
+	line "estava capturat!"
 	prompt
 
 _ItemUseBallText04::
-	text "Shoot! It was so"
-	line "close too!"
+	text "Ai! Estava tan"
+	line "a prop!"
 	prompt
 
 _ItemUseBallText05::
-	text "All right!"
+	text "Molt bé!"
 	line "@"
 	text_ram wEnemyMonNick
-	text " was"
-	cont "caught!@"
+	text " ha"
+	cont "estat capturat!@"
 	text_end
 
 _ItemUseBallText07::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "BILL's PC!"
+	text " s'ha"
+	line "transferit al"
+	cont "PC d'en BILL!"
 	prompt
 
 _ItemUseBallText08::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "someone's PC!"
+	text " s'ha"
+	line "transferit al"
+	cont "PC d'algú!"
 	prompt
 
 _ItemUseBallText06::
-	text "New #DEX data"
-	line "will be added for"
+	text "Noves dades #DEX"
+	line "s'afegiran per"
 	cont "@"
 	text_ram wEnemyMonNick
 	text "!@"
 	text_end
 
 _SurfingGotOnText::
-	text "<PLAYER> got on"
+	text "<PLAYER> ha pujat a"
 	line "@"
 	text_ram wNameBuffer
 	text "!"
 	prompt
 
 _SurfingNoPlaceToGetOffText::
-	text "There's no place"
-	line "to get off!"
+	text "No hi ha lloc"
+	line "per baixar!"
 	prompt
 
 _RefusingText::
 	text_ram wNameBuffer
 	text_start
-	line "is refusing!"
+	line "es nega!"
 	prompt
 
 _VitaminStatRoseText::
-	text_ram wNameBuffer
-	text "'s"
-	line "@"
+	text "L'@"
 	text_ram wStringBuffer
-	text " rose."
+	text " de"
+	line "@"
+	text_ram wNameBuffer
+	text " ha pujat."
 	prompt
 
 _VitaminNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "No tindrà cap"
+	line "efecte."
 	prompt
 
 _ThrewBaitText::
-	text "<PLAYER> threw"
-	line "some BAIT."
+	text "<PLAYER> ha llençat"
+	line "ESQUER."
 	done
 
 _ThrewRockText::
-	text "<PLAYER> threw a"
-	line "ROCK."
+	text "<PLAYER> ha llençat"
+	line "una ROCA."
 	done
 
 _PlayedFluteNoEffectText::
-	text "Played the #"
-	line "FLUTE."
+	text "Ha tocat la FLAUTA"
+	line "#."
 
-	para "Now, that's a"
-	line "catchy tune!"
+	para "Quina melodia"
+	line "més enganxosa!"
 	prompt
 
 _FluteWokeUpText::
-	text "All sleeping"
-	line "#MON woke up."
+	text "Tots els #MON"
+	line "adormits han desp."
 	prompt
 
 _PlayedFluteHadEffectText::
-	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	text "<PLAYER> ha tocat la"
+	line "FLAUTA #.@"
 	text_end
 
 _CoinCaseNumCoinsText::
-	text "Coins"
+	text "Monedes"
 	line "@"
 	text_bcd wPlayerCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
 	text " "
 	prompt
 
 _ItemfinderFoundItemText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "Sí! L'ESCANEJADOR"
+	line "indica que hi ha"
+	cont "un objecte a prop."
 	prompt
 
 _ItemfinderFoundNothingText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "No! L'ESCANEJADOR"
+	line "no respon."
 	prompt
 
 _RaisePPWhichTechniqueText::
-	text "Raise PP of which"
-	line "technique?"
+	text "Pujar PP de quina"
+	line "tècnica?"
 	done
 
 _RestorePPWhichTechniqueText::
-	text "Restore PP of"
-	line "which technique?"
+	text "Restaurar PP de"
+	line "quina tècnica?"
 	done
 
 _PPMaxedOutText::
+	text "El PP de @"
 	text_ram wStringBuffer
-	text "'s PP"
-	line "is maxed out."
+	text_start
+	line "és al màxim."
 	prompt
 
 _PPIncreasedText::
+	text "El PP de @"
 	text_ram wStringBuffer
-	text "'s PP"
-	line "increased."
+	text_start
+	line "ha augmentat."
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "S'ha restaurat PP."
 	prompt
 
 _BootedUpTMText::
-	text "Booted up a TM!"
+	text "S'ha carregat un MT!"
 	prompt
 
 _BootedUpHMText::
-	text "Booted up an HM!"
+	text "S'ha carregat un MO!"
 	prompt
 
 _TeachMachineMoveText::
-	text "It contained"
+	text "Conté"
 	line "@"
 	text_ram wStringBuffer
 	text "!"
 
-	para "Teach @"
+	para "Ensenyar @"
 	text_ram wStringBuffer
 	text_start
-	line "to a #MON?"
+	line "a un #MON?"
 	done
 
 _MonCannotLearnMachineMoveText::
 	text_ram wNameBuffer
-	text " is not"
-	line "compatible with"
+	text " no és"
+	line "compatible amb"
 	cont "@"
 	text_ram wStringBuffer
 	text "."
 
-	para "It can't learn"
+	para "No pot aprendre"
 	line "@"
 	text_ram wStringBuffer
 	text "."
@@ -195,54 +198,54 @@ _MonCannotLearnMachineMoveText::
 
 _ItemUseNotTimeText::
 	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that! "
+	line "No és el moment"
+	cont "d'usar això!"
 	prompt
 
 _ItemUseNotYoursToUseText::
-	text "This isn't yours"
-	line "to use!"
+	text "Això no és teu"
+	line "per usar!"
 	prompt
 
 _ItemUseNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "No tindrà cap"
+	line "efecte."
 	prompt
 
 _ThrowBallAtTrainerMonText1::
-	text "The trainer"
-	line "blocked the BALL!"
+	text "L'entrenador ha"
+	line "bloquejat la BALL!"
 	prompt
 
 _ThrowBallAtTrainerMonText2::
-	text "Don't be a thief!"
+	text "No siguis lladre!"
 	prompt
 
 _NoCyclingAllowedHereText::
-	text "No cycling"
-	next "allowed here."
+	text "Aquí no es pot"
+	next "anar en bici."
 	prompt
 
 _NoSurfingHereText::
-	text "No SURFing on"
-	line "@"
+	text "Aquí no pots fer"
+	line "SURF amb @"
 	text_ram wNameBuffer
-	text " here!"
+	text "!"
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The #MON BOX"
-	line "is full! Can't"
-	cont "use that item!"
+	text "La CAIXA #MON"
+	line "és plena! No pots"
+	cont "usar això!"
 	prompt
 
 _DontHavePokemonText::
-	text "You don't have a "
+	text "No tens cap"
 	line "#MON!"
 	prompt
 
 _ItemUseText001::
-	text "<PLAYER> used@"
+	text "<PLAYER> ha usat@"
 	text_end
 
 _ItemUseText002::
@@ -251,7 +254,7 @@ _ItemUseText002::
 	done
 
 _GotOnBicycleText1::
-	text "<PLAYER> got on the@"
+	text "<PLAYER> ha pujat a@"
 	text_end
 
 _GotOnBicycleText2::
@@ -260,183 +263,183 @@ _GotOnBicycleText2::
 	prompt
 
 _GotOffBicycleText1::
-	text "<PLAYER> got off@"
+	text "<PLAYER> ha baixat@"
 	text_end
 
 _GotOffBicycleText2::
-	text "the @"
+	text "de @"
 	text_ram wStringBuffer
 	text "."
 	prompt
 
 _ThrewAwayItemText::
-	text "Threw away"
+	text "Has llençat"
 	line "@"
 	text_ram wNameBuffer
 	text "."
 	prompt
 
 _IsItOKToTossItemText::
-	text "Is it OK to toss"
-	line "@"
+	text "Tirar @"
 	text_ram wStringBuffer
 	text "?"
+	line ""
 	prompt
 
 _TooImportantToTossText::
-	text "That's too impor-"
-	line "tant to toss!"
+	text "Massa important"
+	line "per tirar!"
 	prompt
 
 _AlreadyKnowsText::
 	text_ram wNameBuffer
-	text " knows"
+	text " ja sap"
 	line "@"
 	text_ram wStringBuffer
 	text "!"
 	prompt
 
 _ConnectCableText::
-	text "Okay, connect the"
-	line "cable like so!"
+	text "D'acord, connecta"
+	line "el cable així!"
 	prompt
 
 _TradedForText::
-	text "<PLAYER> traded"
+	text "<PLAYER> ha canviat"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text " for"
+	text " per"
 	cont "@"
 	text_ram wInGameTradeReceiveMonName
 	text "!@"
 	text_end
 
 _WannaTrade1Text::
-	text "I'm looking for"
+	text "Busco un"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text "! Wanna"
+	text "! Vols"
 
-	para "trade one for"
+	para "canviar-lo per"
 	line "@"
 	text_ram wInGameTradeReceiveMonName
 	text "? "
 	done
 
 _NoTrade1Text::
-	text "Awww!"
-	line "Oh well..."
+	text "Oh!"
+	line "Bé..."
 	done
 
 _WrongMon1Text::
-	text "What? That's not"
+	text "Què? Això no és"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "!"
 
-	para "If you get one,"
-	line "come back here!"
+	para "Si en trobes un,"
+	line "torna aquí!"
 	done
 
 _Thanks1Text::
-	text "Hey thanks!"
+	text "Eh, gràcies!"
 	done
 
 _AfterTrade1Text::
-	text "Isn't my old"
-	line "@"
+	text "No és genial el"
+	line "meu antic @"
 	text_ram wInGameTradeReceiveMonName
-	text " great?"
+	text "?"
 	done
 
 _WannaTrade2Text::
-	text "Hello there! Do"
-	line "you want to trade"
+	text "Hola! Vols"
+	line "canviar"
 
-	para "your @"
+	para "el teu @"
 	text_ram wInGameTradeGiveMonName
 	text_start
-	line "for @"
+	line "per @"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 	done
 
 _NoTrade2Text::
-	text "Well, if you"
-	line "don't want to..."
+	text "Bé, si no"
+	line "vols..."
 	done
 
 _WrongMon2Text::
-	text "Hmmm? This isn't"
+	text "Hmm? Això no és"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "."
 
-	para "Think of me when"
-	line "you get one."
+	para "Pensa en mi quan"
+	line "en tinguis un."
 	done
 
 _Thanks2Text::
-	text "Thanks!"
+	text "Gràcies!"
 	done
 
 _AfterTrade2Text::
-	text "Hello there! Your"
-	line "old @"
+	text "Hola! El teu antic"
+	line "@"
 	text_ram wInGameTradeGiveMonName
-	text " is"
-	cont "magnificent!"
+	text " és"
+	cont "magnífic!"
 	done
 
 _WannaTrade3Text::
-	text "Hi! Do you have"
+	text "Ei! Tens un"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "?"
 
-	para "Want to trade it"
-	line "for @"
+	para "Vols canviar-lo"
+	line "per @"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 	done
 
 _NoTrade3Text::
-	text "That's too bad."
+	text "Quina llàstima."
 	done
 
 _WrongMon3Text::
-	text "...This is no"
+	text "...Això no és"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "."
 
-	para "If you get one,"
-	line "trade it with me!"
+	para "Si en tens un,"
+	line "canvia'l amb mi!"
 	done
 
 _Thanks3Text::
-	text "Thanks, pal!"
+	text "Gràcies, amic!"
 	done
 
 _AfterTrade3Text::
-	text "How is my old"
+	text "Com va el meu antic"
 	line "@"
 	text_ram wInGameTradeReceiveMonName
 	text "?"
 
-	para "My @"
+	para "El meu @"
 	text_ram wInGameTradeGiveMonName
-	text " is"
-	line "doing great!"
+	text " va"
+	line "molt bé!"
 	done
 
 _NothingToCutText::
-	text "There isn't"
-	line "anything to CUT!"
+	text "No hi ha res"
+	line "per TALLAR!"
 	prompt
 
 _UsedCutText::
 	text_ram wNameBuffer
-	text " hacked"
-	line "away with CUT!"
+	text " ha usat"
+	line "TALLAR!"
 	prompt

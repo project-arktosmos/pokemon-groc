@@ -240,10 +240,10 @@ PlayerPCToss:
 	jp .loop
 
 PlayersPCMenuEntries:
-	db   "WITHDRAW ITEM"
-	next "DEPOSIT ITEM"
-	next "TOSS ITEM"
-	next "LOG OFF@"
+	db   "TREURE OBJECTE"
+	next "POSAR OBJECTE"
+	next "TIRAR"
+	next "TANCAR@"
 
 TurnedOnPC2Text:
 	text_far _TurnedOnPC2Text

@@ -1,71 +1,74 @@
 _BikeShopClerkWelcomeText::
-	text "Hi! Welcome to"
-	line "our BIKE SHOP."
+	text "Ei! Benvingut a"
+	line "la nostra BOTIGA"
+	cont "DE BICICLETES."
 
-	para "Have we got just"
-	line "the BIKE for you!"
+	para "Tenim la BICI"
+	line "perfecta per tu!"
 	prompt
 
 _BikeShopClerkDoYouLikeItText::
-	text "It's a cool BIKE!"
-	line "Do you want it?"
+	text "És una bona BICI!"
+	line "La vols?"
 	done
 
 _BikeShopCantAffordText::
-	text "Sorry! You can't"
-	line "afford it!"
+	text "Ho sento! No la"
+	line "pots pagar!"
 	prompt
 
 _BikeShopClerkOhThatsAVoucherText::
-	text "Oh, that's..."
+	text "Oh, això és..."
 
-	para "A BIKE VOUCHER!"
+	para "Un VAL DE BICI!"
 
-	para "OK! Here you go!"
+	para "D'acord! Aquí la"
+	line "tens!"
 	prompt
 
 _BikeShopExchangedVoucherText::
-	text "<PLAYER> exchanged"
-	line "the BIKE VOUCHER"
-	cont "for a BICYCLE.@"
+	text "<PLAYER> ha"
+	line "canviat el VAL DE"
+	cont "BICI per una"
+	cont "BICICLETA.@"
 	text_end
 
 _BikeShopComeAgainText::
-	text "Come back again"
-	line "sometime!"
+	text "Torna quan"
+	line "vulguis!"
 	done
 
 _BikeShopClerkHowDoYouLikeYourBicycleText::
-	text "How do you like"
-	line "your new BICYCLE?"
+	text "Què tal t'ha anat"
+	line "la nova BICICLETA?"
 
-	para "You can take it"
-	line "on CYCLING ROAD"
-	cont "and in caves!"
+	para "La pots portar al"
+	line "CAMÍ DE BICI i"
+	cont "a les coves!"
 	done
 
 _BikeShopBagFullText::
-	text "You better make"
-	line "room for this!"
+	text "Millor que facis"
+	line "lloc per això!"
 	done
 
 _BikeShopMiddleAgedWomanText::
-	text "A plain city BIKE"
-	line "is good enough"
-	cont "for me!"
+	text "Una BICI de ciutat"
+	line "normal ja em va"
+	cont "bé!"
 
-	para "You can't put a"
-	line "shopping basket"
-	cont "on an MTB!"
+	para "No pots posar un"
+	line "cistell a una"
+	cont "bici de muntanya!"
 	done
 
 _BikeShopYoungsterTheseBikesAreExpensiveText::
-	text "These BIKEs are"
-	line "cool, but they're"
-	cont "way expensive!"
+	text "Aquestes BICIS"
+	line "són genials, però"
+	cont "molt cares!"
 	done
 
 _BikeShopYoungsterCoolBikeText::
-	text "Wow. Your BIKE is"
-	line "really cool!"
+	text "Uau. La teva BICI"
+	line "és genial!"
 	done

@@ -1,99 +1,103 @@
 _CeladonMart3FGameBoyKid1Text::
-	text "Captured #MON"
-	line "are registered"
-	cont "with an ID No."
-	cont "and OT, the name"
-	cont "of the Original"
-	cont "Trainer that"
-	cont "caught it!"
+	text "Els #MON"
+	line "capturats es"
+	cont "registren amb un"
+	cont "núm. ID i ET, el"
+	cont "nom de l'Entrena-"
+	cont "dor Original que"
+	cont "el va capturar!"
 	done
 
 _CeladonMart3FGameBoyKid2Text::
-	text "All right!"
+	text "Molt bé!"
 
-	para "My buddy's going"
-	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	para "El meu col·lega"
+	line "m'intercanviarà el"
+	cont "seu KANGASKHAN"
+	cont "pel meu GRAVELER!"
 	done
 
 _CeladonMart3FGameBoyKid3Text::
-	text "Come on GRAVELER!"
+	text "Vinga GRAVELER!"
 
-	para "I love GRAVELER!"
-	line "I collect them!"
+	para "M'encanta"
+	line "GRAVELER! Els"
+	cont "col·lecciono!"
 
-	para "Huh?"
+	para "Eh?"
 
-	para "GRAVELER turned"
-	line "into a different"
-	cont "#MON!"
+	para "GRAVELER s'ha"
+	line "transformat en un"
+	cont "#MON diferent!"
 	done
 
 _CeladonMart3FLittleBoyText::
-	text "You can identify"
-	line "#MON you got"
-	cont "in trades by"
-	cont "their ID Numbers!"
+	text "Pots identificar"
+	line "els #MON que has"
+	cont "obtingut en"
+	cont "intercanvis pels"
+	cont "seus Números ID!"
 	done
 
 _CeladonMart3FSNESText::
-	text "It's an SNES!"
+	text "És una SNES!"
 	done
 
 _CeladonMart3FRPGText::
-	text "An RPG! There's"
-	line "no time for that!"
+	text "Un RPG! No hi ha"
+	line "temps per això!"
 	done
 
 _CeladonMart3FSportsGameText::
-	text "A sports game!"
-	line "Dad'll like that!"
+	text "Un joc d'esports!"
+	line "Al papa li"
+	cont "agradarà!"
 	done
 
 _CeladonMart3FPuzzleGameText::
-	text "A puzzle game!"
-	line "Looks addictive!"
+	text "Un joc de puzzles!"
+	line "Sembla addictiu!"
 	done
 
 _CeladonMart3FFightingGameText::
-	text "A fighting game!"
-	line "Looks tough!"
+	text "Un joc de lluita!"
+	line "Sembla difícil!"
 	done
 
 _CeladonMart3FCurrentFloorSignText::
-	text "3F: TV GAME SHOP"
+	text "3a: BOTIGA TV JOCS"
 	done
 
 _CeladonMart3FPokemonPosterText::
-	text "Red and Blue!"
-	line "Both are #MON!"
+	text "Vermell i Blau!"
+	line "Tots dos són"
+	cont "#MON!"
 	done
 
 _CeladonMart3FClerkTM18PreReceiveText::
-	text "Oh, hi! I finally"
-	line "finished #MON!"
+	text "Oh, ei! Per fi he"
+	line "acabat #MON!"
 
-	para "Not done yet?"
-	line "This might be"
-	cont "useful!"
+	para "Encara no l'has"
+	line "acabat? Potser"
+	cont "això t'ajudarà!"
 	prompt
 
 _CeladonMart3FClerkReceivedTM18Text::
-	text "<PLAYER> received"
+	text "<PLAYER> ha rebut"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _CeladonMart3FClerkTM18ExplanationText::
-	text "TM18 is COUNTER!"
-	line "Not like the one"
-	cont "I'm leaning on,"
-	cont "mind you!"
+	text "La MT18 és CONTRA!"
+	line "No com el taulell"
+	cont "on m'estic"
+	cont "recolzant!"
 	done
 
 _CeladonMart3FClerkTM18NoRoomText::
-	text "Your pack is full"
-	line "of items!"
+	text "La teva motxilla"
+	line "és plena!"
 	done

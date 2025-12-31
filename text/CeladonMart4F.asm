@@ -1,30 +1,31 @@
 _CeladonMart4FSuperNerdText::
-	text "I'm getting a"
-	line "gift for COPYCAT"
-	cont "in CERULEAN CITY."
+	text "Estic comprant un"
+	line "regal per a la"
+	cont "COPYCAT a CIUTAT"
+	cont "CERÚLIA."
 
-	para "It's got to be a"
-	line "# DOLL. They"
-	cont "are trendy!"
+	para "Ha de ser una"
+	line "NINA #. Són"
+	cont "tendència!"
 	done
 
 _CeladonMart4FYoungsterText::
-	text "I heard something"
-	line "useful."
+	text "He sentit una"
+	line "cosa útil."
 
-	para "You can run from"
-	line "wild #MON by"
-	cont "distracting them"
-	cont "with a # DOLL!"
+	para "Pots fugir de"
+	line "#MON salvatges"
+	cont "distreient-los"
+	cont "amb NINA #!"
 	done
 
 _CeladonMart4FCurrentFloorSignText::
-	text "Express yourself"
-	line "with gifts!"
+	text "Expressa't"
+	line "amb regals!"
 
-	para "4F: WISEMAN GIFTS"
+	para "4a: REGALS SAVIS"
 
-	para "Evolution Special!"
-	line "Element STONEs on"
-	cont "sale now!"
+	para "Especial Evolució!"
+	line "PEDRES Elementals"
+	cont "en oferta ara!"
 	done

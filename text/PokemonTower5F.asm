@@ -1,41 +1,42 @@
 _PokemonTower5FChanneler1Text::
-	text "Come, child! I"
-	line "sealed this space"
-	cont "with white magic!"
+	text "Vine, criatura! He"
+	line "segellat aquest"
+	cont "espai amb màgia"
+	cont "blanca!"
 
-	para "You can rest here!"
+	para "Pots descansar!"
 	done
 
 _PokemonTower5FChanneler2BattleText::
-	text "Give...me..."
-	line "your...soul..."
+	text "Dóna'm...la..."
+	line "teva...ànima..."
 	done
 
 _PokemonTower5FChanneler2EndBattleText::
-	text "Gasp!"
+	text "Argh!"
 	prompt
 
 _PokemonTower5FChanneler2AfterBattleText::
-	text "I was under"
-	line "possession!"
+	text "Estava sota"
+	line "possessió!"
 	done
 
 _PokemonTower5FChanneler3BattleText::
-	text "You...shall..."
-	line "join...us..."
+	text "Tu...t'uniràs..."
+	line "a...nosaltres..."
 	done
 
 _PokemonTower5FChanneler3EndBattleText::
-	text "What"
-	line "a nightmare!"
+	text "Quin"
+	line "malson!"
 	prompt
 
 _PokemonTower5FChanneler3AfterBattleText::
-	text "I was possessed!"
+	text "Estava posseïda!"
 	done
 
 _PokemonTower5FChanneler4BattleText::
-	text "Zombies!"
+	text "Zombis!"
 	done
 
 _PokemonTower5FChanneler4EndBattleText::
@@ -43,8 +44,8 @@ _PokemonTower5FChanneler4EndBattleText::
 	prompt
 
 _PokemonTower5FChanneler4AfterBattleText::
-	text "I regained my"
-	line "senses!"
+	text "He recuperat"
+	line "el seny!"
 	done
 
 _PokemonTower5FChanneler5BattleText::
@@ -57,15 +58,17 @@ _PokemonTower5FChanneler5EndBattleText::
 	prompt
 
 _PokemonTower5FChanneler5AfterBattleText::
-	text "I fell to evil"
-	line "spirits despite"
-	cont "my training!"
+	text "He caigut víctima"
+	line "d'esperits dolents"
+	cont "malgrat el meu"
+	cont "entrenament!"
 	done
 
 _PokemonTower5FPurifiedZoneText::
-	text "Entered purified,"
-	line "protected zone!"
+	text "Has entrat a una"
+	line "zona purificada!"
 
-	para "<PLAYER>'s #MON"
-	line "are fully healed!"
+	para "Els #MON d'en"
+	line "<PLAYER> es curen!"
 	done
+

@@ -1,27 +1,28 @@
 _SafariZoneNorthRestHouseScientistText::
-	text "You can keep any"
-	line "item you find on"
-	cont "the ground here."
+	text "Pots quedar-te"
+	line "qualsevol objecte"
+	cont "que trobis aquí."
 
-	para "But, you'll run"
-	line "out of time if"
-	cont "you try for all"
-	cont "of them at once!"
+	para "Però, s'acabarà"
+	line "el temps si"
+	cont "intentes agafar-"
+	cont "los tots alhora!"
 	done
 
 _SafariZoneNorthRestHouseSafariZoneWorkerText::
-	text "Go to the deepest"
-	line "part of the"
-	cont "SAFARI ZONE. You"
-	cont "will win a prize!"
+	text "Ves a la part més"
+	line "profunda de la"
+	cont "ZONA SAFARI i"
+	cont "guanyaràs un premi"
 	done
 
 _SafariZoneNorthRestHouseGentlemanText::
-	text "My EEVEE evolved"
-	line "into FLAREON!"
+	text "El meu EEVEE ha"
+	line "evolucionat a"
+	cont "FLAREON!"
 
-	para "But, a friend's"
-	line "EEVEE turned into"
-	cont "a VAPOREON!"
-	cont "I wonder why?"
+	para "Però l'EEVEE d'un"
+	line "amic s'ha tornat"
+	cont "en VAPOREON! Per"
+	cont "què serà?"
 	done

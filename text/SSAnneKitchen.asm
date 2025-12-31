@@ -1,69 +1,75 @@
 _SSAnneKitchenCook1Text::
-	text "You, mon petit!"
-	line "We're busy here!"
-	cont "Out of the way!"
+	text "Tu, petit!"
+	line "Estem ocupats!"
+	cont "Fora del camí!"
 	done
 
 _SSAnneKitchenCook2Text::
-	text "I saw an odd ball"
-	line "in the trash."
+	text "He vist una bola"
+	line "estranya a les"
+	cont "escombraries."
 	done
 
 _SSAnneKitchenCook3Text::
-	text "I'm so busy I'm"
-	line "getting dizzy!"
+	text "Estic tan ocupat"
+	line "que em marejo!"
 	done
 
 _SSAnneKitchenCook4Text::
-	text "Hum-de-hum-de-"
-	line "ho..."
+	text "La-la-la-la-"
+	line "ra..."
 
-	para "I peel spuds"
-	line "every day!"
-	cont "Hum-hum..."
+	para "Pelo patates"
+	line "cada dia!"
+	cont "La-la..."
 	done
 
 _SSAnneKitchenCook5Text::
-	text "Did you hear about"
-	line "SNORLAX?"
+	text "Has sentit parlar"
+	line "de SNORLAX?"
 
-	para "All it does is"
-	line "eat and sleep!"
+	para "L'únic que fa és"
+	line "menjar i dormir!"
 	done
 
 _SSAnneKitchenCook6Text::
-	text "Snivel...Sniff..."
+	text "Snif...Snif..."
 
-	para "I only get to"
-	line "peel onions..."
-	cont "Snivel..."
+	para "Només em deixen"
+	line "pelar cebes..."
+	cont "Snif..."
 	done
 
 _SSAnneKitchenCook7MainCourseIsText::
-	text "Er-hem! Indeed I"
-	line "am le CHEF!"
+	text "Er-hem! Certament"
+	line "sóc el XEF!"
 
-	para "Le main course is"
+	para "El plat principal"
+	line "és"
 	prompt
 
 SSAnneKitchenCook7SalmonDuSaladText::
-	text "Salade de Salmon!"
+	text "Amanida de Salmó!"
 
-	para "Les guests may"
-	line "gripe it's fish"
-	cont "again, however!"
+	para "Potser els"
+	line "convidats es"
+	cont "queixaran que és"
+	cont "peix una altra"
+	cont "vegada!"
 	done
 
 SSAnneKitchenCook7EelsAuBarbecueText::
-	text "Eels au Barbecue!"
+	text "Anguiles a la"
+	line "Brasa!"
 
-	para "Les guests will"
-	line "mutiny, I fear."
+	para "Em temo que els"
+	line "convidats es"
+	cont "rebel·laran."
 	done
 
 SSAnneKitchenCook7PrimeBeefSteakText::
-	text "Prime Beef Steak!"
+	text "Filet de Vedella!"
 
-	para "But, have I enough"
-	line "fillets du beef?"
+	para "Però, tinc prou"
+	line "filets de vedella?"
 	done

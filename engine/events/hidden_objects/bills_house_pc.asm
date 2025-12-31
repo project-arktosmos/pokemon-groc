@@ -124,7 +124,7 @@ BillsMonListText:
 	next "FLAREON"
 	next "JOLTEON"
 	next "VAPOREON"
-	next "CANCEL@"
+	next "CANCEL·LA@"
 
 BillsHousePokemonListText2:
 	text_far _BillsHousePokemonListText2

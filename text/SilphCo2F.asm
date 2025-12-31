@@ -1,97 +1,96 @@
 SilphCo2FSilphWorkerFPleaseTakeThisText::
-	text "Eeek!"
-	line "No! Stop! Help!"
+	text "Iiic!"
+	line "No! Para! Ajuda!"
 
-	para "Oh, you're not"
-	line "with TEAM ROCKET."
-	cont "I thought..."
-	cont "I'm sorry. Here,"
-	cont "please take this!"
+	para "Oh, no ets del"
+	line "TEAM ROCKET."
+	cont "Pensava que..."
+	cont "Ho sento. Té,"
+	cont "si us plau agafa!"
 	prompt
 
 _SilphCo2FSilphWorkerFReceivedTM36Text::
-	text "<PLAYER> got"
+	text "<PLAYER> ha rebut"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _SilphCo2FSilphWorkerFTM36ExplanationText::
-	text "TM36 is"
-	line "SELFDESTRUCT!"
+	text "La MT36 és"
+	line "AUTODESTRUCCIÓ!"
 
-	para "It's powerful, but"
-	line "the #MON that"
-	cont "uses it faints!"
-	cont "Be careful."
+	para "És potent, però"
+	line "el #MON que la"
+	cont "usa s'esvaeix!"
+	cont "Ves amb compte."
 	done
 
 _SilphCo2FSilphWorkerFTM36NoRoomText::
-	text "You don't have any"
-	line "room for this."
+	text "No tens espai"
+	line "per a això."
 	done
 
 _SilphCo2FScientist1BattleText::
-	text "Help! I'm a SILPH"
-	line "employee."
+	text "Ajuda! Sóc un"
+	line "empleat de SILPH."
 	done
 
 _SilphCo2FScientist1EndBattleText::
-	text "How"
-	line "did you know I"
-	cont "was a ROCKET?"
+	text "Com"
+	line "sabies que era"
+	cont "un ROCKET?"
 	prompt
 
 _SilphCo2FScientist1AfterBattleText::
-	text "I work for both"
-	line "SILPH and TEAM"
-	cont "ROCKET!"
+	text "Treballo per SILPH"
+	line "i pel TEAM ROCKET!"
 	done
 
 _SilphCo2FScientist2BattleText::
-	text "It's off limits"
-	line "here! Go home!"
+	text "Prohibit passar!"
+	line "Vés-te'n a casa!"
 	done
 
 _SilphCo2FScientist2EndBattleText::
-	text "You're"
-	line "good."
+	text "Ets"
+	line "bo."
 	prompt
 
 _SilphCo2FScientist2AfterBattleText::
-	text "Can you solve the"
-	line "maze in here?"
+	text "Pots resoldre el"
+	line "laberint d'aquí?"
 	done
 
 _SilphCo2FRocket1BattleText::
-	text "No kids are"
-	line "allowed in here!"
+	text "Els nens no poden"
+	line "entrar aquí!"
 	done
 
 _SilphCo2FRocket1EndBattleText::
-	text "Tough!"
+	text "Dur!"
 	prompt
 
 _SilphCo2FRocket1AfterBattleText::
-	text "Diamond-shaped"
-	line "tiles are"
-	cont "teleport blocks!"
+	text "Les rajoles en"
+	line "forma de diamant"
+	cont "són teleportadors!"
 
-	para "They're hi-tech"
-	line "transporters!"
+	para "Són transportadors"
+	line "d'alta tecnologia!"
 	done
 
 _SilphCo2FRocket2BattleText::
-	text "Hey kid! What are"
-	line "you doing here?"
+	text "Ei nano! Què fas"
+	line "aquí?"
 	done
 
 _SilphCo2FRocket2EndBattleText::
-	text "I goofed!"
+	text "L'he cagat!"
 	prompt
 
 _SilphCo2FRocket2AfterBattleText::
-	text "SILPH CO. will"
-	line "be merged with"
+	text "SILPH SA es"
+	line "fusionarà amb el"
 	cont "TEAM ROCKET!"
 	done

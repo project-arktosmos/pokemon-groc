@@ -1,5 +1,5 @@
 _CeladonMansion1FMeowthText::
-	text "MEOWTH: Meow!@"
+	text "MEOWTH: Miau!@"
 	text_end
 
 _CeladonMansion1FClefairyText::
@@ -13,56 +13,56 @@ _CeladonMansion1FNidoranFText::
 	text_end
 
 _CeladonMansion1FManagersSuiteSignText::
-	text "CELADON MANSION"
-	line "Manager's Suite"
+	text "MANSIÓ CELESTE"
+	line "Suite Encarregat"
 	done
 
 _CeladonMansion1Text2::
-	text "My dear #MON"
-	line "keep me company."
+	text "Els meus estimats"
+	line "#MON em fan"
+	cont "companyia."
 
-	para "MEOWTH even brings"
-	line "money home!"
+	para "MEOWTH fins i tot"
+	line "porta diners!"
 	done
 
 _CeladonMansion1Text6::
-	text "Oh, you have an"
-	line "adorable PIKACHU"
-	cont "with you.@"
+	text "Oh, portes un"
+	line "PIKACHU adorable"
+	cont "amb tu.@"
 	text_end
 
 _CeladonMansion1Text7::
-	text "It seems like it"
-	line "hasn't been tamed"
-	cont "at all."
+	text "Sembla que no"
+	line "l'has domesticat"
+	cont "gens."
 	done
 
 _CeladonMansion1Text8::
-	text "Why don't you"
-	line "take more care"
-	cont "with PIKACHU?"
+	text "Per què no tens"
+	line "més cura amb"
+	cont "PIKACHU?"
 	done
 
 _CeladonMansion1Text9::
-	text "You must be happy"
-	line "to have a #MON"
-	cont "that cute."
+	text "Deus estar content"
+	line "de tenir un #MON"
+	cont "tan maco."
 	done
 
 _CeladonMansion1Text10::
-	text "Your PIKACHU seems"
-	line "tamed."
+	text "El teu PIKACHU"
+	line "sembla domesticat."
 	done
 
 _CeladonMansion1Text11::
-	text "Your PIKACHU looks"
-	line "happy with you."
+	text "El teu PIKACHU"
+	line "sembla feliç."
 	done
 
 _CeladonMansion1Text12::
-	text "You look like a"
-	line "fantastic duo."
+	text "Sembla que feu un"
+	line "duo fantàstic."
 
-	para "You're making me"
-	line "jealous!"
+	para "Em fas enveja!"
 	done

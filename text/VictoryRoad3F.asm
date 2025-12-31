@@ -1,63 +1,65 @@
 _VictoryRoad3FCooltrainerM1BattleText::
-	text "I heard rumors of"
-	line "a child prodigy!"
+	text "He sentit rumors"
+	line "d'un nen prodigi!"
 	done
 
 _VictoryRoad3FCooltrainerM1EndBattleText::
-	text "The"
-	line "rumors were true!"
+	text "Els"
+	line "rumors eren certs!"
 	prompt
 
 _VictoryRoad3FCooltrainerM1AfterBattleText::
-	text "You beat GIOVANNI"
-	line "of TEAM ROCKET?"
+	text "Has vençut en"
+	line "GIOVANNI del TEAM"
+	cont "ROCKET?"
 	done
 
 _VictoryRoad3FCooltrainerF1BattleText::
-	text "I'll show you just"
-	line "how good you are!"
+	text "Et mostraré fins"
+	line "a quin punt ets!"
 	done
 
 _VictoryRoad3FCooltrainerF1EndBattleText::
-	text "I'm"
-	line "furious!"
+	text "Estic"
+	line "furiosa!"
 	prompt
 
 _VictoryRoad3FCooltrainerF1AfterBattleText::
-	text "You showed me just"
-	line "how good I was!"
+	text "M'has mostrat fins"
+	line "a quin punt era"
+	cont "bona!"
 	done
 
 _VictoryRoad3FCooltrainerM2BattleText::
-	text "Only the chosen"
-	line "can pass here!"
+	text "Només els escollits"
+	line "poden passar aquí!"
 	done
 
 _VictoryRoad3FCooltrainerM2EndBattleText::
-	text "I"
-	line "don't believe it!"
+	text "No"
+	line "m'ho crec!"
 	prompt
 
 _VictoryRoad3FCooltrainerM2AfterBattleText::
-	text "All trainers here"
-	line "are headed to the"
-	cont "#MON LEAGUE!"
-	cont "Be careful!"
+	text "Tots els entrenadors"
+	line "d'aquí van a la"
+	cont "LLIGA #MON!"
+	cont "Ves amb compte!"
 	done
 
 _VictoryRoad3FCooltrainerF2BattleText::
-	text "Trainers live to"
-	line "seek stronger"
-	cont "opponents!"
+	text "Els entrenadors"
+	line "viuen per buscar"
+	cont "rivals més forts!"
 	done
 
 _VictoryRoad3FCooltrainerF2EndBattleText::
 	text "Oh!"
-	line "So strong!"
+	line "Que fort!"
 	prompt
 
 _VictoryRoad3FCooltrainerF2AfterBattleText::
-	text "By fighting tough"
-	line "battles, you get"
-	cont "stronger!"
+	text "Lluitant en combats"
+	line "difícils, et fas"
+	cont "més fort!"
 	done

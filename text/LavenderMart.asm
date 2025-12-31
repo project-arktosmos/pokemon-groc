@@ -1,30 +1,30 @@
 _LavenderMartBaldingGuyText::
-	text "I'm searching for"
-	line "items that raise"
-	cont "the abilities of"
-	cont "#MON during a"
-	cont "single battle."
+	text "Estic buscant"
+	line "objectes que pugin"
+	cont "les habilitats"
+	cont "dels #MON durant"
+	cont "un sol combat."
 
-	para "X ATTACK, X"
-	line "DEFEND, X SPEED"
-	cont "and X SPECIAL are"
-	cont "what I'm after."
+	para "ATAC X, DEFENSA X,"
+	line "VELOCITAT X i"
+	cont "ESPECIAL X és el"
+	cont "que busco."
 
-	para "Do you know where"
-	line "I can get them?"
+	para "Saps on els puc"
+	line "aconseguir?"
 	done
 
 _LavenderMartCooltrainerMReviveText::
-	text "You know REVIVE?"
-	line "It revives any"
-	cont "fainted #MON!"
+	text "Coneixes REVIFAR?"
+	line "Revifa qualsevol"
+	cont "#MON esvaït!"
 	done
 
 _LavenderMartCooltrainerMNuggetText::
-	text "I found a NUGGET"
-	line "in the mountains."
+	text "He trobat un LINGOT"
+	line "a les muntanyes."
 
-	para "I thought it was"
-	line "useless, but it"
-	cont "sold for ¥5000!"
+	para "Pensava que era"
+	line "inútil, però s'ha"
+	cont "venut per ¥5000!"
 	done

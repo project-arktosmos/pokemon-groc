@@ -1,17 +1,18 @@
 _RocketHideoutB2FRocketBattleText::
-	text "BOSS said you can"
-	line "see GHOSTs with"
-	cont "the SILPH SCOPE!"
+	text "El CAP ha dit que"
+	line "pots veure FANTAS-"
+	cont "MES amb el SILPH"
+	cont "SCOPE!"
 	done
 
 _RocketHideoutB2FRocketEndBattleText::
-	text "I"
-	line "surrender!"
+	text "Em"
+	line "rendeixo!"
 	prompt
 
 _RocketHideoutB2FRocketAfterBattleText::
-	text "The TEAM ROCKET"
-	line "HQ has 4 basement"
-	cont "floors. Can you"
-	cont "reach the BOSS?"
+	text "La SEU del TEAM"
+	line "ROCKET té 4 pisos"
+	cont "de soterrani. Pots"
+	cont "arribar al CAP?"
 	done
