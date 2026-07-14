@@ -34,7 +34,7 @@ TrainerNames::
 	li "ENTRENA.♀"
 	li "BRUNO"
 	li "ROC"
-	li "MISTY"
+	li "MAR"
 	li "LT.SURGE"
 	li "ERIKA"
 	li "KOGA"

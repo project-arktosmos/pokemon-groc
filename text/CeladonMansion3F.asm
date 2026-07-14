@@ -50,7 +50,7 @@ _CeladonMansion3FWriterText::
 	line "història!"
 	cont "L'ERIKA és bonica!"
 
-	para "La MISTY també"
+	para "La MAR també"
 	line "m'agrada molt!"
 
 	para "Oh, i la SABRINA,"

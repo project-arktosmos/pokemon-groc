@@ -12,7 +12,7 @@ _CeruleanGymMistyPreBattleText::
 	cont "amb #MON de"
 	cont "tipus aigua!"
 
-	para "La MISTY, bellesa"
+	para "La MAR, bellesa"
 	line "famosa al món,"
 	cont "t'acompanya!"
 
@@ -76,7 +76,7 @@ _CeruleanGymBattleText1::
 	text "Sóc més que"
 	line "prou per a tu!"
 
-	para "MISTY pot esperar!"
+	para "La MAR pot esperar!"
 	done
 
 _CeruleanGymEndBattleText1::
@@ -104,7 +104,7 @@ _CeruleanGymEndBattleText2::
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "La MISTY continuarà"
+	text "La MAR seguirà"
 	line "millorant!"
 
 	para "No perdrà contra"
@@ -117,7 +117,7 @@ _CeruleanGymGymGuideChampInMakingText::
 	para "Aquí tens el"
 	line "meu consell!"
 
-	para "La LÍDER, MISTY,"
+	para "La LÍDER, MAR,"
 	line "és una pro que usa"
 	cont "#MON d'aigua!"
 
@@ -130,7 +130,7 @@ _CeruleanGymGymGuideChampInMakingText::
 	done
 
 _CeruleanGymGymGuideBeatMistyText::
-	text "Has vençut la MISTY!"
+	text "Has vençut la MAR!"
 	line "Què t'havia dit?"
 
 	para "Tu i jo, nen,"

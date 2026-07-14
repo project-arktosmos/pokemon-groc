@@ -225,7 +225,7 @@ _CeruleanCityBikeShopSign::
 _CeruleanCityGymSign::
 	text "GIMNÀS #MON DE"
 	line "CIUTAT CERÚLIA"
-	cont "LÍDER: MISTY"
+	cont "LÍDER: MAR"
 
 	para "La Sirena"
 	line "Decidida!"

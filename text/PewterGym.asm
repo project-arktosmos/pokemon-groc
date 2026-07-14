@@ -110,8 +110,9 @@ _PewterGymCooltrainerMBattleText::
 	text "Para aquí, nen!"
 
 	para "Encara et falten"
-	line "anys llum per"
-	cont "enfrontar ROC!"
+	line "anys llum de"
+	cont "desafiar a"
+	cont "en ROC!"
 	done
 
 _PewterGymCooltrainerMEndBattleText::

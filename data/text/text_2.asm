@@ -957,14 +957,15 @@ _LinkBattleLostText::
 
 _TrainerAboutToUseText::
 	text_ram wTrainerName
-	text " va"
-	line "a utilitzar"
+	text " farà"
+	line "servir a "
 	cont "@"
 	text_ram wEnemyMonNick
 	text "!"
 
-	para "<PLAYER> vol"
-	line "canviar de #MON?"
+	para "<PLAYER>, vols"
+	line "canviar quin"
+	line "#MON lluita?"
 	done
 
 _TrainerSentOutText::
