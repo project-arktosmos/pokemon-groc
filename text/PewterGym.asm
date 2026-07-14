@@ -1,5 +1,5 @@
 _PewterGymBrockPreBattleText::
-	text "Sóc en BROCK!"
+	text "Sóc en ROC!"
 	line "Sóc el LÍDER del"
 	cont "GIMNÀS PELTRE!"
 
@@ -22,18 +22,18 @@ _PewterGymBrockPostBattleAdviceText::
 	line "de tots tipus al"
 	cont "món!"
 
-	para "Alguns crien #MON"
-	line "per lluitar. N'hi"
-	cont "ha que els tenen"
-	cont "de mascota."
+	para "Alguns crien PO-"
+	line "KÉMON per lluitar."
+	cont "N'hi ha que els"
+	cont "tenen de mascota."
 
 	para "Jo m'entreno per"
 	line "ser criador de"
 	cont "#MON."
 
 	para "Si et prens"
-	line "l'entrenament de"
-	cont "#MON seriosament,"
+	line "l'entrenament"
+	cont "seriosament,"
 	cont "visita el GIMNÀS"
 	cont "CERÚLIA i prova"
 	cont "habilitats!"
@@ -111,7 +111,7 @@ _PewterGymCooltrainerMBattleText::
 
 	para "Encara et falten"
 	line "anys llum per"
-	cont "enfrontar BROCK!"
+	cont "enfrontar ROC!"
 	done
 
 _PewterGymCooltrainerMEndBattleText::
@@ -125,7 +125,7 @@ _PewterGymCooltrainerMEndBattleText::
 _PewterGymCooltrainerMAfterBattleText::
 	text "Ets força bo, però"
 	line "no tant com"
-	cont "en BROCK!"
+	cont "en ROC!"
 	done
 
 _PewterGymGuidePreAdviceText::
@@ -179,6 +179,6 @@ _PewterGymGuyText::
 	para "Atacs elèctrics no"
 	line "fan res als #MON"
 	cont "de tipus terra"
-	cont "d'en BROCK."
+	cont "d'en ROC."
 	done
 

@@ -1,7 +1,7 @@
 _PewterCityCooltrainerFText::
 	text "Es rumoreja que"
-	line "els CLEFAIRY vénen"
-	cont "de la lluna!"
+	line "els CLEFAIRY"
+	cont "vénen de la lluna!"
 
 	para "Van aparèixer"
 	line "després que la"
@@ -16,7 +16,7 @@ _PewterCityCooltrainerMText::
 
 	para "Són tots tipus"
 	line "CAÇABICHOS, però"
-	cont "en BROCK del"
+	cont "en ROC del"
 	cont "GIMNÀS PELTRE"
 	cont "s'ho pren de debò!"
 	done
@@ -65,7 +65,7 @@ _PewterCitySuperNerd2ImSprayingRepelText::
 
 _PewterCityYoungsterYoureATrainerFollowMeText::
 	text "Ets entrenador,"
-	line "oi? En BROCK busca"
+	line "oi? En ROC busca"
 	cont "nous rivals!"
 	cont "Segueix-me!"
 	done
@@ -74,7 +74,7 @@ _PewterCityYoungsterGoTakeOnBrockText::
 	text "Si tens el que"
 	line "cal, ves a"
 	cont "enfrontar-te a"
-	cont "en BROCK!"
+	cont "en ROC!"
 	done
 
 _PewterCityTrainerTipsText::
@@ -106,7 +106,7 @@ _PewterCityMuseumSignText::
 _PewterCityGymSignText::
 	text "GIMNÀS #MON DE"
 	line "CIUTAT PELTRE"
-	cont "LÍDER: BROCK"
+	cont "LÍDER: ROC"
 
 	para "L'Entrenador de"
 	line "#MON Sòlid"

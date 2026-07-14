@@ -33,7 +33,7 @@ TrainerNames::
 	li "ENTRENA.♂"
 	li "ENTRENA.♀"
 	li "BRUNO"
-	li "BROCK"
+	li "ROC"
 	li "MISTY"
 	li "LT.SURGE"
 	li "ERIKA"
